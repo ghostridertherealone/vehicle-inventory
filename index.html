@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Inventory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Vehicle Inventory</h1>
+
+  <div class="database-selection">
+    <button id="bikes-db" class="db-button active" onclick="switchDatabase('bikes')">Motorcycles</button>
+    <button id="cars-db" class="db-button" onclick="switchDatabase('cars')">Cars</button>
+  </div>
+
+  <div class="filters">
+    <div class="make-model-options">
+      <label for="make">Select Make:</label>
+      <select id="make" onchange="updateModelOptions()">
+        <option value="">--Select Make--</option>
+      </select>
+  
+      <label for="price-sort">Sort by Price:</label>
+      <select id="price-sort" onchange="filterVehicles()">
+        <option value="">--Select Price Sort--</option>
+        <option value="low-high">Price (Low to High)</option>
+        <option value="high-low">Price (High to Low)</option>
+      </select>
+    </div>
+    <div class="sort-options">
+      <label for="model">Select Model:</label>
+      <select id="model">
+        <option value="">--Select Model--</option>
+      </select>
+
+      <label for="year-sort">Sort by Year:</label>
+      <select id="year-sort" onchange="filterVehicles()">
+        <option value="">--Select Year Sort--</option>
+        <option value="new-old">Year (Newest to Oldest)</option>
+        <option value="old-new">Year (Oldest to Newest)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="vehicle-list" id="vehicle-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

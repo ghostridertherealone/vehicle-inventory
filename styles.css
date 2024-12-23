@@ -1,0 +1,174 @@
+/* General reset for padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling with dark navy background */
+body {
+  background-color: #001f3f;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Page header centered and white */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Database selection buttons styling */
+.database-selection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.db-button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff851b;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.db-button:hover {
+  background-color: #e2b537;
+  transform: translateY(-2px);
+}
+
+.db-button.active {
+  background-color: #e2b537;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Filters section styling */
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.make-model-options,
+.sort-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Label styling */
+label {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Dropdown selectors */
+select {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,0.1) 0px 2px 5px;
+  background-color: #f9f9f9;
+  transition: box-shadow .3s ease, background-color .3s ease;
+  font-size: 0.9rem;
+  width: auto;
+  min-width: 200px;
+}
+
+.sort-options select,
+.make-model-options select {
+  width: 20%;
+}
+
+select:hover {
+  background-color: #ffffff;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: rgba(0,0,0,0.3) 0px 4px 10px;
+}
+
+/* Vehicle list container */
+.vehicle-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Vehicle items styling */
+.vehicle-item {
+  border-radius: 8px;
+  background-color: #ff851b;
+  width: calc(33.333% - 20px);
+  padding: 15px;
+  box-shadow: rgba(0,0,0,0.2) 0px 4px 12px;
+  transition: transform .3s ease, box-shadow .3s ease;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.vehicle-item:hover {
+  background-color: #e2b537;
+  box-shadow: rgba(0,0,0,0.4) 0px 8px 20px;
+  transform: translateY(-5px);
+}
+
+.vehicle-item h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-shadow: rgba(0,0,0,0.2) 1px 1px;
+}
+
+.vehicle-item p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.vehicle-item p.price {
+  color: #ffbc00;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .make-model-options,
+  .sort-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filters select {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .vehicle-item {
+    width: 100%;
+  }
+  
+  .database-selection {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .db-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
