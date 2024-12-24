@@ -153,33 +153,36 @@ select:focus {
   font-weight: bold;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
-  .make-model-options,
-  .sort-options {
-    flex-direction: column;
-    align-items: center;
-  }
-
+  /* Dropdown adjustments */
   .filters select {
-    width: 100%;
-    max-width: 300px;
+    width: 80%; /* Reduce dropdown width to 80% */
+    max-width: 250px; /* Optional: Set a maximum width */
   }
 
+  .sort-options select,
+  .make-model-options select {
+    width: 30%; /* Adjust dropdowns to 30% of the container */
+  }
+
+  /* Adjust card width to allow 3 per row */
   .vehicle-item {
-    width: 100%;
+    width: calc(33.333% - 20px); /* Three cards per row with spacing */
   }
   
+  /* Keep database selection aligned */
   .database-selection {
     flex-direction: column;
     align-items: center;
   }
   
+  /* Buttons remain responsive */
   .db-button {
     width: 100%;
     max-width: 300px;
   }
 }
+
 
 @media (max-width: 1200px) {
   .vehicle-item {
