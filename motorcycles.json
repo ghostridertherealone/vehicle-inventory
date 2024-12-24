@@ -4018,7 +4018,7 @@
   {
     "Year": 2010,
     "Manufacturer": "HONDA",
-    "Model": "CB1000R",
+    "Model": "CB 1000R",
     "Mileage (km)": 21360,
     "Condition": "B",
     "Price": 79999
@@ -4726,5 +4726,125 @@
     "Mileage (km)": "44 049",
     "Condition": "B",
     "Price": 88900
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-6R",
+    "Mileage (km)": "48000",
+    "Condition": "B",
+    "Price": 48000
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 600RR",
+    "Mileage (km)": "43000",
+    "Condition": "B",
+    "Price": 59999
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Mileage (km)": "79000",
+    "Condition": "B",
+    "Price": 60000
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-10R",
+    "Mileage (km)": "50 000",
+    "Condition": "B",
+    "Price": 75000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "KAWSAKI",
+    "Model": "GSX-R GSX-R750",
+    "Mileage (km)": "62 000",
+    "Condition": "B",
+    "Price": 70000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R1000",
+    "Mileage (km)": "79 000",
+    "Condition": "B",
+    "Price": 75000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "KAWSAKI",
+    "Model": "Z750",
+    "Mileage (km)": "42 000",
+    "Condition": "B",
+    "Price": 55000
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "KAWSAKI",
+    "Model": "ER-6N",
+    "Mileage (km)": "15 800",
+    "Condition": "A",
+    "Price": 55000
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "HONDA",
+    "Model": "CB 1000R",
+    "Mileage (km)": "36 000",
+    "Condition": "B",
+    "Price": 80000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": "54 000",
+    "Condition": "B",
+    "Price": 70000
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": "90 000",
+    "Condition": "B",
+    "Price": 50000
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 600RR",
+    "Mileage (km)": "57 000",
+    "Condition": "B",
+    "Price": 80000
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR FIREBLADE",
+    "Mileage (km)": "44 000",
+    "Condition": "B",
+    "Price": 65000
+  },
+  {
+    "Year": "2003",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Mileage (km)": "63 000",
+    "Condition": "B",
+    "Price": 75000
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Mileage (km)": "38 000",
+    "Condition": "B",
+    "Price": 130000
   }
 ]

@@ -109,11 +109,8 @@ select:focus {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-/* Vehicle items styling */
 .vehicle-item {
   border-radius: 8px;
-  background-color: #ff851b;
   width: calc(33.333% - 20px);
   padding: 15px;
   box-shadow: rgba(0,0,0,0.2) 0px 4px 12px;
@@ -122,8 +119,19 @@ select:focus {
   flex-shrink: 0;
 }
 
-.vehicle-item:hover {
+/* Primary color for odd-numbered cards */
+.vehicle-item:nth-child(odd) {
+  background-color: #ff851b;
+}
+
+/* Secondary color for even-numbered cards */
+.vehicle-item:nth-child(even) {
   background-color: #e2b537;
+}
+
+.vehicle-item:hover {
+  /* Update hover state to work with both colors */
+  background-color: #ffa94d;
   box-shadow: rgba(0,0,0,0.4) 0px 8px 20px;
   transform: translateY(-5px);
 }
@@ -141,7 +149,7 @@ select:focus {
 }
 
 .vehicle-item p.price {
-  color: #ffbc00;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -170,5 +178,35 @@ select:focus {
   .db-button {
     width: 100%;
     max-width: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .vehicle-item {
+    width: calc(50% - 20px); /* Two cards per row on medium screens */
+  }
+
+  .sort-options select,
+  .make-model-options select {
+    width: 40%; /* Larger dropdowns for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .filters select {
+    width: 100%;
+  }
+
+  .sort-options select,
+  .make-model-options select {
+    width: 100%; /* Full-width dropdowns on small screens */
+  }
+
+  .vehicle-item {
+    width: 100%; /* Full-width cards on very small screens */
+  }
+
+  .db-button {
+    width: 100%; /* Full-width buttons on very small screens */
   }
 }
