@@ -83,8 +83,6 @@ select {
   background-color: #f9f9f9;
   transition: box-shadow .3s ease, background-color .3s ease;
   font-size: 0.9rem;
-  width: auto;
-  min-width: 200px;
 }
 
 .sort-options select,
@@ -259,14 +257,97 @@ select:focus {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  #selected-models {
-    padding: 0 10px;
-  }
+.toggle-input {
+  display: none;
+}
 
-  .model-chip {
-    font-size: 0.8rem;
-  }
+.toggle-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  left: 3px;
+  width: 100px;
+  height: 30px;
+  background-color: #ff851b;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-input:checked + .toggle-label .slider {
+  transform: translateX(94px);
+}
+
+.toggle-input:checked + .toggle-label .motorcycle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toggle-input:not(:checked) + .toggle-label .car {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Model selection tree structure */
+.model-tree {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  max-height: 400px;  /* Increase/decrease this value to change dropdown height */
+  max-height: 300px;
+  overflow-y: auto;
+  width: 350px;
+  border: 1px solid #ddd;
+}
+.model-group {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.main-model {
+  color: #ffffff;
+  background-color: rgba(255, 133, 27, 0.2);
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  color: #333;
+  background-color: #f0f0f0;
+  font-size: 14px;
+}
+
+.sub-models {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid rgba(255, 133, 27, 0.3);
+  
+}
+
+.sub-model {
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 6px 25px;
+  cursor: pointer;
+  color: #333;
+  font-size: 12px;
+}
+
+.main-model:hover,
+.sub-model:hover {
+  background-color: #ff851b;
+  color: white;
+}
+
+.model-selected {
+  background-color: #ff851b;
+  color: white;
 }
 
 @media (max-width: 768px) {

@@ -5392,14 +5392,6 @@
     "Price": 68000
   },
   {
-    "Year": "2016",
-    "Manufacturer": "PRIDE",
-    "Model": "MOBILITY ELITE TRAVEL (NON-RUNNER)",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 10900
-  },
-  {
     "Year": "2011",
     "Manufacturer": "YAMAHA",
     "Model": "XT XT1200 Z SUPER TENERE",
@@ -5408,11 +5400,123 @@
     "Price": 68000
   },
   {
-    "Year": "2003",
-    "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "VRSC V-ROD",
-    "Mileage (km)": "13 000",
+    "Year": "2015",
+    "Manufacturer": "BIG BOY",
+    "Model": "REVIVAL 125",
+    "Mileage (km)": "923",
+    "Condition": "A",
+    "Price": 8000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "LIFAN",
+    "Model": "LIFAN 125 LIFAN 125",
+    "Mileage (km)": "10 000",
+    "Condition": "A",
+    "Price": 12000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "LIFAN",
+    "Model": "LIFAN 125 LIFAN 125",
+    "Mileage (km)": "5 000",
+    "Condition": "A",
+    "Price": 13000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "SYM",
+    "Model": "ORBIT 125",
+    "Mileage (km)": "697",
+    "Condition": "A",
+    "Price": 17000
+  },
+  {
+    "Year": "2000",
+    "Manufacturer": "HONDA",
+    "Model": "SHADOW 750",
+    "Mileage (km)": "74 869",
     "Condition": "B",
-    "Price": 84900
+    "Price": 28000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HUSQVARNA",
+    "Model": "TE 300",
+    "Mileage (km)": "5 000",
+    "Condition": "A",
+    "Price": 49000
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SPORTSTER XL883N IRON ABS",
+    "Mileage (km)": "11 000",
+    "Condition": "A",
+    "Price": 64000
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "KTM",
+    "Model": "XCF 250 XCF-W / EXC-F",
+    "Mileage (km)": "15 000",
+    "Condition": "A",
+    "Price": 72000
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SOFTAIL HERITAGE SOFTAIL CLASSIC",
+    "Mileage (km)": "36 301",
+    "Condition": "B",
+    "Price": 79000
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "YAMAHA",
+    "Model": "XV 1900 RAIDER",
+    "Mileage (km)": "39 000",
+    "Condition": "B",
+    "Price": 79000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "SUZUKI",
+    "Model": "BOULEVARD VZR 1800BZ (BOULEVARD/INTRUDER)",
+    "Mileage (km)": "27 094",
+    "Condition": "B",
+    "Price": 88000
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "KTM",
+    "Model": "300 XCW TPI",
+    "Mileage (km)": "10 000",
+    "Condition": "A",
+    "Price": 88000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KX 450F",
+    "Mileage (km)": "126",
+    "Condition": "A",
+    "Price": 89000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 1200 EXPLORER",
+    "Mileage (km)": "31 000",
+    "Condition": "A",
+    "Price": 118000
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "HONDA",
+    "Model": "CRF 1000 A",
+    "Mileage (km)": "11 000",
+    "Condition": "A",
+    "Price": 139000
   }
 ]

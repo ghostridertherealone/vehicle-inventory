@@ -91710,13 +91710,13 @@
     "Dekra": "GOLD"
   },
   {
-    "Year": "2016",
+    "Year": "2022",
     "Manufacturer": "RENAULT",
-    "Model": "SANDERO 900T STEPWAY",
-    "Mileage (km)": "115 000",
+    "Model": "KWID 1.0 DYNAMIQUE / ZEN 5-DOOR",
+    "Mileage (km)": "13 000",
     "Condition": "A",
-    "Price": 0,
-    "Dekra": "PLATINUM"
+    "Price": 116900,
+    "Dekra": "GREEN"
   },
   {
     "Year": "2022",
@@ -95083,5 +95083,2930 @@
     "Condition": "A",
     "Price": 985900,
     "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "FORD",
+    "Model": "IKON 1.3I",
+    "Mileage (km)": "280 000",
+    "Condition": "B",
+    "Price": 11000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2000",
+    "Manufacturer": "OPEL",
+    "Model": "CORSA 160IS 3D A/C",
+    "Mileage (km)": "183 000",
+    "Condition": "B",
+    "Price": 28900,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "CHEVROLET",
+    "Model": "SPARK LITE LS 5-DOOR",
+    "Mileage (km)": "380 000",
+    "Condition": "B",
+    "Price": 28000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "OPEL",
+    "Model": "CORSA LITE",
+    "Mileage (km)": "310 000",
+    "Condition": "B",
+    "Price": 25000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2001",
+    "Manufacturer": "VOLVO",
+    "Model": "S40 2.0 F/LIFT",
+    "Mileage (km)": "390 000",
+    "Condition": "B",
+    "Price": 23000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.4 AMBIENTE",
+    "Mileage (km)": "203 000",
+    "Condition": "B",
+    "Price": 27000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2000",
+    "Manufacturer": "VOLVO",
+    "Model": "V40 2.0T F/LIFT",
+    "Mileage (km)": "223 000",
+    "Condition": "B",
+    "Price": 22000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2002",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS SEDAN C 240 ELEGANCE AUTO",
+    "Mileage (km)": "370 000",
+    "Condition": "B",
+    "Price": 25000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2002",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA 160I",
+    "Mileage (km)": "250 612",
+    "Condition": "B",
+    "Price": 25000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "DODGE",
+    "Model": "CALIBER 1.8 SXT",
+    "Mileage (km)": "170 000",
+    "Condition": "B",
+    "Price": 33000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "PEUGEOT",
+    "Model": "207 1.4 URBAN",
+    "Mileage (km)": "205 283",
+    "Condition": "B",
+    "Price": 33000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "TOYOTA",
+    "Model": "YARIS T1 3-DOOR",
+    "Mileage (km)": "213 000",
+    "Condition": "B",
+    "Price": 30000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "TOYOTA",
+    "Model": "AYGO 1.0 WILD 3-DOOR",
+    "Mileage (km)": "330 365",
+    "Condition": "B",
+    "Price": 33000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "FORD",
+    "Model": "IKON 1.6 TREND",
+    "Mileage (km)": "116 000",
+    "Condition": "B",
+    "Price": 34000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.4",
+    "Mileage (km)": "265 510",
+    "Condition": "B",
+    "Price": 41000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HYUNDAI",
+    "Model": "TERRACAN 2.9 CRDI AUTO",
+    "Mileage (km)": "249 000",
+    "Condition": "B",
+    "Price": 32000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2002",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 318I (E46)",
+    "Mileage (km)": "342 500",
+    "Condition": "B",
+    "Price": 35000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "RENAULT",
+    "Model": "SANDERO 1.6 STEPWAY",
+    "Mileage (km)": "298 718",
+    "Condition": "B",
+    "Price": 39000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "MAZDA",
+    "Model": "MAZDA 2 1.3 ACTIVE 5-DOOR",
+    "Mileage (km)": "206 308",
+    "Condition": "B",
+    "Price": 39000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I20 1.4",
+    "Mileage (km)": "139 000",
+    "Condition": "B",
+    "Price": 46000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "MAZDA",
+    "Model": "323 130 STING",
+    "Mileage (km)": "255 706",
+    "Condition": "B",
+    "Price": 41000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "NISSAN",
+    "Model": "X TRAIL 2.0 4X2 (R60)",
+    "Mileage (km)": "275 000",
+    "Condition": "B",
+    "Price": 41000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "PEUGEOT",
+    "Model": "207 1.4 XR 3-DOOR",
+    "Mileage (km)": "167 791",
+    "Condition": "B",
+    "Price": 40000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "KIA",
+    "Model": "PICANTO 1.1 STRIKER",
+    "Mileage (km)": "194 200",
+    "Condition": "B",
+    "Price": 43000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "KIA",
+    "Model": "SORENTO 2.5 CRDI AUTO",
+    "Mileage (km)": "328 996",
+    "Condition": "B",
+    "Price": 45000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I10 1.1 GLS",
+    "Mileage (km)": "200 897",
+    "Condition": "B",
+    "Price": 54000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.4 TDCI AMBIENTE",
+    "Mileage (km)": "187 000",
+    "Condition": "B",
+    "Price": 48000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "TOYOTA",
+    "Model": "YARIS T1 3-DOOR A/C",
+    "Mileage (km)": "198 000",
+    "Condition": "B",
+    "Price": 46000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HONDA",
+    "Model": "CIVIC 170 AUTO",
+    "Mileage (km)": "278 306",
+    "Condition": "B",
+    "Price": 49000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 DYNAMIQUE 5-DOOR",
+    "Mileage (km)": "154 804",
+    "Condition": "B",
+    "Price": 49000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HONDA",
+    "Model": "ACCORD EXECUTIVE AUTO",
+    "Mileage (km)": "260 000",
+    "Condition": "B",
+    "Price": 47000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS SEDAN C180 CGI BE AVANTGARDE AUTO",
+    "Mileage (km)": "326 000",
+    "Condition": "B",
+    "Price": 52000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "MITSUBISHI",
+    "Model": "LANCER 1.6 GLX",
+    "Mileage (km)": "157 432",
+    "Condition": "B",
+    "Price": 53000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "A CLASS A 180 CDI AVANTGARDE AUTO",
+    "Mileage (km)": "187 583",
+    "Condition": "B",
+    "Price": 53000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "OPEL",
+    "Model": "CORSA LITE SPORT",
+    "Mileage (km)": "58 000",
+    "Condition": "B",
+    "Price": 59000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "1995",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 3 GTI 2.0 8V",
+    "Mileage (km)": "205 000",
+    "Condition": "B",
+    "Price": 53000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "VOLVO",
+    "Model": "S40 2.0I",
+    "Mileage (km)": "177 127",
+    "Condition": "B",
+    "Price": 56000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 325I AUTO (E90)",
+    "Mileage (km)": "199 000",
+    "Condition": "B",
+    "Price": 51000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.4 TRENDLINE",
+    "Mileage (km)": "221 000",
+    "Condition": "B",
+    "Price": 54000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "RENAULT",
+    "Model": "KOLEOS 2.5 DYNAMIQUE",
+    "Mileage (km)": "261 000",
+    "Condition": "B",
+    "Price": 62000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "KIA",
+    "Model": "PICANTO 1.2 EX",
+    "Mileage (km)": "187 000",
+    "Condition": "B",
+    "Price": 54000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "A CLASS A 170 AVANTGARDE",
+    "Mileage (km)": "107 581",
+    "Condition": "B",
+    "Price": 53000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "1998",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA RSI 20V",
+    "Mileage (km)": "364 000",
+    "Condition": "B",
+    "Price": 54000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "TOYOTA",
+    "Model": "TAZZ 130",
+    "Mileage (km)": "73 505",
+    "Condition": "B",
+    "Price": 57000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HONDA",
+    "Model": "BRIO 1.2 COMFORT 5-DOOR",
+    "Mileage (km)": "155 000",
+    "Condition": "B",
+    "Price": 57000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.4 AMBIENTE",
+    "Mileage (km)": "134 000",
+    "Condition": "A",
+    "Price": 60000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.6 TDI COMFORTLINE 5-DOOR",
+    "Mileage (km)": "205 884",
+    "Condition": "B",
+    "Price": 58000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "B CLASS B 170",
+    "Mileage (km)": "150 000",
+    "Condition": "B",
+    "Price": 59000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "RENAULT",
+    "Model": "CLIO III 1.6 DYNAMIQUE 5-DOOR AUTO",
+    "Mileage (km)": "144 000",
+    "Condition": "B",
+    "Price": 60000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "RENAULT",
+    "Model": "SANDERO 1.6 STEPWAY",
+    "Mileage (km)": "184 966",
+    "Condition": "B",
+    "Price": 61000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA 1.3 IMPACT",
+    "Mileage (km)": "240 000",
+    "Condition": "B",
+    "Price": 69000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "HONDA",
+    "Model": "CR-V 2.4 VTEC RVSI",
+    "Mileage (km)": "270 000",
+    "Condition": "B",
+    "Price": 61000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "RENAULT",
+    "Model": "MEGANE II 2.0 PRIVILEGE CAB",
+    "Mileage (km)": "76 000",
+    "Condition": "B",
+    "Price": 69000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "FORD",
+    "Model": "FIESTA 1.4I AMBIENTE 5-DOOR",
+    "Mileage (km)": "109 425",
+    "Condition": "B",
+    "Price": 69000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS SEDAN C350 AVANTGARDE AUTO",
+    "Mileage (km)": "270 000",
+    "Condition": "B",
+    "Price": 61000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "AUDI",
+    "Model": "A4 1.8T ATTRACTION MULTI (B8)",
+    "Mileage (km)": "248 000",
+    "Condition": "B",
+    "Price": 69000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "JEEP",
+    "Model": "COMPASS 2.0 CVT LTD",
+    "Mileage (km)": "224 500",
+    "Condition": "B",
+    "Price": 62000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.4 AMBIENTE",
+    "Mileage (km)": "137 204",
+    "Condition": "A",
+    "Price": 65000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "OPEL",
+    "Model": "CORSA 1.4I",
+    "Mileage (km)": "23 000",
+    "Condition": "B",
+    "Price": 64000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "SEAT",
+    "Model": "IBIZA 2.0 SPORT 5-DOOR",
+    "Mileage (km)": "88 900",
+    "Condition": "B",
+    "Price": 66000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "MAHINDRA",
+    "Model": "XUV500 500 2.2D MHAWK AUTO (W8) 7 SEAT",
+    "Mileage (km)": "129 743",
+    "Condition": "B",
+    "Price": 66000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 323I AUTO (E90)",
+    "Mileage (km)": "167 000",
+    "Condition": "B",
+    "Price": 68000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I10 1.1 GLS/MOTION",
+    "Mileage (km)": "133 000",
+    "Condition": "A",
+    "Price": 68000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "LAND ROVER",
+    "Model": "FREELANDER II 2.2 TD4 SE AUTO",
+    "Mileage (km)": "234 029",
+    "Condition": "B",
+    "Price": 69000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I AUTO (E90)",
+    "Mileage (km)": "187 000",
+    "Condition": "B",
+    "Price": 69000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I10 1.1 GLS/MOTION",
+    "Mileage (km)": "146 000",
+    "Condition": "A",
+    "Price": 79000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "OPEL",
+    "Model": "ASTRA 1.4T ESSENTIA 5-DOOR",
+    "Mileage (km)": "150 000",
+    "Condition": "B",
+    "Price": 71000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.5TIVCT AMBIENTE",
+    "Mileage (km)": "191 000",
+    "Condition": "B",
+    "Price": 71000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "HONDA",
+    "Model": "JAZZ 1.4I DSI AUTO",
+    "Mileage (km)": "121 000",
+    "Condition": "B",
+    "Price": 71000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.4 TRENDLINE 5-DOOR",
+    "Mileage (km)": "204 000",
+    "Condition": "B",
+    "Price": 72000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "DATSUN",
+    "Model": "GO 1.2 LUX",
+    "Mileage (km)": "70 505",
+    "Condition": "A",
+    "Price": 74000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "HONDA",
+    "Model": "BRIO 1.2 TREND",
+    "Mileage (km)": "92 793",
+    "Condition": "B",
+    "Price": 70000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "LAND ROVER",
+    "Model": "DISCOVERY 3 V8 HSE AUTO",
+    "Mileage (km)": "231 000",
+    "Condition": "B",
+    "Price": 72000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "JEEP",
+    "Model": "COMPASS 2.0 CVT LTD",
+    "Mileage (km)": "127 000",
+    "Condition": "B",
+    "Price": 72000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "TOYOTA",
+    "Model": "QUANTUM 2.7 PANEL VAN",
+    "Mileage (km)": "798 000",
+    "Condition": "B",
+    "Price": 73000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I20 1.4",
+    "Mileage (km)": "150 997",
+    "Condition": "B",
+    "Price": 73000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I10 1.1 GLS/MOTION",
+    "Mileage (km)": "88 745",
+    "Condition": "A",
+    "Price": 74000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS COUPE C180 BE COUPE AUTO",
+    "Mileage (km)": "276 000",
+    "Condition": "B",
+    "Price": 84000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.5TI VCT AMBIENTE (5DR)",
+    "Mileage (km)": "142 000",
+    "Condition": "A",
+    "Price": 84900,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I AUTO (E90)",
+    "Mileage (km)": "161 901",
+    "Condition": "B",
+    "Price": 77000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "HONDA",
+    "Model": "JAZZ 1.5 ELEGANCE AUTO",
+    "Mileage (km)": "146 745",
+    "Condition": "B",
+    "Price": 78000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "FORD",
+    "Model": "FOCUS 1.0 ECOBOOST TREND 5-DOOR",
+    "Mileage (km)": "202 450",
+    "Condition": "B",
+    "Price": 80000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.6 TRENDLINE",
+    "Mileage (km)": "130 000",
+    "Condition": "A",
+    "Price": 82000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I10 1.1 GLS",
+    "Mileage (km)": "88 259",
+    "Condition": "B",
+    "Price": 80000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "TOYOTA",
+    "Model": "YARIS ZEN3+ 5-DOOR",
+    "Mileage (km)": "159 428",
+    "Condition": "B",
+    "Price": 81000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "NISSAN",
+    "Model": "QASHQAI 1.2T ACENTA CVT",
+    "Mileage (km)": "184 033",
+    "Condition": "B",
+    "Price": 84000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "KIA",
+    "Model": "PICANTO 1.0",
+    "Mileage (km)": "71 143",
+    "Condition": "A",
+    "Price": 94000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "A CLASS A 180 AVANTGARDE AUTO",
+    "Mileage (km)": "105 000",
+    "Condition": "A",
+    "Price": 89000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "KIA",
+    "Model": "RIO 1.4 5-DOOR",
+    "Mileage (km)": "161 805",
+    "Condition": "B",
+    "Price": 87000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.4 COMFORTLINE 5-DOOR",
+    "Mileage (km)": "174 000",
+    "Condition": "A",
+    "Price": 95000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.6 TDI COMFORTLINE 5-DOOR",
+    "Mileage (km)": "224 812",
+    "Condition": "B",
+    "Price": 88000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "KIA",
+    "Model": "SPORTAGE 2.0 IGNITE",
+    "Mileage (km)": "207 554",
+    "Condition": "B",
+    "Price": 97000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "FORD",
+    "Model": "FIESTA ST ST 200 1.6 ECOBOOST 3-DOOR",
+    "Mileage (km)": "148 000",
+    "Condition": "B",
+    "Price": 90000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2001",
+    "Manufacturer": "JEEP",
+    "Model": "WRANGLER SPORT DUAL TOP",
+    "Mileage (km)": "147 000",
+    "Condition": "B",
+    "Price": 89000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "AUDI",
+    "Model": "A3 1.8 TFSI AMBITION S TRONIC",
+    "Mileage (km)": "157 189",
+    "Condition": "B",
+    "Price": 91000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "FORD",
+    "Model": "FOCUS 1.0 ECOBOOST AMBIENTE 5-DOOR",
+    "Mileage (km)": "186 377",
+    "Condition": "A",
+    "Price": 99000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "NISSAN",
+    "Model": "ALMERA 1.5 ACENTA",
+    "Mileage (km)": "97 565",
+    "Condition": "A",
+    "Price": 99000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "HYUNDAI",
+    "Model": "IX35 2.0 GLS/EXECUTIVE AUTO",
+    "Mileage (km)": "243 500",
+    "Condition": "B",
+    "Price": 99000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "KIA",
+    "Model": "CERATO 1.6 EX 5-DOOR",
+    "Mileage (km)": "168 859",
+    "Condition": "A",
+    "Price": 101000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "TOYOTA",
+    "Model": "FORTUNER 3.0D-4D R/B",
+    "Mileage (km)": "368 756",
+    "Condition": "B",
+    "Price": 94000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 6 GTI 2.0 TSI DSG",
+    "Mileage (km)": "159 731",
+    "Condition": "B",
+    "Price": 96000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I M SPORT AUTO (F30)",
+    "Mileage (km)": "251 000",
+    "Condition": "B",
+    "Price": 97000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "FORD",
+    "Model": "FOCUS 1.0 ECOBOOST AMBIENTE",
+    "Mileage (km)": "188 900",
+    "Condition": "B",
+    "Price": 107000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "JEEP",
+    "Model": "WRANGLER SAHARA 4.0",
+    "Mileage (km)": "287 000",
+    "Condition": "B",
+    "Price": 99000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "AUDI",
+    "Model": "A1 1.4T FSI ATTRACTION S-TRON 3-DOOR",
+    "Mileage (km)": "192 239",
+    "Condition": "B",
+    "Price": 99000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 CLIMBER 5-DOOR AMT",
+    "Mileage (km)": "92 000",
+    "Condition": "A",
+    "Price": 99000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "AUDI",
+    "Model": "A3 1.4T FSI SE STRONIC",
+    "Mileage (km)": "247 000",
+    "Condition": "B",
+    "Price": 100000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "GWM",
+    "Model": "H6 1.5T CITY",
+    "Mileage (km)": "129 000",
+    "Condition": "A",
+    "Price": 105000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "AUDI",
+    "Model": "Q5 2.0 TDI QUATTRO",
+    "Mileage (km)": "202 000",
+    "Condition": "B",
+    "Price": 111000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.4 COMFORTLINE 5-DOOR",
+    "Mileage (km)": "123 000",
+    "Condition": "A",
+    "Price": 112000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "AUDI",
+    "Model": "A1 1.4T FSI AMBITION 3-DOOR",
+    "Mileage (km)": "136 000",
+    "Condition": "B",
+    "Price": 112000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HONDA",
+    "Model": "CIVIC 1.6 COMFORT",
+    "Mileage (km)": "118 000",
+    "Condition": "A",
+    "Price": 112000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "KIA",
+    "Model": "PICANTO 1.2 EX AUTO",
+    "Mileage (km)": "125 000",
+    "Condition": "B",
+    "Price": 102000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.5 TREND (5DR)",
+    "Mileage (km)": "127 000",
+    "Condition": "B",
+    "Price": 104000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.6 MAXX 5-DOOR",
+    "Mileage (km)": "92 000",
+    "Condition": "A",
+    "Price": 107000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "SUZUKI",
+    "Model": "SWIFT 1.2 GL",
+    "Mileage (km)": "75 000",
+    "Condition": "B",
+    "Price": 115900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 DYNAMIQUE 5-DOOR AUTO",
+    "Mileage (km)": "65 163",
+    "Condition": "A",
+    "Price": 111000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "HAVAL",
+    "Model": "H1 1.5 VVT",
+    "Mileage (km)": "124 428",
+    "Condition": "A",
+    "Price": 116000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "MINI",
+    "Model": "COUNTRYMAN COOPER S COUNTRYMAN AUTO",
+    "Mileage (km)": "121 000",
+    "Condition": "B",
+    "Price": 106000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.2 TSI HIGHLINE DSG (81 KW)",
+    "Mileage (km)": "254 000",
+    "Condition": "B",
+    "Price": 106000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.2 TSI TRENDLINE (66 KW)",
+    "Mileage (km)": "149 000",
+    "Condition": "A",
+    "Price": 117000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "BMW",
+    "Model": "1 SERIES 118I SPORT LINE 5-DOOR AUTO (F20)",
+    "Mileage (km)": "205 890",
+    "Condition": "A",
+    "Price": 107000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I (F30)",
+    "Mileage (km)": "145 022",
+    "Condition": "B",
+    "Price": 109000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 DYNAMIQUE / ZEN 5-DOOR",
+    "Mileage (km)": "57 199",
+    "Condition": "A",
+    "Price": 119000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "B CLASS B 180 BE AUTO",
+    "Mileage (km)": "172 000",
+    "Condition": "B",
+    "Price": 111000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "BMW",
+    "Model": "X5 XDRIVE30D AUTO (E70)",
+    "Mileage (km)": "197 000",
+    "Condition": "B",
+    "Price": 111000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "HYUNDAI",
+    "Model": "ACCENT 1.6 FLUID AUTO 5-DOOR",
+    "Mileage (km)": "132 943",
+    "Condition": "A",
+    "Price": 123000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "AUDI",
+    "Model": "A1 SPORTBACK 1.6 TDI AMBITION",
+    "Mileage (km)": "171 929",
+    "Condition": "A",
+    "Price": 123000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.5TI VCT AMBIENTE (5DR)",
+    "Mileage (km)": "80 000",
+    "Condition": "A",
+    "Price": 125900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.4 TRENDLINE",
+    "Mileage (km)": "100 000",
+    "Condition": "A",
+    "Price": 118000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "SUZUKI",
+    "Model": "S-PRESSO 1.0 GL+",
+    "Mileage (km)": "15 752",
+    "Condition": "A",
+    "Price": 126900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "HYUNDAI",
+    "Model": "ACCENT 1.6 GLS/FLUID",
+    "Mileage (km)": "106 000",
+    "Condition": "A",
+    "Price": 116000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "MINI",
+    "Model": "MINI ONE 1.2T",
+    "Mileage (km)": "96 500",
+    "Condition": "A",
+    "Price": 120000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.6 COMFORTLINE TIP 5-DOOR",
+    "Mileage (km)": "136 000",
+    "Condition": "B",
+    "Price": 129000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "OPEL",
+    "Model": "ASTRA 1.4T ESSENTIA 5-DOOR",
+    "Mileage (km)": "142 000",
+    "Condition": "B",
+    "Price": 119000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "FORD",
+    "Model": "FUSION 1.5 ECOBOOST TREND AUTO",
+    "Mileage (km)": "182 500",
+    "Condition": "B",
+    "Price": 129000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "HYUNDAI",
+    "Model": "I20 1.2 MOTION",
+    "Mileage (km)": "135 000",
+    "Condition": "A",
+    "Price": 129000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "FORD",
+    "Model": "FIGO 1.5TI VCT AMBIENTE (5DR)",
+    "Mileage (km)": "103 000",
+    "Condition": "A",
+    "Price": 129000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.5TDCI TITANIUM",
+    "Mileage (km)": "175 541",
+    "Condition": "A",
+    "Price": 126000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.5TIVCT AMBIENTE",
+    "Mileage (km)": "113 000",
+    "Condition": "A",
+    "Price": 124000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.2 TSI HIGHLINE (81 KW)",
+    "Mileage (km)": "121 000",
+    "Condition": "A",
+    "Price": 125000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I (F30)",
+    "Mileage (km)": "133 941",
+    "Condition": "A",
+    "Price": 124000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.5TIVCT TITANIUM P/SHIFT",
+    "Mileage (km)": "97 000",
+    "Condition": "A",
+    "Price": 125000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.4 TRENDLINE 5-DOOR",
+    "Mileage (km)": "124 000",
+    "Condition": "A",
+    "Price": 128000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "BMW",
+    "Model": "6 SERIES 650I COUPE AUTO (E63)",
+    "Mileage (km)": "96 000",
+    "Condition": "B",
+    "Price": 137000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 DYNAMIQUE / ZEN 5-DOOR",
+    "Mileage (km)": "31 000",
+    "Condition": "A",
+    "Price": 137000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "MAZDA",
+    "Model": "MAZDA 3 1.5 ACTIVE 5-DOOR",
+    "Mileage (km)": "101 000",
+    "Condition": "B",
+    "Price": 137000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 DYNAMIQUE / ZEN 5-DOOR",
+    "Mileage (km)": "11 724",
+    "Condition": "A",
+    "Price": 138900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "FORD",
+    "Model": "KUGA 2.0 TDCI TITANIUM AWD POWERSHIFT",
+    "Mileage (km)": "173 000",
+    "Condition": "B",
+    "Price": 139000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "TOYOTA",
+    "Model": "VERSO 1.8 SX CVT",
+    "Mileage (km)": "206 000",
+    "Condition": "B",
+    "Price": 129000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "NISSAN",
+    "Model": "X TRAIL 2.0 XE (T32)",
+    "Mileage (km)": "173 007",
+    "Condition": "A",
+    "Price": 130000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "SUZUKI",
+    "Model": "S-PRESSO 1.0 S-EDITION",
+    "Mileage (km)": "17 333",
+    "Condition": "A",
+    "Price": 136000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "JEEP",
+    "Model": "WRANGLER 2.8 CRD SAHARA 2DR AUTO",
+    "Mileage (km)": "191 000",
+    "Condition": "B",
+    "Price": 132000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "TIGUAN 2.0 TDI B/MOT TREND-FUN",
+    "Mileage (km)": "175 000",
+    "Condition": "A",
+    "Price": 136000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "RENAULT",
+    "Model": "CAPTUR 900T DYNAMIQUE 5-DOOR (66 KW)",
+    "Mileage (km)": "99 000",
+    "Condition": "A",
+    "Price": 144000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "JEEP",
+    "Model": "WRANGLER 3.8 V6 SAHARA 2DR",
+    "Mileage (km)": "158 510",
+    "Condition": "B",
+    "Price": 135000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "TOYOTA",
+    "Model": "QUANTUM 2.7 10 SEAT",
+    "Mileage (km)": "397 500",
+    "Condition": "B",
+    "Price": 135000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "MINI",
+    "Model": "COUNTRYMAN COOPER COUNTRYMAN",
+    "Mileage (km)": "85 699",
+    "Condition": "A",
+    "Price": 139000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "RENAULT",
+    "Model": "KADJAR 1.2T BLAZE",
+    "Mileage (km)": "126 251",
+    "Condition": "A",
+    "Price": 140000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "AUDI",
+    "Model": "Q5 3.0 TDI QUATTRO S TRONIC",
+    "Mileage (km)": "197 000",
+    "Condition": "A",
+    "Price": 141000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "SUZUKI",
+    "Model": "JIMNY 1.3",
+    "Mileage (km)": "164 767",
+    "Condition": "A",
+    "Price": 148000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS COUPE C180 BE COUPE",
+    "Mileage (km)": "167 000",
+    "Condition": "B",
+    "Price": 139500,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.2 TSI COMFORTLINE (66 KW)",
+    "Mileage (km)": "135 890",
+    "Condition": "A",
+    "Price": 150000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "TOYOTA",
+    "Model": "ETIOS 1.5 XS/SPRINT 5-DOOR",
+    "Mileage (km)": "58 601",
+    "Condition": "A",
+    "Price": 151900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "FIAT",
+    "Model": "500 900T TWINAIR POP STAR",
+    "Mileage (km)": "47 000",
+    "Condition": "A",
+    "Price": 141000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "RENAULT",
+    "Model": "KWID 1.0 CLIMBER 5-DOOR",
+    "Mileage (km)": "24 000",
+    "Condition": "A",
+    "Price": 153900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.4 TRENDLINE (5DR)",
+    "Mileage (km)": "51 000",
+    "Condition": "A",
+    "Price": 157000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 2.0 TDI COMFORTLINE",
+    "Mileage (km)": "183 000",
+    "Condition": "A",
+    "Price": 148000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "FORD",
+    "Model": "KUGA 2.0 TDCI TREND AWD POWERSHIFT",
+    "Mileage (km)": "180 000",
+    "Condition": "A",
+    "Price": 148000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "HAVAL",
+    "Model": "H1 1.5 VVT",
+    "Mileage (km)": "53 815",
+    "Condition": "A",
+    "Price": 158900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "TOYOTA",
+    "Model": "AVANZA 1.3 S PANEL VAN",
+    "Mileage (km)": "177 000",
+    "Condition": "B",
+    "Price": 149000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "NISSAN",
+    "Model": "X TRAIL 2.0 XE (T32)",
+    "Mileage (km)": "162 000",
+    "Condition": "A",
+    "Price": 152000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "RENAULT",
+    "Model": "KIGER 1.0T ZEN",
+    "Mileage (km)": "66 407",
+    "Condition": "A",
+    "Price": 153000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 6 GTI 2.0 TSI DSG",
+    "Mileage (km)": "139 902",
+    "Condition": "A",
+    "Price": 162000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "LEXUS",
+    "Model": "GS 350 EX AUTO",
+    "Mileage (km)": "168 757",
+    "Condition": "A",
+    "Price": 152000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "HYUNDAI",
+    "Model": "IX35 2.0 CRDI ELITE AWD AUTO",
+    "Mileage (km)": "183 980",
+    "Condition": "A",
+    "Price": 155000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS SEDAN C200 BE AVANTGARDE AUTO",
+    "Mileage (km)": "103 700",
+    "Condition": "A",
+    "Price": 157000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "NISSAN",
+    "Model": "QASHQAI 1.2T ACENTA CVT",
+    "Mileage (km)": "135 860",
+    "Condition": "A",
+    "Price": 156000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA QUEST 1.6 AUTO",
+    "Mileage (km)": "62 307",
+    "Condition": "A",
+    "Price": 166000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "SUZUKI",
+    "Model": "SWIFT 1.2 GL",
+    "Mileage (km)": "46 690",
+    "Condition": "A",
+    "Price": 167000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "MITSUBISHI",
+    "Model": "ASX 2.0 5-DOOR GLS AUTO",
+    "Mileage (km)": "112 181",
+    "Condition": "A",
+    "Price": 157000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "AUDI",
+    "Model": "A4 1.4T FSI STRONIC (B9) (35 TFSI)",
+    "Mileage (km)": "204 000",
+    "Condition": "B",
+    "Price": 158000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "MAHINDRA",
+    "Model": "TUV300 1.5TD MHAWK (7 SEAT)",
+    "Mileage (km)": "79 112",
+    "Condition": "A",
+    "Price": 168000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "AUDI",
+    "Model": "A3 1.0T FSI STRONIC (30 TFSI)",
+    "Mileage (km)": "131 000",
+    "Condition": "B",
+    "Price": 159000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "MITSUBISHI",
+    "Model": "PAJERO 3.2 DI-D GLS",
+    "Mileage (km)": "178 000",
+    "Condition": "B",
+    "Price": 159000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "HAVAL",
+    "Model": "H2 1.5T CITY",
+    "Mileage (km)": "121 000",
+    "Condition": "A",
+    "Price": 169900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "AUDI",
+    "Model": "A3 SPORTBACK 1.8T FSI SE STRONIC",
+    "Mileage (km)": "133 954",
+    "Condition": "A",
+    "Price": 160000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "CITROEN",
+    "Model": "C3 1.2 FEEL (61 KW)",
+    "Mileage (km)": "19 783",
+    "Condition": "A",
+    "Price": 165000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "BMW",
+    "Model": "1 SERIES 116I M SPORT 5-DOOR AUTO (F20)",
+    "Mileage (km)": "121 117",
+    "Condition": "A",
+    "Price": 165000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HYUNDAI",
+    "Model": "IX35 R2.0 CRDI GLS/ELITE AWD AUTO",
+    "Mileage (km)": "125 000",
+    "Condition": "A",
+    "Price": 163000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "AUDI",
+    "Model": "Q5 2.0 TDI S QUATTRO S TRONIC",
+    "Mileage (km)": "172 000",
+    "Condition": "A",
+    "Price": 162000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI TRENDLINE",
+    "Mileage (km)": "84 989",
+    "Condition": "A",
+    "Price": 162000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI TRENDLINE",
+    "Mileage (km)": "94 158",
+    "Condition": "A",
+    "Price": 163000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "MAZDA",
+    "Model": "CX-3 2.0 DYNAMIC",
+    "Mileage (km)": "165 000",
+    "Condition": "A",
+    "Price": 168000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS COUPE C180 BE COUPE AUTO",
+    "Mileage (km)": "152 000",
+    "Condition": "A",
+    "Price": 168000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "TOYOTA",
+    "Model": "YARIS 1.5 XS 5-DOOR",
+    "Mileage (km)": "100 000",
+    "Condition": "A",
+    "Price": 174900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "SUZUKI",
+    "Model": "SWIFT 1.2 GLX",
+    "Mileage (km)": "70 000",
+    "Condition": "A",
+    "Price": 176000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "HYUNDAI",
+    "Model": "CRETA 1.6 EXECUTIVE",
+    "Mileage (km)": "147 000",
+    "Condition": "A",
+    "Price": 176900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 1.4 TSI TRENDLINE",
+    "Mileage (km)": "81 820",
+    "Condition": "A",
+    "Price": 177000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "NISSAN",
+    "Model": "QASHQAI 1.6 DCI ACENTA CVT",
+    "Mileage (km)": "133 000",
+    "Condition": "A",
+    "Price": 178000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "KIA",
+    "Model": "PICANTO 1.0 STYLE AUTO",
+    "Mileage (km)": "46 678",
+    "Condition": "A",
+    "Price": 168000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "AUDI",
+    "Model": "A3 1.4T FSI",
+    "Mileage (km)": "173 461",
+    "Condition": "A",
+    "Price": 169000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.6 COMFORTLINE TIP (5DR)",
+    "Mileage (km)": "126 852",
+    "Condition": "A",
+    "Price": 171000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "MINI",
+    "Model": "PACEMAN COOPER JCW PACEMAN AUTO",
+    "Mileage (km)": "158 624",
+    "Condition": "A",
+    "Price": 180000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "NISSAN",
+    "Model": "MICRA 900T ACENTA",
+    "Mileage (km)": "73 563",
+    "Condition": "A",
+    "Price": 185900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 GTI 2.0 TSI DSG",
+    "Mileage (km)": "163 227",
+    "Condition": "B",
+    "Price": 175000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "NISSAN",
+    "Model": "MAGNITE 1.0 VISIA (BR10)",
+    "Mileage (km)": "17 081",
+    "Condition": "A",
+    "Price": 186000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "RENAULT",
+    "Model": "MEGANE IV 1.6 DYNAMIQUE 5-DOOR",
+    "Mileage (km)": "77 590",
+    "Condition": "A",
+    "Price": 179000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI COMFORTLINE",
+    "Mileage (km)": "51 000",
+    "Condition": "A",
+    "Price": 179000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "HONDA",
+    "Model": "BALLADE 1.5 TREND",
+    "Mileage (km)": "14 635",
+    "Condition": "A",
+    "Price": 183000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "HAVAL",
+    "Model": "H2 1.5T LUXURY",
+    "Mileage (km)": "66 000",
+    "Condition": "A",
+    "Price": 180000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "SUZUKI",
+    "Model": "SWIFT 1.2 GLX",
+    "Mileage (km)": "43 487",
+    "Condition": "A",
+    "Price": 192900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "HYUNDAI",
+    "Model": "ELANTRA 1.6 TGDI ELITE DCT",
+    "Mileage (km)": "166 064",
+    "Condition": "A",
+    "Price": 183000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.0 ECOBOOST TITANIUM",
+    "Mileage (km)": "83 000",
+    "Condition": "A",
+    "Price": 192000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "SUZUKI",
+    "Model": "IGNIS 1.2 GLX",
+    "Mileage (km)": "29 000",
+    "Condition": "A",
+    "Price": 193900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "FORD",
+    "Model": "TRANSIT 2.2 TDCI MWB (92 KW) PANEL VAN",
+    "Mileage (km)": "163 155",
+    "Condition": "B",
+    "Price": 183000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "BMW",
+    "Model": "X5 XDRIVE40D M-SPORT AUTO",
+    "Mileage (km)": "162 000",
+    "Condition": "B",
+    "Price": 184000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI COMFORTLINE DSG",
+    "Mileage (km)": "116 000",
+    "Condition": "A",
+    "Price": 186000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I AUTO (F30)",
+    "Mileage (km)": "146 500",
+    "Condition": "A",
+    "Price": 196900,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "OPEL",
+    "Model": "CORSA 1.0T ECOFLEX ENJOY 5-DOOR (66 KW)",
+    "Mileage (km)": "24 000",
+    "Condition": "A",
+    "Price": 197000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.0 ECOBOOST TREND",
+    "Mileage (km)": "82 000",
+    "Condition": "A",
+    "Price": 192000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS C180",
+    "Mileage (km)": "135 000",
+    "Condition": "A",
+    "Price": 189000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "KIA",
+    "Model": "SPORTAGE 1.6 GDI IGNITE AUTO",
+    "Mileage (km)": "87 601",
+    "Condition": "B",
+    "Price": 189000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "BMW",
+    "Model": "5 SERIES GT GRAN TURISMO 535I",
+    "Mileage (km)": "133 000",
+    "Condition": "B",
+    "Price": 189000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "HYUNDAI",
+    "Model": "GRAND I10 1.0 MOTION",
+    "Mileage (km)": "31 000",
+    "Condition": "A",
+    "Price": 200000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI HIGHLINE DSG (85 KW)",
+    "Mileage (km)": "188 000",
+    "Condition": "A",
+    "Price": 200000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.6 COMFORTLINE TIP (5DR)",
+    "Mileage (km)": "48 671",
+    "Condition": "A",
+    "Price": 195000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "NISSAN",
+    "Model": "MAGNITE 1.0T ACENTA",
+    "Mileage (km)": "29 000",
+    "Condition": "A",
+    "Price": 205900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "HYUNDAI",
+    "Model": "CRETA 1.6D EXECUTIVE AUTO",
+    "Mileage (km)": "98 000",
+    "Condition": "A",
+    "Price": 205000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI TRENDLINE",
+    "Mileage (km)": "103 350",
+    "Condition": "A",
+    "Price": 195000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "HAVAL",
+    "Model": "H6 C 2.0T LUXURY",
+    "Mileage (km)": "149 633",
+    "Condition": "A",
+    "Price": 205900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "AUDI",
+    "Model": "A3 SPORTBACK 1.0 TFSI STRONIC (30 TFSI)",
+    "Mileage (km)": "100 000",
+    "Condition": "A",
+    "Price": 197000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI COMFORTLINE",
+    "Mileage (km)": "96 119",
+    "Condition": "A",
+    "Price": 201000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.0 ECOBOOST TREND AUTO",
+    "Mileage (km)": "45 665",
+    "Condition": "A",
+    "Price": 201000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI COMFORTLINE",
+    "Mileage (km)": "77 000",
+    "Condition": "A",
+    "Price": 216900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "DZIRE 1.2 GL AUTO",
+    "Mileage (km)": "8 000",
+    "Condition": "A",
+    "Price": 217000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.0 ECOBOOST TREND",
+    "Mileage (km)": "70 522",
+    "Condition": "A",
+    "Price": 221900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "SUZUKI",
+    "Model": "VITARA BREZZA 1.5 GL",
+    "Mileage (km)": "68 798",
+    "Condition": "A",
+    "Price": 221000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "SWIFT 1.2 GLX",
+    "Mileage (km)": "6 000",
+    "Condition": "A",
+    "Price": 222900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "TOYOTA",
+    "Model": "FORTUNER EPIC 3.0D-4D 4X4",
+    "Mileage (km)": "321 900",
+    "Condition": "B",
+    "Price": 213000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "SWIFT 1.2 GL AMT",
+    "Mileage (km)": "21 000",
+    "Condition": "A",
+    "Price": 223000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI COMFORTLINE DSG",
+    "Mileage (km)": "91 185",
+    "Condition": "A",
+    "Price": 224900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 1.0 TSI COMFORTLINE",
+    "Mileage (km)": "124 000",
+    "Condition": "A",
+    "Price": 229000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "AUDI",
+    "Model": "A3 1.0T FSI STRONIC (30 TFSI)",
+    "Mileage (km)": "107 811",
+    "Condition": "A",
+    "Price": 221000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "HYUNDAI",
+    "Model": "VENUE 1.2 MOTION",
+    "Mileage (km)": "28 926",
+    "Condition": "A",
+    "Price": 231900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO GP 1.6 COMFORTLINE TIP",
+    "Mileage (km)": "59 100",
+    "Condition": "A",
+    "Price": 233900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "MAHINDRA",
+    "Model": "XUV500 500 2.2D MHAWK (W8) 7 SEAT",
+    "Mileage (km)": "95 000",
+    "Condition": "A",
+    "Price": 234900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "NISSAN",
+    "Model": "MAGNITE 1.0T ACENTA CVT",
+    "Mileage (km)": "54 000",
+    "Condition": "A",
+    "Price": 236900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.4 TRENDLINE (5DR)",
+    "Mileage (km)": "7 937",
+    "Condition": "A",
+    "Price": 231000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 1.0 TSI COMFORTLINE",
+    "Mileage (km)": "88 000",
+    "Condition": "A",
+    "Price": 239000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "ERTIGA 1.5 GL",
+    "Mileage (km)": "35 536",
+    "Condition": "A",
+    "Price": 233000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "MAZDA",
+    "Model": "CX-3 2.0 DYNAMIC AUTO",
+    "Mileage (km)": "81 000",
+    "Condition": "A",
+    "Price": 239000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "NISSAN",
+    "Model": "MAGNITE 1.0T ACENTA CVT",
+    "Mileage (km)": "43 048",
+    "Condition": "A",
+    "Price": 239900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 1.4 TSI COMFORTLINE DSG",
+    "Mileage (km)": "88 000",
+    "Condition": "A",
+    "Price": 242900,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA QUEST 1.8 PRESTIGE",
+    "Mileage (km)": "51 000",
+    "Condition": "A",
+    "Price": 242000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO VIVO 1.4 TRENDLINE (5DR)",
+    "Mileage (km)": "12 351",
+    "Condition": "A",
+    "Price": 243000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 2.0 TSI R DSG",
+    "Mileage (km)": "147 170",
+    "Condition": "B",
+    "Price": 239000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "MITSUBISHI",
+    "Model": "XPANDER 1.5",
+    "Mileage (km)": "50 706",
+    "Condition": "A",
+    "Price": 249000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "HYUNDAI",
+    "Model": "CRETA 1.6 EXECUTIVE AUTO",
+    "Mileage (km)": "35 000",
+    "Condition": "A",
+    "Price": 242000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "BMW",
+    "Model": "2 SERIES 220I CONVERT M SPORT AUTO (F23)",
+    "Mileage (km)": "115 114",
+    "Condition": "A",
+    "Price": 241000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "RENAULT",
+    "Model": "MEGANE RS 275 TROPHY 3-DOOR",
+    "Mileage (km)": "97 384",
+    "Condition": "A",
+    "Price": 252000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "X3 XDRIVE20D AUTO (F25)",
+    "Mileage (km)": "166 000",
+    "Condition": "B",
+    "Price": 245000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "MAZDA",
+    "Model": "CX-5 2.0 DYNAMIC AUTO",
+    "Mileage (km)": "137 000",
+    "Condition": "A",
+    "Price": 257000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "TOYOTA",
+    "Model": "FORTUNER EPIC 3.0D-4D R/B",
+    "Mileage (km)": "220 944",
+    "Condition": "A",
+    "Price": 259900,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "AUDI",
+    "Model": "A4 1.4T FSI STRONIC (B9) (35 TFSI)",
+    "Mileage (km)": "114 617",
+    "Condition": "A",
+    "Price": 251000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "NISSAN",
+    "Model": "MAGNITE KURO 1.0T",
+    "Mileage (km)": "18 200",
+    "Condition": "A",
+    "Price": 255000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "FORD",
+    "Model": "EVEREST 2.2 TDCI XLS",
+    "Mileage (km)": "132 000",
+    "Condition": "A",
+    "Price": 252000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "CHERY",
+    "Model": "TIGGO 4 PRO 1.5 LIT",
+    "Mileage (km)": "5 000",
+    "Condition": "A",
+    "Price": 265900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.0 ECOBOOST TITANIUM AUTO",
+    "Mileage (km)": "20 000",
+    "Condition": "A",
+    "Price": 269900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "AUDI",
+    "Model": "A3 1.0T FSI STRONIC (30 TFSI)",
+    "Mileage (km)": "96 524",
+    "Condition": "A",
+    "Price": 271900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "TOYOTA",
+    "Model": "HIACE HIACE 2.5 D-4D 14 SEAT",
+    "Mileage (km)": "313 557",
+    "Condition": "B",
+    "Price": 265000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "FORD",
+    "Model": "ECOSPORT 1.0 ECOBOOST TITANIUM AUTO",
+    "Mileage (km)": "18 000",
+    "Condition": "A",
+    "Price": 276900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "TOYOTA",
+    "Model": "FORTUNER EPIC 3.0D-4D 4X4 AUTO",
+    "Mileage (km)": "155 000",
+    "Condition": "A",
+    "Price": 268000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "CLA CLA200 AMG AUTO",
+    "Mileage (km)": "92 000",
+    "Condition": "A",
+    "Price": 269000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "CHERY",
+    "Model": "TIGGO 4 PRO PRO 1.5 COMFORT CVT",
+    "Mileage (km)": "24 000",
+    "Condition": "A",
+    "Price": 282900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI LIFE",
+    "Mileage (km)": "54 000",
+    "Condition": "A",
+    "Price": 287900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "FORD",
+    "Model": "KUGA 2.0 ECOBOOST TITANIUM AWD AUTO",
+    "Mileage (km)": "89 799",
+    "Condition": "A",
+    "Price": 293000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "RENAULT",
+    "Model": "KOLEOS 2.5 DYNAMIQUE/INTENS CVT",
+    "Mileage (km)": "57 987",
+    "Condition": "A",
+    "Price": 296000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "LAND ROVER",
+    "Model": "DISCOVERY SPORT 2.0 SI4 S (PURE)",
+    "Mileage (km)": "95 000",
+    "Condition": "A",
+    "Price": 287000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "CHERY",
+    "Model": "TIGGO 4 PRO PRO 1.5T ELITE CVT",
+    "Mileage (km)": "15 707",
+    "Condition": "A",
+    "Price": 301000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "T6 KOMBI 2.0 TDI DSG (103 KW) (TRENDLINE)",
+    "Mileage (km)": "162 000",
+    "Condition": "A",
+    "Price": 303000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "GLC 300",
+    "Mileage (km)": "152 000",
+    "Condition": "A",
+    "Price": 319000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "AUDI",
+    "Model": "Q3 2.0 TDI QUATTRO S TRONIC (135 KW) (40 TDI)",
+    "Mileage (km)": "67 800",
+    "Condition": "A",
+    "Price": 309000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "FORD",
+    "Model": "TOURNEO CUSTOM 2.2TDCI TREND SWB (92 KW)",
+    "Mileage (km)": "126 000",
+    "Condition": "A",
+    "Price": 309000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "SUZUKI",
+    "Model": "JIMNY 1.5 GLX",
+    "Mileage (km)": "47 187",
+    "Condition": "A",
+    "Price": 321000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "MINI",
+    "Model": "COUNTRYMAN COOPER D COUNTRYMAN AUTO",
+    "Mileage (km)": "67 000",
+    "Condition": "A",
+    "Price": 324000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "TIGUAN 2.0 TSI HIGHLINE 4MOT DSG",
+    "Mileage (km)": "135 000",
+    "Condition": "A",
+    "Price": 335900,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "POLO 1.0 TSI LIFE",
+    "Mileage (km)": "15 259",
+    "Condition": "A",
+    "Price": 342000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "HYUNDAI",
+    "Model": "TUCSON 2.0 EXECUTIVE AUTO",
+    "Mileage (km)": "87 393",
+    "Condition": "A",
+    "Price": 344000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "FORD",
+    "Model": "EVEREST 3.2 TDCI LTD 4X4 AUTO",
+    "Mileage (km)": "134 097",
+    "Condition": "A",
+    "Price": 334000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "FORD",
+    "Model": "EVEREST 2.2 TDCI XLT AUTO",
+    "Mileage (km)": "UNVERIFIED",
+    "Condition": "B",
+    "Price": 347000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "BAIC",
+    "Model": "X55 1.5T PREMIUM AUTO",
+    "Mileage (km)": "33 500",
+    "Condition": "A",
+    "Price": 344000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "AUDI",
+    "Model": "S3 STRONIC",
+    "Mileage (km)": "140 352",
+    "Condition": "A",
+    "Price": 345000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "GOLF 7 GTI 2.0 TSI DSG",
+    "Mileage (km)": "95 735",
+    "Condition": "A",
+    "Price": 346000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "VOLKSWAGEN",
+    "Model": "TAIGO 1.0 TSI STYLE DSG",
+    "Mileage (km)": "69 000",
+    "Condition": "A",
+    "Price": 366900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "TOYOTA",
+    "Model": "FORTUNER 2.8GD-6 4X4 AUTO",
+    "Mileage (km)": "186 000",
+    "Condition": "A",
+    "Price": 367000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA CROSS 1.8 XR",
+    "Mileage (km)": "55 197",
+    "Condition": "A",
+    "Price": 357000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "PEUGEOT",
+    "Model": "5008 1.6 THP GT LINE AUTO",
+    "Mileage (km)": "44 000",
+    "Condition": "A",
+    "Price": 369000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "TOYOTA",
+    "Model": "FORTUNER 2.4GD-6 R/B AUTO",
+    "Mileage (km)": "104 678",
+    "Condition": "A",
+    "Price": 378900,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "CHERY",
+    "Model": "TIGGO 7 PRO 1.5T EXECUTIVE CVT",
+    "Mileage (km)": "14 000",
+    "Condition": "A",
+    "Price": 379000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 320I M SPORT AUTO (G20)",
+    "Mileage (km)": "77 000",
+    "Condition": "A",
+    "Price": 392000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "GLC 250D",
+    "Mileage (km)": "87 941",
+    "Condition": "A",
+    "Price": 379000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "LAND ROVER",
+    "Model": "RANGE ROVER SPORT 3.0 SDV6 HSE",
+    "Mileage (km)": "148 109",
+    "Condition": "A",
+    "Price": 400000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "TOYOTA",
+    "Model": "COROLLA CROSS 1.8 XR HYBRID",
+    "Mileage (km)": "29 257",
+    "Condition": "A",
+    "Price": 406000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "JAGUAR",
+    "Model": "E-PACE D240 2.0D SE (177 KW)",
+    "Mileage (km)": "60 653",
+    "Condition": "A",
+    "Price": 433000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS C300 AUTO",
+    "Mileage (km)": "86 000",
+    "Condition": "A",
+    "Price": 433000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "BMW",
+    "Model": "3 SERIES 330I M SPORT LAUNCH EDITION AUTO (G20)",
+    "Mileage (km)": "57 541",
+    "Condition": "A",
+    "Price": 481000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "TOYOTA",
+    "Model": "HILUX LEGEND 50 2.8 GD-6 4X2 A/T DOUBLE CAB",
+    "Mileage (km)": "103 810",
+    "Condition": "A",
+    "Price": 484000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "JEEP",
+    "Model": "WRANGLER SAHARA 3.6L V6 AUTO 2DR",
+    "Mileage (km)": "83 000",
+    "Condition": "A",
+    "Price": 486900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "TOYOTA",
+    "Model": "PRADO VX 3.0 TDI AUTO",
+    "Mileage (km)": "164 000",
+    "Condition": "A",
+    "Price": 510900,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "BMW",
+    "Model": "X3 XDRIVE 20D M-SPORT (G01)",
+    "Mileage (km)": "81 000",
+    "Condition": "A",
+    "Price": 527900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "HYUNDAI",
+    "Model": "STARIA 2.2D MULTICAB AUTO (5 SEAT)",
+    "Mileage (km)": "45 000",
+    "Condition": "A",
+    "Price": 529900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "GLC COUPE 250",
+    "Mileage (km)": "84 331",
+    "Condition": "A",
+    "Price": 543000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "GLC 250D",
+    "Mileage (km)": "15 000",
+    "Condition": "A",
+    "Price": 533000,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "TOYOTA",
+    "Model": "PRADO VX 3.0 TDI AUTO",
+    "Mileage (km)": "130 000",
+    "Condition": "A",
+    "Price": 556000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "PORSCHE",
+    "Model": "CAYENNE S (E2 II)",
+    "Mileage (km)": "109 000",
+    "Condition": "A",
+    "Price": 580000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "LAND ROVER",
+    "Model": "RANGE ROVER 4.4 SD V8 VOGUE SE",
+    "Mileage (km)": "82 500",
+    "Condition": "A",
+    "Price": 600500,
+    "Dekra": "GREEN"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "LAND ROVER",
+    "Model": "RANGE ROVER SPORT 3.0 SDV6 HSE",
+    "Mileage (km)": "117 000",
+    "Condition": "A",
+    "Price": 651000,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "C CLASS C220D AUTO (W206)",
+    "Mileage (km)": "32 000",
+    "Condition": "A",
+    "Price": 708000,
+    "Dekra": "FREE DELIVERY"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "LAND ROVER",
+    "Model": "DEFENDER 90 2.2D STATION WAGON",
+    "Mileage (km)": "67 433",
+    "Condition": "A",
+    "Price": 798000,
+    "Dekra": "GOLD"
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "PORSCHE",
+    "Model": "CAYENNE TIPTRONIC (E3)",
+    "Mileage (km)": "119 000",
+    "Condition": "A",
+    "Price": 804900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "GLE 400D 4MATIC",
+    "Mileage (km)": "81 327",
+    "Condition": "A",
+    "Price": 837900,
+    "Dekra": "BEST BUY"
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "MERCEDES-BENZ",
+    "Model": "GLE 400D 4MATIC",
+    "Mileage (km)": "78 121",
+    "Condition": "A",
+    "Price": 925900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "AUDI",
+    "Model": "Q7 45 TDI QUATTRO TIPTRONIC S LINE",
+    "Mileage (km)": "46 561",
+    "Condition": "A",
+    "Price": 1047900,
+    "Dekra": "PLATINUM"
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "ASTON MARTIN",
+    "Model": "VANQUISH 6.0 COUPE",
+    "Mileage (km)": "9 000",
+    "Condition": "A",
+    "Price": 1902000,
+    "Dekra": "FREE DELIVERY"
   }
 ]

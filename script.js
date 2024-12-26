@@ -2,103 +2,202 @@ let vehicles = [];
 let currentDatabase = 'bikes';
 let selectedModelDetails = new Map(); // Will store {model: make} pairs
 
-// Function to switch between databases
-function switchDatabase(database) {
+// Updated loadDatabaseData function to load local JSON files
+async function loadDatabaseData(database) {
+  try {
+    const filename = database === 'bikes' ? 'motorcycles.json' : 'cars.json';
+    const response = await fetch(filename);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    vehicles = await response.json();
+    
+    // Update make dropdown with available manufacturers
+    const makeSelect = document.getElementById("make");
+    makeSelect.innerHTML = '<option value="">--Select Make--</option>';
+    
+    // Get unique manufacturers and sort them
+    const manufacturers = [...new Set(vehicles.map(vehicle => vehicle.Manufacturer))].sort();
+    
+    // Add manufacturer options
+    manufacturers.forEach(manufacturer => {
+      const option = document.createElement("option");
+      option.value = manufacturer;
+      option.textContent = manufacturer;
+      makeSelect.appendChild(option);
+    });
+    
+    // Clear any existing selections and filtered results
+    selectedModelDetails.clear();
+    document.getElementById("vehicle-list").innerHTML = '';
+    document.getElementById("summary").innerHTML = '';
+    if (document.getElementById("selected-models")) {
+      document.getElementById("selected-models").innerHTML = '';
+    }
+  } catch (error) {
+    console.error('Error loading vehicle data:', error);
+    alert('Error loading vehicle data. Please try again later.');
+  }
+}
+
+function handleDatabaseToggle(event) {
+  const database = event.target.checked ? 'cars' : 'bikes';
   currentDatabase = database;
   
-  // Update UI for active button
-  document.querySelectorAll('.db-button').forEach(button => {
-    button.classList.remove('active');
-  });
-  document.getElementById(`${database}-db`).classList.add('active');
-  
-  // Clear current selections
+  // Clear all selections and filters
+  selectedModelDetails.clear();
   document.getElementById('make').value = '';
   document.getElementById('model').value = '';
   document.getElementById('price-sort').value = '';
   document.getElementById('year-sort').value = '';
   
+  // Clear displayed vehicles and summary
+  document.getElementById('vehicle-list').innerHTML = '';
+  document.getElementById('summary').innerHTML = '';
+  
+  // Clear selected models display
+  const selectedModelsContainer = document.getElementById('selected-models');
+  if (selectedModelsContainer) {
+    selectedModelsContainer.innerHTML = '';
+  }
+  
   // Fetch new data
   loadDatabaseData(database);
 }
 
-// Function to load database data
-function loadDatabaseData(database) {
-  const dataFile = database === 'bikes' ? 'motorcycles.json' : 'cars.json';
+// Function to get the main model from a model string
+function getMainModel(modelString) {
+  // Get the first word (letters/numbers not separated by space)
+  return modelString.split(' ')[0];
+}
+
+// Function to group models by their main model
+function groupModelsByMain(models) {
+  const groupedModels = new Map();
   
-  fetch(dataFile)
-    .then(response => response.json())
-    .then(data => {
-      vehicles = data;
-      populateMakes();
-      // Clear the vehicle list instead of filtering when data is loaded
-      document.getElementById("vehicle-list").innerHTML = '';
-    })
-    .catch(error => {
-      console.error(`Error loading ${database} data:`, error);
-    });
-}
-
-// Populate Make dropdown
-function populateMakes() {
-  const makeSelect = document.getElementById("make");
-  makeSelect.innerHTML = '<option value="">--Select Make--</option>';
-
-  // Get unique Makes and sort them alphabetically
-  const makes = [...new Set(vehicles.map(vehicle => vehicle.Manufacturer))].sort();
-
-  makes.forEach(make => {
-    const option = document.createElement("option");
-    option.value = make;
-    option.textContent = make;
-    makeSelect.appendChild(option);
+  models.forEach(model => {
+    const mainModel = getMainModel(model);
+    if (!groupedModels.has(mainModel)) {
+      groupedModels.set(mainModel, new Set());
+    }
+    // Add the main model itself if it exists as a standalone model
+    if (model === mainModel) {
+      groupedModels.get(mainModel).add(mainModel);
+    }
+    // Add other variants
+    if (model !== mainModel) {
+      groupedModels.get(mainModel).add(model);
+    }
   });
+  
+  // Convert Sets to sorted Arrays
+  const sortedGroupedModels = new Map();
+  groupedModels.forEach((subModels, mainModel) => {
+    sortedGroupedModels.set(mainModel, Array.from(subModels).sort());
+  });
+  
+  return sortedGroupedModels;
 }
 
-// Update updateModelOptions to not clear selected models
+
+// Function to update model options based on selected make
 function updateModelOptions() {
   const makeSelect = document.getElementById("make");
   const modelSelect = document.getElementById("model");
   const selectedMake = makeSelect.value;
 
-  // Clear the current Model options
-  modelSelect.innerHTML = '<option value="">--Select Model--</option>';
+  // Remove existing model tree if present
+  const existingTree = document.querySelector('.model-tree');
+  if (existingTree) {
+      existingTree.remove();
+  }
 
-  // Only populate models if a make is selected
   if (selectedMake) {
-    // Filter vehicles based on selected Make and get unique Models, then sort them
-    const models = [...new Set(vehicles
-      .filter(vehicle => vehicle.Manufacturer === selectedMake)
-      .map(vehicle => vehicle.Model))].sort();
+      modelSelect.style.display = 'none'; // Hide the original select
 
-    models.forEach(model => {
-      // Only add to dropdown if not already selected
+      // Get all models for the selected make
+      const models = [...new Set(vehicles.filter(vehicle => vehicle.Manufacturer === selectedMake).map(vehicle => vehicle.Model))].sort();
+
+      // Group models by their main model
+      const groupedModels = groupModelsByMain(models);
+
+      // Create the tree structure
+      const tree = document.createElement('div');
+      tree.className = 'model-tree';
+
+      groupedModels.forEach((subModels, mainModel) => {
+          const groupDiv = document.createElement('div');
+          groupDiv.className = 'model-group';
+
+          const mainModelDiv = document.createElement('div');
+          mainModelDiv.className = 'main-model';
+          mainModelDiv.textContent = mainModel;
+          mainModelDiv.onclick = () => handleModelSelection(mainModel, selectedMake, true);
+          groupDiv.appendChild(mainModelDiv);
+
+          // Add sub-models if they exist
+          if (subModels.length > 1 || (subModels.length === 1 && subModels[0] !== mainModel)) {
+              const subModelsDiv = document.createElement('div');
+              subModelsDiv.className = 'sub-models';
+              subModels.forEach(subModel => {
+                  if (subModel !== mainModel) { // Don't duplicate the main model
+                      const subModelDiv = document.createElement('div');
+                      subModelDiv.className = 'sub-model';
+                      subModelDiv.textContent = subModel;
+                      subModelDiv.onclick = () => handleModelSelection(subModel, selectedMake, false);
+                      subModelsDiv.appendChild(subModelDiv);
+                  }
+              });
+              groupDiv.appendChild(subModelsDiv);
+          }
+          tree.appendChild(groupDiv);
+      });
+
+      // Insert the tree after the model select element
+      modelSelect.parentNode.insertBefore(tree, modelSelect.nextSibling);
+  } else {
+      // If no make is selected, show the original empty select
+      modelSelect.style.display = 'block';
+      modelSelect.innerHTML = '';
+  }
+
+  // Add click handler for the make select to show the tree again
+  makeSelect.addEventListener('click', () => {
+      const tree = document.querySelector('.model-tree');
+      if (tree) {
+          tree.classList.remove('hidden'); // Ensure it's visible when clicked
+      }
+  });
+}
+
+
+// Update handleModelSelection to handle main models and sub-models
+function handleModelSelection(selectedModel, selectedMake, isMainModel) {
+  if (isMainModel) {
+    // Get all models that start with the main model
+    const relatedModels = vehicles
+      .filter(vehicle => vehicle.Manufacturer === selectedMake && 
+              getMainModel(vehicle.Model) === selectedModel)
+      .map(vehicle => vehicle.Model);
+    
+    // Add all related models to the selection
+    relatedModels.forEach(model => {
       if (!selectedModelDetails.has(model)) {
-        const option = document.createElement("option");
-        option.value = model;
-        option.textContent = model;
-        modelSelect.appendChild(option);
+        selectedModelDetails.set(model, selectedMake);
       }
     });
-  }
-}
-// Update handleModelSelection to store make information
-function handleModelSelection() {
-  const modelSelect = document.getElementById("model");
-  const makeSelect = document.getElementById("make");
-  const selectedModel = modelSelect.value;
-  const selectedMake = makeSelect.value;
-  
-  if (selectedModel && !selectedModelDetails.has(selectedModel)) {
-    selectedModelDetails.set(selectedModel, selectedMake);
-    updateSelectedModelsList();
-    filterVehicles();
+  } else {
+    // Handle single model selection
+    if (!selectedModelDetails.has(selectedModel)) {
+      selectedModelDetails.set(selectedModel, selectedMake);
+    } else {
+      selectedModelDetails.delete(selectedModel);
+    }
   }
   
-  // Reset the select element
-  modelSelect.value = "";
-  // Update model options to remove selected model
-  updateModelOptions();
+  updateSelectedModelsList();
+  updateModelOptions(); // Update to refresh visual feedback
+  filterVehicles();
 }
 
 function updateSelectedModelsList() {
@@ -128,21 +227,21 @@ function updateSelectedModelsList() {
     selectedModelsContainer.appendChild(clearAllBtn);
   }
 }
+
 function removeModel(model) {
   selectedModelDetails.delete(model);
   updateSelectedModelsList();
-  // Update model options as this model is now available again
   updateModelOptions();
   filterVehicles();
 }
 
-// Update clearAllModels
 function clearAllModels() {
   selectedModelDetails.clear();
   updateSelectedModelsList();
   updateModelOptions();
   filterVehicles();
 }
+
 function filterVehicles() {
   const priceSortSelect = document.getElementById("price-sort");
   const yearSortSelect = document.getElementById("year-sort");
@@ -156,8 +255,6 @@ function filterVehicles() {
   }
 
   const filteredVehicles = vehicles.filter(vehicle => {
-    // Check if this vehicle's model is in our selected models
-    // and if its make matches the make we stored for that model
     return selectedModelDetails.has(vehicle.Model) && 
            selectedModelDetails.get(vehicle.Model) === vehicle.Manufacturer;
   });
@@ -179,7 +276,6 @@ function filterVehicles() {
   displaySummary(filteredVehicles);
   displayVehicles(filteredVehicles);
 }
-
 function displaySummary(filteredVehicles) {
   const summaryElement = document.getElementById("summary");
   
@@ -314,13 +410,12 @@ function displayVehicles(vehicles) {
   });
 }
 
-// Initialize the page with motorcycles database
 loadDatabaseData('bikes');
 
 // Update event listeners
 document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('database-toggle').addEventListener('change', handleDatabaseToggle);
   document.getElementById("make").addEventListener("change", updateModelOptions);
-  document.getElementById("model").addEventListener("change", handleModelSelection);
   document.getElementById("price-sort").addEventListener("change", filterVehicles);
   document.getElementById("year-sort").addEventListener("change", filterVehicles);
 });

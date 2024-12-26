@@ -10,8 +10,14 @@
   <h1>Vehicle Inventory</h1>
 
   <div class="database-selection">
-    <button id="bikes-db" class="db-button active" onclick="switchDatabase('bikes')">Motorcycles</button>
-    <button id="cars-db" class="db-button" onclick="switchDatabase('cars')">Cars</button>
+    <div class="toggle-switch">
+      <input type="checkbox" id="database-toggle" class="toggle-input">
+      <label for="database-toggle" class="toggle-label">
+        <span class="toggle-text motorcycle">Motorcycles</span>
+        <span class="slider"></span>
+        <span class="toggle-text car">Cars</span>
+      </label>
+    </div>
   </div>
 
   <div class="filters">
