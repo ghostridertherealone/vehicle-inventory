@@ -4210,7 +4210,7 @@
   {
     "Year": "2006",
     "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
     "Mileage (km)": "79000",
     "Condition": "B",
     "Price": 60000
@@ -4298,7 +4298,7 @@
   {
     "Year": "2003",
     "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
     "Mileage (km)": "63 000",
     "Condition": "B",
     "Price": 75000
@@ -4306,7 +4306,7 @@
   {
     "Year": "2010",
     "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
     "Mileage (km)": "38 000",
     "Condition": "B",
     "Price": 130000
@@ -4802,7 +4802,7 @@
   {
     "Year": 2022,
     "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
     "Mileage (km)": 9200,
     "Condition": "A",
     "Price": 239999
@@ -4890,7 +4890,7 @@
   {
     "Year": 2018,
     "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
     "Mileage (km)": 23900,
     "Condition": "A",
     "Price": 167999
@@ -5154,7 +5154,7 @@
   {
     "Year": 2013,
     "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
     "Mileage (km)": 100000,
     "Condition": "B",
     "Price": 71999
@@ -5370,7 +5370,7 @@
   {
     "Year": "2014",
     "Manufacturer": "SUZUKI",
-    "Model": "BOULVEVARD VZR 1800 (BOULEVARD/INTRUDER)",
+    "Model": "BOULEVARD VZR 1800 (BOULEVARD/INTRUDER)",
     "Mileage (km)": "19867",
     "Condition": "A",
     "Price": 135999
