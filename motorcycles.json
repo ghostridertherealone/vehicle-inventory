@@ -5374,5 +5374,45 @@
     "Mileage (km)": "19867",
     "Condition": "A",
     "Price": 135999
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": "90 100",
+    "Condition": "B",
+    "Price": 49000
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": "54 910",
+    "Condition": "B",
+    "Price": 68000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "PRIDE",
+    "Model": "MOBILITY ELITE TRAVEL (NON-RUNNER)",
+    "Mileage (km)": "UNVERIFIED",
+    "Condition": "B",
+    "Price": 10900
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "YAMAHA",
+    "Model": "XT XT1200 Z SUPER TENERE",
+    "Mileage (km)": "67 099",
+    "Condition": "B",
+    "Price": 68000
+  },
+  {
+    "Year": "2003",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "VRSC V-ROD",
+    "Mileage (km)": "13 000",
+    "Condition": "B",
+    "Price": 84900
   }
 ]
