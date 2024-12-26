@@ -152,30 +152,177 @@ select:focus {
   color: #ffffff;
   font-weight: bold;
 }
+#summary {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+#summary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.summary-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+}
+
+.summary-card h3 {
+  color: #ff851b;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.summary-card p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+.insufficient-data {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.insufficient-data h2 {
+  margin-bottom: 15px;
+}
+
+.insufficient-data p {
+  color: #ff851b;
+  margin: 10px 0;
+}
+#selected-models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.model-chip {
+  display: inline-flex;
+  align-items: center;
+  background-color: #ff851b;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  gap: 5px;
+}
+
+.remove-model {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.remove-model:hover {
+  opacity: 0.8;
+}
+
+.clear-all-btn {
+  background: none;
+  border: none;
+  color: #ff851b;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+
+.clear-all-btn:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #selected-models {
+    padding: 0 10px;
+  }
+
+  .model-chip {
+    font-size: 0.8rem;
+  }
+}
 
 @media (max-width: 768px) {
   /* Dropdown adjustments */
   .filters select {
-    width: 80%; /* Reduce dropdown width to 80% */
-    max-width: 250px; /* Optional: Set a maximum width */
+    width: 40%; /* Reduce dropdown width to fit smaller screens */
+    max-width: 300px; /* Optional: Set a maximum width for compactness */
+    font-size: 0.85rem; /* Smaller font size for dropdowns */
   }
 
   .sort-options select,
   .make-model-options select {
-    width: 30%; /* Adjust dropdowns to 30% of the container */
+    width: 90%; /* Full-width dropdowns for easier selection */
+    font-size: 0.85rem; /* Reduce font size for dropdowns */
   }
 
   /* Adjust card width to allow 3 per row */
   .vehicle-item {
     width: calc(33.333% - 20px); /* Three cards per row with spacing */
   }
-  
+
+  /* Font size adjustments */
+  body {
+    font-size: 0.9rem; /* Slightly smaller base font size */
+  }
+
+  h1 {
+    font-size: 2rem; /* Reduce header font size */
+  }
+
+  .db-button {
+    font-size: 1rem; /* Adjust button font size */
+  }
+
+  label {
+    font-size: 0.9rem; /* Smaller label font size */
+  }
+
+  .vehicle-item h3 {
+    font-size: 1rem; /* Reduce card title font size */
+  }
+
+  .vehicle-item p {
+    font-size: 0.8rem; /* Reduce paragraph text in cards */
+  }
+
+  .vehicle-item p.price {
+    font-size: 0.9rem; /* Keep price text slightly larger */
+  }
+
   /* Keep database selection aligned */
   .database-selection {
     flex-direction: column;
     align-items: center;
   }
-  
+
   /* Buttons remain responsive */
   .db-button {
     width: 100%;
@@ -183,33 +330,134 @@ select:focus {
   }
 }
 
-
 @media (max-width: 1200px) {
+  /* Dropdown adjustments */
+  .filters select {
+    width: 12%; /* Reduce dropdown width for medium screens */
+    max-width: 300px; /* Optional: Set a maximum width */
+    font-size: 0.9rem; /* Adjust font size for dropdowns */
+  }
+
+  .sort-options select,
+  .make-model-options select {
+    width: 40%; /* Moderate width for medium screens */
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  /* Adjust card width to allow 2 per row */
   .vehicle-item {
     width: calc(50% - 20px); /* Two cards per row on medium screens */
   }
 
-  .sort-options select,
-  .make-model-options select {
-    width: 40%; /* Larger dropdowns for medium screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .filters select {
-    width: 100%;
+  /* Font size adjustments */
+  body {
+    font-size: 1rem; /* Maintain base font size */
   }
 
-  .sort-options select,
-  .make-model-options select {
-    width: 100%; /* Full-width dropdowns on small screens */
-  }
-
-  .vehicle-item {
-    width: 100%; /* Full-width cards on very small screens */
+  h1 {
+    font-size: 2.2rem; /* Slightly larger header for medium screens */
   }
 
   .db-button {
-    width: 100%; /* Full-width buttons on very small screens */
+    font-size: 1.1rem; /* Maintain readable button font size */
+  }
+
+  label {
+    font-size: 1rem; /* Keep label font size consistent */
+  }
+
+  .vehicle-item h3 {
+    font-size: 1.1rem; /* Slightly larger card title */
+  }
+
+  .vehicle-item p {
+    font-size: 0.9rem; /* Adjust paragraph text */
+  }
+
+  .vehicle-item p.price {
+    font-size: 1rem; /* Emphasize price text */
+  }
+
+  /* Keep database selection aligned */
+  .database-selection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Buttons remain responsive */
+  .db-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  /* Specific styles for very small screens, like iPhone 8 */
+
+  /* Dropdown adjustments */
+  .filters select {
+    width: 40%; /* Use most of the container width for better usability */
+    max-width: 100px; /* Limit the width for consistency */
+    height: 28px; /* Reduce height to match compact layout */
+    font-size: 0.65rem; /* Smaller font size */
+    padding: 4px; /* Adjust padding to prevent excessive height */
+  }
+
+  .sort-options select,
+  .make-model-options select {
+    width: 90%; /* Full-width dropdowns for better usability */
+    max-width: 150px; /* Ensure dropdowns are not too wide */
+    font-size: 0.65rem; /* Compact font size */
+    height: 28px; /* Match height with `.filters select` */
+  }
+
+  /* Card adjustments */
+  .vehicle-item {
+    width: calc(50% - 10px); /* Two cards per row with reduced spacing */
+    height: auto; /* Ensure cards adjust height dynamically */
+  }
+
+  /* Font size adjustments */
+  body {
+    font-size: 0.75rem; /* Slightly smaller base font size for readability */
+  }
+
+  h1 {
+    font-size: 1.2rem; /* Reduce header size further */
+  }
+
+  label {
+    font-size: 0.65rem; /* Reduce label size for compactness */
+  }
+
+  .db-button {
+    font-size: 0.7rem; /* Smaller font size for buttons */
+    padding: 6px 12px; /* Adjust padding for compactness */
+  }
+
+  .vehicle-item h3 {
+    font-size: 0.75rem; /* Compact card title size */
+  }
+
+  .vehicle-item p {
+    font-size: 0.65rem; /* Smaller paragraph text */
+  }
+
+  .vehicle-item p.price {
+    font-size: 0.75rem; /* Slightly larger for emphasis */
+    font-weight: bold; /* Emphasize price text */
+  }
+
+  /* Database selection */
+  .database-selection {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Add spacing between buttons for better layout */
+  }
+
+  /* Buttons */
+  .db-button {
+    width: 30%; /* Narrower buttons for small screens */
+    max-width: 250px; /* Limit button width */
+    padding: 6px 12px; /* Compact padding for better fit */
   }
 }

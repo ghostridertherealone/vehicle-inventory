@@ -1,5 +1,6 @@
 let vehicles = [];
 let currentDatabase = 'bikes';
+let selectedModelDetails = new Map(); // Will store {model: make} pairs
 
 // Function to switch between databases
 function switchDatabase(database) {
@@ -54,7 +55,7 @@ function populateMakes() {
   });
 }
 
-// Update Model options based on selected Make
+// Update updateModelOptions to not clear selected models
 function updateModelOptions() {
   const makeSelect = document.getElementById("make");
   const modelSelect = document.getElementById("model");
@@ -71,38 +72,94 @@ function updateModelOptions() {
       .map(vehicle => vehicle.Model))].sort();
 
     models.forEach(model => {
-      const option = document.createElement("option");
-      option.value = model;
-      option.textContent = model;
-      modelSelect.appendChild(option);
+      // Only add to dropdown if not already selected
+      if (!selectedModelDetails.has(model)) {
+        const option = document.createElement("option");
+        option.value = model;
+        option.textContent = model;
+        modelSelect.appendChild(option);
+      }
     });
   }
+}
+// Update handleModelSelection to store make information
+function handleModelSelection() {
+  const modelSelect = document.getElementById("model");
+  const makeSelect = document.getElementById("make");
+  const selectedModel = modelSelect.value;
+  const selectedMake = makeSelect.value;
+  
+  if (selectedModel && !selectedModelDetails.has(selectedModel)) {
+    selectedModelDetails.set(selectedModel, selectedMake);
+    updateSelectedModelsList();
+    filterVehicles();
+  }
+  
+  // Reset the select element
+  modelSelect.value = "";
+  // Update model options to remove selected model
+  updateModelOptions();
+}
 
-  // Filter results based on selected Make
+function updateSelectedModelsList() {
+  let selectedModelsContainer = document.getElementById("selected-models");
+  if (!selectedModelsContainer) {
+    selectedModelsContainer = document.createElement("div");
+    selectedModelsContainer.id = "selected-models";
+    document.querySelector(".filters").after(selectedModelsContainer);
+  }
+
+  selectedModelsContainer.innerHTML = '';
+
+  // Create chip for each selected model
+  selectedModelDetails.forEach((make, model) => {
+    const chip = document.createElement("span");
+    chip.className = "model-chip";
+    chip.innerHTML = `${make} ${model} <button class="remove-model" onclick="removeModel('${model}')">&times;</button>`;
+    selectedModelsContainer.appendChild(chip);
+  });
+
+  // Add clear all button if there are selections
+  if (selectedModelDetails.size > 0) {
+    const clearAllBtn = document.createElement("button");
+    clearAllBtn.className = "clear-all-btn";
+    clearAllBtn.textContent = "Clear all selections";
+    clearAllBtn.onclick = clearAllModels;
+    selectedModelsContainer.appendChild(clearAllBtn);
+  }
+}
+function removeModel(model) {
+  selectedModelDetails.delete(model);
+  updateSelectedModelsList();
+  // Update model options as this model is now available again
+  updateModelOptions();
   filterVehicles();
 }
 
-// Filter vehicles based on selected Make, Model, and sort options
+// Update clearAllModels
+function clearAllModels() {
+  selectedModelDetails.clear();
+  updateSelectedModelsList();
+  updateModelOptions();
+  filterVehicles();
+}
 function filterVehicles() {
-  const makeSelect = document.getElementById("make");
-  const modelSelect = document.getElementById("model");
   const priceSortSelect = document.getElementById("price-sort");
   const yearSortSelect = document.getElementById("year-sort");
-  const selectedMake = makeSelect.value;
-  const selectedModel = modelSelect.value;
   const selectedPriceSort = priceSortSelect.value;
   const selectedYearSort = yearSortSelect.value;
 
-  // If no make is selected, clear the display and return
-  if (!selectedMake) {
+  if (selectedModelDetails.size === 0) {
     document.getElementById("vehicle-list").innerHTML = '';
+    document.getElementById("summary").innerHTML = '';
     return;
   }
 
-  // Filter vehicles based on selected Make and Model
   const filteredVehicles = vehicles.filter(vehicle => {
-    return (vehicle.Manufacturer === selectedMake) &&
-           (!selectedModel || vehicle.Model === selectedModel);
+    // Check if this vehicle's model is in our selected models
+    // and if its make matches the make we stored for that model
+    return selectedModelDetails.has(vehicle.Model) && 
+           selectedModelDetails.get(vehicle.Model) === vehicle.Manufacturer;
   });
 
   // Sort by Price
@@ -119,10 +176,115 @@ function filterVehicles() {
     filteredVehicles.sort((a, b) => a.Year - b.Year);
   }
 
-  // Display the filtered vehicles
+  displaySummary(filteredVehicles);
   displayVehicles(filteredVehicles);
 }
 
+function displaySummary(filteredVehicles) {
+  const summaryElement = document.getElementById("summary");
+  
+  // Check if there are enough vehicles
+  if (filteredVehicles.length < 6) {
+    summaryElement.innerHTML = `
+      <div class="insufficient-data">
+        <h2>Price Ranges</h2>
+        <p>There are not enough vehicles of this model to accurately determine price and mileage ranges.</p>
+      </div>
+    `;
+    return;
+  }
+
+  // Sort vehicles by price
+  const sortedVehicles = [...filteredVehicles].sort((a, b) => a.Price - b.Price);
+
+  const totalVehicles = sortedVehicles.length;
+  const lowClassCount = Math.floor(totalVehicles / 3);
+  const middleClassCount = Math.floor(totalVehicles / 3);
+  
+  const lowClassVehicles = sortedVehicles.slice(0, lowClassCount);
+  const middleClassVehicles = sortedVehicles.slice(lowClassCount, lowClassCount + middleClassCount);
+  const highClassVehicles = sortedVehicles.slice(lowClassCount + middleClassCount);
+
+  // Helper function to clean and parse mileage
+  const parseMileage = (mileageStr) => {
+    if (!mileageStr || mileageStr === "UNVERIFIED") return null;
+    // Remove 'km' and any spaces, then parse the number
+    return parseInt(mileageStr.toString().replace(/\s+/g, '').replace('km', ''));
+  };
+
+  // Helper function to safely get number ranges
+  const getRange = (vehicles, property) => {
+    if (property === "Mileage (km)") {
+      const validMileages = vehicles
+        .map(v => parseMileage(v[property]))
+        .filter(val => val !== null && !isNaN(val));
+      
+      if (validMileages.length === 0) return 'No verified mileage data';
+      
+      return `${Math.min(...validMileages).toLocaleString()} - ${Math.max(...validMileages).toLocaleString()}`;
+    } else if (property === "Year") {
+      const validValues = vehicles
+        .map(v => v[property])
+        .filter(val => val !== null && !isNaN(val));
+      
+      if (validValues.length === 0) return 'N/A';
+      
+      // Don't use toLocaleString() for years to avoid commas
+      return `${Math.min(...validValues)} - ${Math.max(...validValues)}`;
+    } else {
+      const validValues = vehicles
+        .map(v => v[property])
+        .filter(val => val !== null && !isNaN(val));
+      
+      if (validValues.length === 0) return 'N/A';
+      
+      return `${Math.min(...validValues).toLocaleString()} - ${Math.max(...validValues).toLocaleString()}`;
+    }
+  };
+
+  const summary = {
+    LowClass: {
+      PriceRange: getRange(lowClassVehicles, 'Price'),
+      MileageRange: getRange(lowClassVehicles, 'Mileage (km)'),
+      YearRange: getRange(lowClassVehicles, 'Year')
+    },
+    MiddleClass: {
+      PriceRange: getRange(middleClassVehicles, 'Price'),
+      MileageRange: getRange(middleClassVehicles, 'Mileage (km)'),
+      YearRange: getRange(middleClassVehicles, 'Year')
+    },
+    HighClass: {
+      PriceRange: getRange(highClassVehicles, 'Price'),
+      MileageRange: getRange(highClassVehicles, 'Mileage (km)'),
+      YearRange: getRange(highClassVehicles, 'Year')
+    }
+  };
+
+  // Display summary
+  summaryElement.innerHTML = `
+    <h2>Price Guide</h2>
+    <div class="summary-grid">
+      <div class="summary-card">
+        <h3>Lower Third</h3>
+        <p><strong>Price Range:</strong> R ${summary.LowClass.PriceRange}</p>
+        <p><strong>Mileage Range:</strong> ${summary.LowClass.MileageRange} km</p>
+        <p><strong>Year Range:</strong> ${summary.LowClass.YearRange}</p>
+      </div>
+      <div class="summary-card">
+        <h3>Middle Third</h3>
+        <p><strong>Price Range:</strong> R ${summary.MiddleClass.PriceRange}</p>
+        <p><strong>Mileage Range:</strong> ${summary.MiddleClass.MileageRange} km</p>
+        <p><strong>Year Range:</strong> ${summary.MiddleClass.YearRange}</p>
+      </div>
+      <div class="summary-card">
+        <h3>Upper Third</h3>
+        <p><strong>Price Range:</strong> R ${summary.HighClass.PriceRange}</p>
+        <p><strong>Mileage Range:</strong> ${summary.HighClass.MileageRange} km</p>
+        <p><strong>Year Range:</strong> ${summary.HighClass.YearRange}</p>
+      </div>
+    </div>
+  `;
+}
 // Display the filtered vehicles
 function displayVehicles(vehicles) {
   const vehicleList = document.getElementById("vehicle-list");
@@ -155,8 +317,10 @@ function displayVehicles(vehicles) {
 // Initialize the page with motorcycles database
 loadDatabaseData('bikes');
 
-// Event listeners
-document.getElementById("make").addEventListener("change", updateModelOptions);
-document.getElementById("model").addEventListener("change", filterVehicles);
-document.getElementById("price-sort").addEventListener("change", filterVehicles);
-document.getElementById("year-sort").addEventListener("change", filterVehicles);
+// Update event listeners
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById("make").addEventListener("change", updateModelOptions);
+  document.getElementById("model").addEventListener("change", handleModelSelection);
+  document.getElementById("price-sort").addEventListener("change", filterVehicles);
+  document.getElementById("year-sort").addEventListener("change", filterVehicles);
+});

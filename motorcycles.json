@@ -1,5 +1,13 @@
 [
   {
+    "Year": "2017",
+    "Manufacturer": "KTM",
+    "Model": "1090 ADVENTURE S",
+    "Mileage (km)": "40 000",
+    "Condition": "A",
+    "Price": 104900
+  },
+  {
     "Year": "2011",
     "Manufacturer": "DUCATI",
     "Model": "1098 1098",
@@ -490,7 +498,7 @@
   {
     "Year": "2013",
     "Manufacturer": "HONDA",
-    "Model": "CBR 1000RR",
+    "Model": "CBR 1000RR (ABS)",
     "Mileage (km)": "24 000",
     "Condition": "B",
     "Price": 119900
@@ -1754,7 +1762,7 @@
   {
     "Year": "2016",
     "Manufacturer": "PRIDE",
-    "Model": "MOBILITY  ELITE TRAVEL (NON-RUNNER)",
+    "Model": "MOBILITY ELITE TRAVEL (NON-RUNNER)",
     "Mileage (km)": "UNVERIFIED",
     "Condition": "B",
     "Price": 11900
@@ -3418,7 +3426,7 @@
   {
     "Year": "2003",
     "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "VRSC  V-ROD",
+    "Model": "VRSC V-ROD",
     "Mileage (km)": "13 000",
     "Condition": "B",
     "Price": 88900
@@ -3960,550 +3968,6 @@
     "Price": 48000
   },
   {
-    "Year": 2013,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZX 14",
-    "Mileage (km)": 36956,
-    "Condition": "B",
-    "Price": 135999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZZR 1400",
-    "Mileage (km)": 34300,
-    "Condition": "A",
-    "Price": 143999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "KTM",
-    "Model": "DUKE 390",
-    "Mileage (km)": 21087,
-    "Condition": "A",
-    "Price": 55999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZR800",
-    "Mileage (km)": 34552,
-    "Condition": "A",
-    "Price": 87999
-  },
-  {
-    "Year": 2024,
-    "Manufacturer": "HONDA",
-    "Model": "CBR 1000RR-R SP",
-    "Mileage (km)": 60,
-    "Condition": "A",
-    "Price": 343999
-  },
-  {
-    "Year": 2023,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 RR",
-    "Mileage (km)": 8270,
-    "Condition": "A",
-    "Price": 255999
-  },
-  {
-    "Year": 2013,
-    "Manufacturer": "KAWASAKI",
-    "Model": "Z800",
-    "Mileage (km)": 32137,
-    "Condition": "B",
-    "Price": 79999
-  },
-  {
-    "Year": 2010,
-    "Manufacturer": "HONDA",
-    "Model": "CB 1000R",
-    "Mileage (km)": 21360,
-    "Condition": "B",
-    "Price": 79999
-  },
-  {
-    "Year": 2014,
-    "Manufacturer": "HONDA",
-    "Model": "CBR 1000RR",
-    "Mileage (km)": 27774,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2012,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": 17800,
-    "Condition": "B",
-    "Price": 103999
-  },
-  {
-    "Year": 2007,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R600",
-    "Mileage (km)": 32032,
-    "Condition": "B",
-    "Price": 71999
-  },
-  {
-    "Year": 2014,
-    "Manufacturer": "SUZUKI",
-    "Model": "VZR1800 Boulevard",
-    "Mileage (km)": 19867,
-    "Condition": "A",
-    "Price": 135999
-  },
-  {
-    "Year": 2022,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R7 YZF R7",
-    "Mileage (km)": 19700,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2010,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R1000",
-    "Mileage (km)": 32107,
-    "Condition": "B",
-    "Price": 95999
-  },
-  {
-    "Year": 2021,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 RR",
-    "Mileage (km)": 19171,
-    "Condition": "A",
-    "Price": 231999
-  },
-  {
-    "Year": 2013,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R750",
-    "Mileage (km)": 23327,
-    "Condition": "B",
-    "Price": 111999
-  },
-  {
-    "Year": 2013,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
-    "Mileage (km)": 100000,
-    "Condition": "B",
-    "Price": 71999
-  },
-  {
-    "Year": 2013,
-    "Manufacturer": "HONDA",
-    "Model": "CBR 600RR",
-    "Mileage (km)": 36113,
-    "Condition": "B",
-    "Price": 95999
-  },
-  {
-    "Year": 2022,
-    "Manufacturer": "KAWASAKI",
-    "Model": "NINJA 650",
-    "Mileage (km)": 8585,
-    "Condition": "A",
-    "Price": 111999
-  },
-  {
-    "Year": 2016,
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER DUKE R",
-    "Mileage (km)": 12090,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2020,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R750",
-    "Mileage (km)": 15600,
-    "Condition": "A",
-    "Price": 143999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "YAMAHA",
-    "Model": "MT MT-07",
-    "Mileage (km)": 16193,
-    "Condition": "A",
-    "Price": 95999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER DUKE R",
-    "Mileage (km)": 20853,
-    "Condition": "A",
-    "Price": 143999
-  },
-  {
-    "Year": 2010,
-    "Manufacturer": "HONDA",
-    "Model": "CBR 1000RR",
-    "Mileage (km)": 43178,
-    "Condition": "B",
-    "Price": 87999
-  },
-  {
-    "Year": 2016,
-    "Manufacturer": "KAWASAKI",
-    "Model": "Z800",
-    "Mileage (km)": 4927,
-    "Condition": "A",
-    "Price": 103999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER DUKE R",
-    "Mileage (km)": 18620,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2011,
-    "Manufacturer": "HONDA",
-    "Model": "CBR 1000RR",
-    "Mileage (km)": 35711,
-    "Condition": "B",
-    "Price": 95999
-  },
-  {
-    "Year": 2013,
-    "Manufacturer": "HONDA",
-    "Model": "CBR 1000RR",
-    "Mileage (km)": 40000,
-    "Condition": "B",
-    "Price": 103999
-  },
-  {
-    "Year": 2022,
-    "Manufacturer": "BMW",
-    "Model": "C G 310 LIGHT WHITE",
-    "Mileage (km)": 4000,
-    "Condition": "A",
-    "Price": 63999
-  },
-  {
-    "Year": 2016,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZX-10R",
-    "Mileage (km)": 14583,
-    "Condition": "A",
-    "Price": 167999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": 30012,
-    "Condition": "A",
-    "Price": 159999
-  },
-  {
-    "Year": 2020,
-    "Manufacturer": "KAWASAKI",
-    "Model": "NINJA 400",
-    "Mileage (km)": 9251,
-    "Condition": "A",
-    "Price": 79999
-  },
-  {
-    "Year": 1994,
-    "Manufacturer": "YAMAHA",
-    "Model": "FZR 400 RR SP",
-    "Mileage (km)": 13213,
-    "Condition": "B",
-    "Price": 95999
-  },
-  {
-    "Year": 2012,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R1000",
-    "Mileage (km)": 35250,
-    "Condition": "B",
-    "Price": 111999
-  },
-  {
-    "Year": 2016,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 R",
-    "Mileage (km)": 31900,
-    "Condition": "A",
-    "Price": 119999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "KAWASAKI",
-    "Model": "Z1000 (ABS)",
-    "Mileage (km)": 32716,
-    "Condition": "A",
-    "Price": 111999
-  },
-  {
-    "Year": 2020,
-    "Manufacturer": "KTM",
-    "Model": "1290 Super Duke R",
-    "Mileage (km)": 9291,
-    "Condition": "A",
-    "Price": 191999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZX14R ABS",
-    "Mileage (km)": 35000,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2013,
-    "Manufacturer": "TRIUMPH",
-    "Model": "DAYTONA 675",
-    "Mileage (km)": 26600,
-    "Condition": "B",
-    "Price": 87999
-  },
-  {
-    "Year": 2008,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": 54800,
-    "Condition": "B",
-    "Price": 63999
-  },
-  {
-    "Year": 2009,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R6 YZF R6",
-    "Mileage (km)": 39273,
-    "Condition": "B",
-    "Price": 79999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 R",
-    "Mileage (km)": 30050,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2011,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF 250F",
-    "Mileage (km)": 70,
-    "Condition": "B",
-    "Price": 31999
-  },
-  {
-    "Year": 2014,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 RR",
-    "Mileage (km)": 16848,
-    "Condition": "A",
-    "Price": 151999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 RR",
-    "Mileage (km)": 24615,
-    "Condition": "A",
-    "Price": 167999
-  },
-  {
-    "Year": 2014,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 R",
-    "Mileage (km)": 25646,
-    "Condition": "B",
-    "Price": 111999
-  },
-  {
-    "Year": 2011,
-    "Manufacturer": "HONDA",
-    "Model": "CB 1000R",
-    "Mileage (km)": 37308,
-    "Condition": "B",
-    "Price": 71999
-  },
-  {
-    "Year": 2006,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R600",
-    "Mileage (km)": 46000,
-    "Condition": "B",
-    "Price": 55999
-  },
-  {
-    "Year": 2019,
-    "Manufacturer": "KAWASAKI",
-    "Model": "NINJA 400",
-    "Mileage (km)": 16868,
-    "Condition": "A",
-    "Price": 71999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "YAMAHA",
-    "Model": "MT MT-07",
-    "Mileage (km)": 12000,
-    "Condition": "A",
-    "Price": 71999
-  },
-  {
-    "Year": 2014,
-    "Manufacturer": "TRIUMPH",
-    "Model": "SPEED TRIPLE 1050",
-    "Mileage (km)": 16667,
-    "Condition": "B",
-    "Price": 95999
-  },
-  {
-    "Year": 2019,
-    "Manufacturer": "KTM",
-    "Model": "DUKE 390",
-    "Mileage (km)": 32450,
-    "Condition": "A",
-    "Price": 63999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": 13800,
-    "Condition": "A",
-    "Price": 183999
-  },
-  {
-    "Year": 2020,
-    "Manufacturer": "KAWASAKI",
-    "Model": "Z1000R Limited Edition",
-    "Mileage (km)": 4100,
-    "Condition": "A",
-    "Price": 135999
-  },
-  {
-    "Year": 2024,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSX-R750",
-    "Mileage (km)": 3582,
-    "Condition": "A",
-    "Price": 143999
-  },
-  {
-    "Year": 2014,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R6 YZF R6",
-    "Mileage (km)": 43049,
-    "Condition": "B",
-    "Price": 103999
-  },
-  {
-    "Year": 2016,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZX-10R",
-    "Mileage (km)": 12160,
-    "Condition": "A",
-    "Price": 135999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZX-10R",
-    "Mileage (km)": 16300,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2017,
-    "Manufacturer": "KAWASAKI",
-    "Model": "Z1000",
-    "Mileage (km)": 12574,
-    "Condition": "A",
-    "Price": 135999
-  },
-  {
-    "Year": 2022,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R HAYABUSA",
-    "Mileage (km)": 9200,
-    "Condition": "A",
-    "Price": 239999
-  },
-  {
-    "Year": 2016,
-    "Manufacturer": "BMW",
-    "Model": "S SERIES S 1000 RR",
-    "Mileage (km)": 25481,
-    "Condition": "A",
-    "Price": 167999
-  },
-  {
-    "Year": 2018,
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX-R GSXR1300R Hayabusa",
-    "Mileage (km)": 23900,
-    "Condition": "A",
-    "Price": 167999
-  },
-  {
-    "Year": 2015,
-    "Manufacturer": "KAWASAKI",
-    "Model": "ZX-10R 30TH Avviversary Edition",
-    "Mileage (km)": 31000,
-    "Condition": "A",
-    "Price": 135999
-  },
-  {
-    "Year": 2012,
-    "Manufacturer": "KAWASAKI",
-    "Model": "GTR 1400",
-    "Mileage (km)": 51000,
-    "Condition": "B",
-    "Price": 111999
-  },
-  {
-    "Year": 2023,
-    "Manufacturer": "KAWSAKI",
-    "Model": "Z900",
-    "Mileage (km)": 5800,
-    "Condition": "A",
-    "Price": 127999
-  },
-  {
-    "Year": 2009,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": 29231,
-    "Condition": "B",
-    "Price": 87999
-  },
-  {
-    "Year": 2022,
-    "Manufacturer": "YAMAHA",
-    "Model": "MT MT-07",
-    "Mileage (km)": 2734,
-    "Condition": "A",
-    "Price": 119999
-  },
-  {
-    "Year": 2020,
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": 30900,
-    "Condition": "A",
-    "Price": 199999
-  },
-  {
     "Year": "2022",
     "Manufacturer": "BIG BOY",
     "Model": "REVIVAL RCT 150",
@@ -4761,7 +4225,7 @@
   },
   {
     "Year": "2007",
-    "Manufacturer": "KAWSAKI",
+    "Manufacturer": "SUZUKI",
     "Model": "GSX-R GSX-R750",
     "Mileage (km)": "62 000",
     "Condition": "B",
@@ -4777,7 +4241,7 @@
   },
   {
     "Year": "2008",
-    "Manufacturer": "KAWSAKI",
+    "Manufacturer": "KAWASAKI",
     "Model": "Z750",
     "Mileage (km)": "42 000",
     "Condition": "B",
@@ -4785,7 +4249,7 @@
   },
   {
     "Year": "2014",
-    "Manufacturer": "KAWSAKI",
+    "Manufacturer": "KAWASAKI",
     "Model": "ER-6N",
     "Mileage (km)": "15 800",
     "Condition": "A",
@@ -4846,5 +4310,1069 @@
     "Mileage (km)": "38 000",
     "Condition": "B",
     "Price": 130000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "BIG BOY",
+    "Model": "VELOCITY CARGO 150",
+    "Mileage (km)": "4 497",
+    "Condition": "A",
+    "Price": 14000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "BIG BOY",
+    "Model": "VELOCITY CARGO 150",
+    "Mileage (km)": "4 449",
+    "Condition": "B",
+    "Price": 14000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "CUSTOM",
+    "Model": "ELECTRIC WHEELCHAIR",
+    "Mileage (km)": "UNVERIFIED",
+    "Condition": "A",
+    "Price": 15000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "BIG BOY",
+    "Model": "CGL D-LITE 125",
+    "Mileage (km)": "1 064",
+    "Condition": "A",
+    "Price": 15000
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "KTM",
+    "Model": "XC 250 XC / XC-W (TPI)",
+    "Mileage (km)": "2 500",
+    "Condition": "B",
+    "Price": 22000
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KLR 650",
+    "Mileage (km)": "57 000",
+    "Condition": "B",
+    "Price": 23900
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KLR 650",
+    "Mileage (km)": "83 233",
+    "Condition": "B",
+    "Price": 23000
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZ 450 F",
+    "Mileage (km)": "1 000",
+    "Condition": "B",
+    "Price": 24000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "GOMOTO",
+    "Model": "GOMOTO 150",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 26000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "SYM",
+    "Model": "BLAZE NH T200 (NH200)",
+    "Mileage (km)": "7 182",
+    "Condition": "A",
+    "Price": 30900
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "KAWASAKI",
+    "Model": "NINJA 300R ABS",
+    "Mileage (km)": "15 655",
+    "Condition": "A",
+    "Price": 45000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "HERO",
+    "Model": "X PULSE 200",
+    "Mileage (km)": "10 000",
+    "Condition": "A",
+    "Price": 38900
+  },
+  {
+    "Year": "2002",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 650 GS ABS H/GRIPS",
+    "Mileage (km)": "17 861",
+    "Condition": "B",
+    "Price": 38900
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "BMW",
+    "Model": "G SERIES G450 X",
+    "Mileage (km)": "5 000",
+    "Condition": "B",
+    "Price": 39900
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "MOTO PRO",
+    "Model": "RR 300 PRO AM",
+    "Mileage (km)": "2 500",
+    "Condition": "B",
+    "Price": 39000
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 R",
+    "Mileage (km)": "30 000",
+    "Condition": "A",
+    "Price": 44900
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": "30 000",
+    "Condition": "B",
+    "Price": 45900
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX 250 F",
+    "Mileage (km)": "1 100",
+    "Condition": "A",
+    "Price": 47000
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "BMW",
+    "Model": "K SERIES K 1200 GT",
+    "Mileage (km)": "35 000",
+    "Condition": "B",
+    "Price": 48900
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "YAMAHA",
+    "Model": "X-MAX 300 N-MAX 155",
+    "Mileage (km)": "2 750",
+    "Condition": "A",
+    "Price": 49500
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "KTM",
+    "Model": "EXC-F 250 EXC-F SIX DAYS",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 50900
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 800 XC ABS",
+    "Mileage (km)": "90 160",
+    "Condition": "B",
+    "Price": 54900
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 1050 ABS SE",
+    "Mileage (km)": "58 048",
+    "Condition": "B",
+    "Price": 57000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z Z300 ABS",
+    "Mileage (km)": "5 400",
+    "Condition": "A",
+    "Price": 58900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 800 R",
+    "Mileage (km)": "24 431",
+    "Condition": "A",
+    "Price": 65900
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "LINHAI",
+    "Model": "RUSTLER 300",
+    "Mileage (km)": "29",
+    "Condition": "A",
+    "Price": 67000
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 GS",
+    "Mileage (km)": "406",
+    "Condition": "A",
+    "Price": 68900
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KVF 300 BRUTE FORCE",
+    "Mileage (km)": "15 926",
+    "Condition": "A",
+    "Price": 69900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HONDA",
+    "Model": "NC 750 X",
+    "Mileage (km)": "25 000",
+    "Condition": "A",
+    "Price": 69900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 800 R",
+    "Mileage (km)": "21 262",
+    "Condition": "A",
+    "Price": 78900
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SOFTAIL CUSTOM",
+    "Mileage (km)": "82 000",
+    "Condition": "B",
+    "Price": 78900
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SPORTSTER XL883 N IRON",
+    "Mileage (km)": "2 532",
+    "Condition": "A",
+    "Price": 88900
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "HONDA",
+    "Model": "CB 500 X",
+    "Mileage (km)": "2 700",
+    "Condition": "A",
+    "Price": 89900
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 800 XCX",
+    "Mileage (km)": "21 639",
+    "Condition": "A",
+    "Price": 119900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HONDA",
+    "Model": "CRF 1000 G",
+    "Mileage (km)": "41 143",
+    "Condition": "A",
+    "Price": 124900
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "SUZUKI",
+    "Model": "BOULEVARD VZR 1800 (BOULEVARD/INTRUDER)",
+    "Mileage (km)": "10 000",
+    "Condition": "B",
+    "Price": 129900
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "TOURING ROAD KING CLASSIC",
+    "Mileage (km)": "25 000",
+    "Condition": "B",
+    "Price": 139900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "R SERIES R 1200 GS ADV (K51 FULL SPEC)",
+    "Mileage (km)": "70 500",
+    "Condition": "A",
+    "Price": 139000
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "YAMAHA",
+    "Model": "XT XT1200 ZE SUPER TENERE",
+    "Mileage (km)": "32 000",
+    "Condition": "A",
+    "Price": 145900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "APRILIA",
+    "Model": "TUONO V4R APRC ABS",
+    "Mileage (km)": "5 000",
+    "Condition": "A",
+    "Price": 149900
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "X-MOTO",
+    "Model": "BABY BOSS 50 BABY BOSS",
+    "Mileage (km)": "1 234",
+    "Condition": "B",
+    "Price": 6000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "X-MOTO",
+    "Model": "PITBOSS 125",
+    "Mileage (km)": "2 500",
+    "Condition": "B",
+    "Price": 7000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "BIG BOY",
+    "Model": "VELOCITY CARGO 150",
+    "Mileage (km)": "1 880",
+    "Condition": "A",
+    "Price": 16000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "BIG BOY",
+    "Model": "TSR 125",
+    "Mileage (km)": "6 171",
+    "Condition": "A",
+    "Price": 16000
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "SYM",
+    "Model": "GTS 300I",
+    "Mileage (km)": "61 000",
+    "Condition": "B",
+    "Price": 16000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "KTM",
+    "Model": "DUKE 640 DUKE II",
+    "Mileage (km)": "16 917",
+    "Condition": "B",
+    "Price": 34000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "V-STROM 250 SX",
+    "Mileage (km)": "6 100",
+    "Condition": "A",
+    "Price": 49000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 GS",
+    "Mileage (km)": "4 000",
+    "Condition": "A",
+    "Price": 54000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KLE 300 VERSYS-X",
+    "Mileage (km)": "19 821",
+    "Condition": "A",
+    "Price": 54000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "KAWASAKI",
+    "Model": "NINJA 300R ABS",
+    "Mileage (km)": "12 500",
+    "Condition": "A",
+    "Price": 55000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZ 450 FX",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 59000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000 RR FIREBLADE",
+    "Mileage (km)": "25 000",
+    "Condition": "B",
+    "Price": 88000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SPORTSTER XL 1200V SEVENTY TWO",
+    "Mileage (km)": "5 073",
+    "Condition": "A",
+    "Price": 88000
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "BMW",
+    "Model": "R SERIES R 1200 GS (HIGH SPEC)",
+    "Mileage (km)": "55 400",
+    "Condition": "B",
+    "Price": 115000
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SOFTAIL HERITAGE SOFTAIL CLASSIC",
+    "Mileage (km)": "30 000",
+    "Condition": "B",
+    "Price": 124000
+  },
+  {
+    "Year": 2024,
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR-R SP",
+    "Mileage (km)": 60,
+    "Condition": "A",
+    "Price": 343999
+  },
+  {
+    "Year": 2024,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R750",
+    "Mileage (km)": 3582,
+    "Condition": "A",
+    "Price": 143999
+  },
+  {
+    "Year": 2023,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 RR",
+    "Mileage (km)": 8270,
+    "Condition": "A",
+    "Price": 255999
+  },
+  {
+    "Year": 2023,
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z900",
+    "Mileage (km)": 5800,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2022,
+    "Manufacturer": "BMW",
+    "Model": "C G 310 LIGHT WHITE",
+    "Mileage (km)": 4000,
+    "Condition": "A",
+    "Price": 63999
+  },
+  {
+    "Year": 2022,
+    "Manufacturer": "KAWASAKI",
+    "Model": "NINJA 650",
+    "Mileage (km)": 8585,
+    "Condition": "A",
+    "Price": 111999
+  },
+  {
+    "Year": 2022,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Mileage (km)": 9200,
+    "Condition": "A",
+    "Price": 239999
+  },
+  {
+    "Year": 2022,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R7 YZF R7",
+    "Mileage (km)": 19700,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2022,
+    "Manufacturer": "YAMAHA",
+    "Model": "MT MT-07",
+    "Mileage (km)": 2734,
+    "Condition": "A",
+    "Price": 119999
+  },
+  {
+    "Year": 2021,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 RR",
+    "Mileage (km)": 19171,
+    "Condition": "A",
+    "Price": 231999
+  },
+  {
+    "Year": 2020,
+    "Manufacturer": "KAWASAKI",
+    "Model": "NINJA 400",
+    "Mileage (km)": 9251,
+    "Condition": "A",
+    "Price": 79999
+  },
+  {
+    "Year": 2020,
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z1000R Limited Edition",
+    "Mileage (km)": 4100,
+    "Condition": "A",
+    "Price": 135999
+  },
+  {
+    "Year": 2020,
+    "Manufacturer": "KTM",
+    "Model": "1290 Super Duke R",
+    "Mileage (km)": 9291,
+    "Condition": "A",
+    "Price": 191999
+  },
+  {
+    "Year": 2020,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R750",
+    "Mileage (km)": 15600,
+    "Condition": "A",
+    "Price": 143999
+  },
+  {
+    "Year": 2020,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": 30900,
+    "Condition": "A",
+    "Price": 199999
+  },
+  {
+    "Year": 2019,
+    "Manufacturer": "KAWASAKI",
+    "Model": "NINJA 400",
+    "Mileage (km)": 16868,
+    "Condition": "A",
+    "Price": 71999
+  },
+  {
+    "Year": 2019,
+    "Manufacturer": "KTM",
+    "Model": "DUKE 390 DUKE",
+    "Mileage (km)": 32450,
+    "Condition": "A",
+    "Price": 63999
+  },
+  {
+    "Year": 2018,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Mileage (km)": 23900,
+    "Condition": "A",
+    "Price": 167999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 R",
+    "Mileage (km)": 30050,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZZR 1400",
+    "Mileage (km)": 34300,
+    "Condition": "A",
+    "Price": 143999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZR800",
+    "Mileage (km)": 34552,
+    "Condition": "A",
+    "Price": 87999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z1000 (ABS)",
+    "Mileage (km)": 32716,
+    "Condition": "A",
+    "Price": 111999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z1000",
+    "Mileage (km)": 12574,
+    "Condition": "A",
+    "Price": 135999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "KTM",
+    "Model": "DUKE 390 DUKE",
+    "Mileage (km)": 21087,
+    "Condition": "A",
+    "Price": 55999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "KTM",
+    "Model": "1290 SUPER DUKE R",
+    "Mileage (km)": 20853,
+    "Condition": "A",
+    "Price": 143999
+  },
+  {
+    "Year": 2017,
+    "Manufacturer": "YAMAHA",
+    "Model": "MT MT-07",
+    "Mileage (km)": 16193,
+    "Condition": "A",
+    "Price": 95999
+  },
+  {
+    "Year": 2016,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 R",
+    "Mileage (km)": 31900,
+    "Condition": "A",
+    "Price": 119999
+  },
+  {
+    "Year": 2016,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 RR",
+    "Mileage (km)": 25481,
+    "Condition": "A",
+    "Price": 167999
+  },
+  {
+    "Year": 2016,
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z800",
+    "Mileage (km)": 4927,
+    "Condition": "A",
+    "Price": 103999
+  },
+  {
+    "Year": 2016,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-10R",
+    "Mileage (km)": 14583,
+    "Condition": "A",
+    "Price": 167999
+  },
+  {
+    "Year": 2016,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-10R",
+    "Mileage (km)": 12160,
+    "Condition": "A",
+    "Price": 135999
+  },
+  {
+    "Year": 2016,
+    "Manufacturer": "KTM",
+    "Model": "1290 SUPER DUKE R",
+    "Mileage (km)": 12090,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 RR",
+    "Mileage (km)": 24615,
+    "Condition": "A",
+    "Price": 167999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX14R ABS",
+    "Mileage (km)": 35000,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-10R",
+    "Mileage (km)": 16300,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-10R 30TH Avviversary Edition",
+    "Mileage (km)": 31000,
+    "Condition": "A",
+    "Price": 135999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "KTM",
+    "Model": "1290 SUPER DUKE R",
+    "Mileage (km)": 18620,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": 30012,
+    "Condition": "A",
+    "Price": 159999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "YAMAHA",
+    "Model": "MT MT-07",
+    "Mileage (km)": 12000,
+    "Condition": "A",
+    "Price": 71999
+  },
+  {
+    "Year": 2015,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": 13800,
+    "Condition": "A",
+    "Price": 183999
+  },
+  {
+    "Year": 2014,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 RR",
+    "Mileage (km)": 16848,
+    "Condition": "A",
+    "Price": 151999
+  },
+  {
+    "Year": 2014,
+    "Manufacturer": "BMW",
+    "Model": "S SERIES S 1000 R",
+    "Mileage (km)": 25646,
+    "Condition": "B",
+    "Price": 111999
+  },
+  {
+    "Year": 2014,
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": 27774,
+    "Condition": "A",
+    "Price": 127999
+  },
+  {
+    "Year": 2014,
+    "Manufacturer": "TRIUMPH",
+    "Model": "SPEED TRIPLE 1050",
+    "Mileage (km)": 16667,
+    "Condition": "B",
+    "Price": 95999
+  },
+  {
+    "Year": 2014,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R6 YZF R6",
+    "Mileage (km)": 43049,
+    "Condition": "B",
+    "Price": 103999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "HONDA",
+    "Model": "CBR 600RR",
+    "Mileage (km)": 36113,
+    "Condition": "B",
+    "Price": 95999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": 40000,
+    "Condition": "B",
+    "Price": 103999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX 14",
+    "Mileage (km)": 36956,
+    "Condition": "B",
+    "Price": 135999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z800",
+    "Mileage (km)": 32137,
+    "Condition": "B",
+    "Price": 79999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R750",
+    "Mileage (km)": 23327,
+    "Condition": "B",
+    "Price": 111999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSXR1300R HAYABUSA",
+    "Mileage (km)": 100000,
+    "Condition": "B",
+    "Price": 71999
+  },
+  {
+    "Year": 2013,
+    "Manufacturer": "TRIUMPH",
+    "Model": "DAYTONA 675",
+    "Mileage (km)": 26600,
+    "Condition": "B",
+    "Price": 87999
+  },
+  {
+    "Year": 2012,
+    "Manufacturer": "KAWASAKI",
+    "Model": "GTR 1400",
+    "Mileage (km)": 51000,
+    "Condition": "B",
+    "Price": 111999
+  },
+  {
+    "Year": 2012,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R1000",
+    "Mileage (km)": 35250,
+    "Condition": "B",
+    "Price": 111999
+  },
+  {
+    "Year": 2012,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": 17800,
+    "Condition": "B",
+    "Price": 103999
+  },
+  {
+    "Year": 2011,
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": 35711,
+    "Condition": "B",
+    "Price": 95999
+  },
+  {
+    "Year": 2011,
+    "Manufacturer": "HONDA",
+    "Model": "CB 1000R",
+    "Mileage (km)": 37308,
+    "Condition": "B",
+    "Price": 71999
+  },
+  {
+    "Year": 2011,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF 250F",
+    "Mileage (km)": 70,
+    "Condition": "B",
+    "Price": 31999
+  },
+  {
+    "Year": 2010,
+    "Manufacturer": "HONDA",
+    "Model": "CB 1000R",
+    "Mileage (km)": 21360,
+    "Condition": "B",
+    "Price": 79999
+  },
+  {
+    "Year": 2010,
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": 43178,
+    "Condition": "B",
+    "Price": 87999
+  },
+  {
+    "Year": 2010,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R1000",
+    "Mileage (km)": 32107,
+    "Condition": "B",
+    "Price": 95999
+  },
+  {
+    "Year": 2009,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R6 YZF R6",
+    "Mileage (km)": 39273,
+    "Condition": "B",
+    "Price": 79999
+  },
+  {
+    "Year": 2009,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": 29231,
+    "Condition": "B",
+    "Price": 87999
+  },
+  {
+    "Year": 2008,
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": 54800,
+    "Condition": "B",
+    "Price": 63999
+  },
+  {
+    "Year": 2007,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R600",
+    "Mileage (km)": 32032,
+    "Condition": "B",
+    "Price": 71999
+  },
+  {
+    "Year": 2006,
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R600",
+    "Mileage (km)": 46000,
+    "Condition": "B",
+    "Price": 55999
+  },
+  {
+    "Year": 1994,
+    "Manufacturer": "YAMAHA",
+    "Model": "FZR 400 RR SP",
+    "Mileage (km)": 13213,
+    "Condition": "B",
+    "Price": 95999
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R6 YZF R6",
+    "Mileage (km)": "70 000",
+    "Condition": "B",
+    "Price": 60000
+  },
+  {
+    "Year": "1999",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R6 YZF R6",
+    "Mileage (km)": "68 000",
+    "Condition": "B",
+    "Price": 40000
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR FIREBLADE",
+    "Mileage (km)": "82 000",
+    "Condition": "B",
+    "Price": 60000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": "56 000",
+    "Condition": "B",
+    "Price": 58000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": "30 500",
+    "Condition": "B",
+    "Price": 60000
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "KAWASAKI",
+    "Model": "ZX-10R",
+    "Mileage (km)": "59 000",
+    "Condition": "B",
+    "Price": 50000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R6 YZF R6",
+    "Mileage (km)": "26 000",
+    "Condition": "B",
+    "Price": 95000
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R1300R HAYABUSA",
+    "Mileage (km)": "39 000",
+    "Condition": "B",
+    "Price": 50000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000RR",
+    "Mileage (km)": "43 000",
+    "Condition": "B",
+    "Price": 52000
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": "29 000",
+    "Condition": "B",
+    "Price": 75000
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "SUZUKI",
+    "Model": "BOULVEVARD VZR 1800 (BOULEVARD/INTRUDER)",
+    "Mileage (km)": "19867",
+    "Condition": "A",
+    "Price": 135999
   }
 ]
