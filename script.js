@@ -419,3 +419,26 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("price-sort").addEventListener("change", filterVehicles);
   document.getElementById("year-sort").addEventListener("change", filterVehicles);
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const disclaimerModal = document.getElementById("disclaimer-modal");
+  const acceptButton = document.getElementById("accept-disclaimer");
+  const declineButton = document.getElementById("decline-disclaimer");
+
+  // Check if the disclaimer was already accepted
+  if (!localStorage.getItem("disclaimerAccepted")) {
+    disclaimerModal.style.display = "flex";
+  }
+
+  // Handle Accept button
+  acceptButton.addEventListener("click", () => {
+    localStorage.setItem("disclaimerAccepted", "true");
+    disclaimerModal.style.display = "none";
+  });
+
+  // Handle Decline button
+  declineButton.addEventListener("click", () => {
+    alert("You must accept the disclaimer to use this website.");
+    window.location.href = "about:blank"; // Redirect to a blank page
+  });
+});
+
