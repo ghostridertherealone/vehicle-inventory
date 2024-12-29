@@ -5518,5 +5518,157 @@
     "Mileage (km)": "11 000",
     "Condition": "A",
     "Price": 139000
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "BIG BOY",
+    "Model": "ZOOKA TTR 125",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 9900
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "AEON",
+    "Model": "100 HP COBRA HI-PERFORMANCE",
+    "Mileage (km)": "1 000",
+    "Condition": "B",
+    "Price": 12000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SYM",
+    "Model": "ORBIT 125",
+    "Mileage (km)": "4 200",
+    "Condition": "A",
+    "Price": 16000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "BIG BOY",
+    "Model": "MONSTER DRT 250",
+    "Mileage (km)": "6 216",
+    "Condition": "A",
+    "Price": 17000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "YAMAHA",
+    "Model": "YFS 200 BLASTER",
+    "Mileage (km)": "1 000",
+    "Condition": "B",
+    "Price": 17000
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "HONDA",
+    "Model": "XR 150 L",
+    "Mileage (km)": "26 367",
+    "Condition": "A",
+    "Price": 19000
+  },
+  {
+    "Year": "2002",
+    "Manufacturer": "TRIUMPH",
+    "Model": "DAYTONA 955I DAYTONA",
+    "Mileage (km)": "36 777",
+    "Condition": "B",
+    "Price": 29900
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KX 250 F",
+    "Mileage (km)": "10 000",
+    "Condition": "B",
+    "Price": 29000
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "SHINERAY",
+    "Model": "CROSBY 400 ADVENTURE",
+    "Mileage (km)": "2 500",
+    "Condition": "A",
+    "Price": 35900
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "KAWASAKI",
+    "Model": "VN 900 CLASSIC",
+    "Mileage (km)": "25 709",
+    "Condition": "B",
+    "Price": 45900
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 R",
+    "Mileage (km)": "17 000",
+    "Condition": "A",
+    "Price": 48900
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 650 GS ABS H/GRIPS",
+    "Mileage (km)": "49 177",
+    "Condition": "B",
+    "Price": 48000
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX 250 F",
+    "Mileage (km)": "15 000",
+    "Condition": "A",
+    "Price": 49000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 R",
+    "Mileage (km)": "6 100",
+    "Condition": "A",
+    "Price": 52000
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX-R GSX-R1000",
+    "Mileage (km)": "30 884",
+    "Condition": "B",
+    "Price": 65000
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "STREET 750 STREET ROD",
+    "Mileage (km)": "15 600",
+    "Condition": "A",
+    "Price": 68000
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 700 GS",
+    "Mileage (km)": "19 000",
+    "Condition": "B",
+    "Price": 68000
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "YAMAHA",
+    "Model": "XT 660 Z TENERE",
+    "Mileage (km)": "20 000",
+    "Condition": "A",
+    "Price": 78000
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "BMW",
+    "Model": "R SERIES R 1200 GS (FULL SPEC)",
+    "Mileage (km)": "36 509",
+    "Condition": "A",
+    "Price": 119000
   }
 ]
