@@ -7,67 +7,128 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="disclaimer-modal" class="modal">
-  <div class="modal-content">
-    <h2>Disclaimer</h2>
-    <p>
-      The information on this website is provided solely for informational purposes. 
-      It is not a guarantee of price accuracy. Please perform due diligence before 
-      making any vehicle purchase decisions.
-    </p>
-    <div class="modal-buttons">
-      <button id="accept-disclaimer">Accept</button>
-      <button id="decline-disclaimer">Decline</button>
+  <div class="header-container">
+    <h1>Vehicle Inventory</h1>
+    <div class="navigation-toggle">
+      <input type="checkbox" id="page-toggle" class="toggle-input">
+      <label for="page-toggle" class="toggle-label">
+        <span class="inventory">Inventory</span>
+        <span class="predictor">Predictor</span>
+        <span class="slider"></span>
+      </label>
     </div>
   </div>
-</div>
-
-  <h1>Vehicle Inventory</h1>
 
   <div class="database-selection">
     <div class="toggle-switch">
       <input type="checkbox" id="database-toggle" class="toggle-input">
       <label for="database-toggle" class="toggle-label">
-        <span class="toggle-text motorcycle">Motorcycles</span>
+        <span class="car">Cars</span>
+        <span class="motorcycle">Motorcycles</span>
         <span class="slider"></span>
-        <span class="toggle-text car">Cars</span>
       </label>
     </div>
   </div>
 
   <div class="filters">
     <div class="make-model-options">
-      <label for="make">Select Make:</label>
-      <select id="make" onchange="updateModelOptions()">
+      <label for="make">Make:</label>
+      <select id="make" aria-label="Select vehicle make">
         <option value="">--Select Make--</option>
       </select>
-  
-      <label for="price-sort">Sort by Price:</label>
-      <select id="price-sort" onchange="filterVehicles()">
-        <option value="">--Select Price Sort--</option>
-        <option value="low-high">Price (Low to High)</option>
-        <option value="high-low">Price (High to Low)</option>
-      </select>
-    </div>
-    <div class="sort-options">
-      <label for="model">Select Model:</label>
-      <select id="model">
+      
+      <label for="model">Model:</label>
+      <select id="model" aria-label="Select vehicle model">
         <option value="">--Select Model--</option>
-      </select>
-
-      <label for="year-sort">Sort by Year:</label>
-      <select id="year-sort" onchange="filterVehicles()">
-        <option value="">--Select Year Sort--</option>
-        <option value="new-old">Year (Newest to Oldest)</option>
-        <option value="old-new">Year (Oldest to Newest)</option>
       </select>
     </div>
   </div>
   
   <div id="summary"></div>
 
-  <div class="vehicle-list" id="vehicle-list"></div>
+  <div class="filters">
+    <div class="controls-container">
+      <div class="sort-container">
+        <button id="sort-toggle" class="sort-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 5h10"/>
+            <path d="M11 9h7"/>
+            <path d="M11 13h4"/>
+            <path d="M3 17h18"/>
+            <path d="M3 5v8l4-4"/>
+            <path d="M7 13V5l-4 4"/>
+          </svg>
+          <span>Sort</span>
+        </button>
+        
+        <div id="sort-panel" class="sort-panel hidden">
+          <div class="sort-options">
+            <div class="sort-group">
+              <label for="price-sort">Price Sort:</label>
+              <select id="price-sort" onchange="filterVehicles()" aria-label="Sort by price">
+                <option value="">--Select Price Sort--</option>
+                <option value="low-high">Price (Low to High)</option>
+                <option value="high-low">Price (High to Low)</option>
+              </select>
+            </div>
+      
+            <div class="sort-group">
+              <label for="year-sort">Year Sort:</label>
+              <select id="year-sort" onchange="filterVehicles()" aria-label="Sort by year">
+                <option value="">--Select Year Sort--</option>
+                <option value="new-old">Year (Newest to Oldest)</option>
+                <option value="old-new">Year (Oldest to Newest)</option>
+              </select>
+            </div>
+      
+            <div class="sort-actions">
+              <button id="clear-sort" class="sort-button">Clear Sorting</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <script src="script.js"></script>
+      <div class="filter-container">
+        <button id="filter-toggle" class="filter-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+          </svg>
+          <span>Filter</span>
+        </button>
+        
+        <div id="filter-panel" class="filter-panel hidden">
+          <div class="year-mileage-filters">
+            <div class="year-range">
+              <label for="year-min">Year Range:</label>
+              <div class="range-inputs">
+                <input type="number" id="year-min" placeholder="From" min="1900" max="2024">
+                <span>to</span>
+                <input type="number" id="year-max" placeholder="To" min="1900" max="2024">
+              </div>
+            </div>
+            
+            <div class="mileage-range">
+              <label for="mileage-min">Mileage Range (km):</label>
+              <div class="range-inputs">
+                <input type="number" id="mileage-min" placeholder="From" min="0">
+                <span>to</span>
+                <input type="number" id="mileage-max" placeholder="To" min="0">
+              </div>
+            </div>
+            
+            <div class="filter-actions">
+              <button id="apply-filters" class="filter-button">Apply</button>
+              <button id="clear-filters" class="filter-button">Clear</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="vehicle-list" id="vehicle-list"></div>
+  <div class="page-transition"></div>
+
+  <script type="module" src="script.js"></script>
 </body>
 </html>
