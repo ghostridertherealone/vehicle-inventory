@@ -30,27 +30,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-.db-button {
-  padding: 10px 20px;
-  font-size: 1.1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff851b;
-  color: white;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.db-button:hover {
-  background-color: #e2b537;
-  transform: translateY(-2px);
-}
-
-.db-button.active {
-  background-color: #e2b537;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-}
-
 /* Filters section styling */
 .filters {
   display: flex;
@@ -87,7 +66,27 @@ select {
 
 .sort-options select,
 .make-model-options select {
-  width: 20%;
+  width: auto; /* Remove shared width constraint */
+}
+
+#make {
+  width: 250px;
+  height: 40px;
+}
+
+#model {
+  width: 350px;
+  height: 40px;
+}
+
+#make option {
+  height: 30px;
+  line-height: 30px;
+}
+
+#model option {
+  height: 35px;
+  line-height: 35px;
 }
 
 select:hover {
@@ -97,6 +96,69 @@ select:hover {
 select:focus {
   outline: none;
   box-shadow: rgba(0,0,0,0.3) 0px 4px 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.header-container h1 {
+  margin-bottom: 0;
+}
+
+.navigation-toggle .toggle-label {
+  width: 200px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  position: relative;
+}
+
+.navigation-toggle .inventory,
+.navigation-toggle .predictor {
+  z-index: 1;
+  padding: 0 15px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navigation-toggle .slider {
+  position: absolute;
+  left: 3px;
+  height: 30px;
+  background-color: #a39d94;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  z-index: 0;
+}
+
+.navigation-toggle .toggle-input:not(:checked) + .toggle-label .slider {
+  width: 85px;
+  transform: translateX(105px);
+}
+
+.navigation-toggle .toggle-input:checked + .toggle-label .slider {
+  width: 100px;
+}
+
+.navigation-toggle .toggle-input:checked + .toggle-label .predictor {
+  color: rgb(136, 134, 134);
+}
+
+.navigation-toggle .toggle-input:not(:checked) + .toggle-label .predictor {
+  color: rgb(255, 255, 255);
+}
+
+.navigation-toggle .toggle-input:checked + .toggle-label .inventory {
+  color: rgb(255, 255, 255);
+}
+
+.navigation-toggle .toggle-input:not(:checked) + .toggle-label .inventory {
+  color: rgb(164, 145, 145);
 }
 
 /* Vehicle list container */
@@ -112,32 +174,38 @@ select:focus {
   width: calc(33.333% - 20px);
   padding: 15px;
   box-shadow: rgba(0,0,0,0.2) 0px 4px 12px;
-  transition: transform .3s ease, box-shadow .3s ease;
+  transition: all 0.3s ease;
   flex-grow: 0;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #FF6600; /* Default orange */
+  position: relative;
+  min-height: 200px;
 }
 
-/* Primary color for odd-numbered cards */
-.vehicle-item:nth-child(odd) {
-  background-color: #ff851b;
-}
-
-/* Secondary color for even-numbered cards */
-.vehicle-item:nth-child(even) {
-  background-color: #e2b537;
-}
-
-.vehicle-item:hover {
-  /* Update hover state to work with both colors */
-  background-color: #ffa94d;
+/* Use attribute selector for hover effect */
+.vehicle-item[data-hover-color]:hover {
+  background-color: var(--hover-color);
   box-shadow: rgba(0,0,0,0.4) 0px 8px 20px;
   transform: translateY(-5px);
 }
-
+/* Set hover color using custom property */
+.vehicle-item[data-hover-color] {
+  --hover-color: attr(data-hover-color);
+}
+/* Ensure text content doesn't overlap with logo */
+.vehicle-item h3,
+.vehicle-item p {
+  margin-right: 60px; /* Provide space for logo */
+  color: inherit;
+}
+/* Preserve existing text styles */
 .vehicle-item h3 {
   font-size: 1.2rem;
   color: #ffffff;
   text-shadow: rgba(0,0,0,0.2) 1px 1px;
+  margin-bottom: 10px;
 }
 
 .vehicle-item p {
@@ -149,6 +217,40 @@ select:focus {
 .vehicle-item p.price {
   color: #ffffff;
   font-weight: bold;
+}
+
+/* Updated CSS for fade transitions */
+.page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #001f3f;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.page-transition.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Add initial state for content fade in */
+body {
+  opacity: 0;
+  animation: fadeIn 0.2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 #summary {
   background-color: rgba(255, 255, 255, 0.1);
@@ -171,25 +273,123 @@ select:focus {
 }
 
 .summary-card {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 15px;
-  border-radius: 6px;
-  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.summary-card:hover {
+.summary-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.summary-card:hover::after {
+  opacity: 1;
+}
+
+.summary-card.active {
+  border: 2px solid #a39d94;
+  border-radius: 5px;
+  padding: 10px;
   transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(255, 133, 27, 0.3);
 }
 
-.summary-card h3 {
-  color: #ff851b;
-  margin-bottom: 10px;
+.vehicle-item.highlight-low,
+.vehicle-item.highlight-middle,
+.vehicle-item.highlight-high {
+  border-radius: 5px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.vehicle-item.highlight-low {
+  background-color: rgb(105, 255, 86) !important;
+  color: #333 !important;
+  box-shadow: 0 4px 12px rgba(105, 255, 86, 0.3);
+}
+
+.vehicle-item.highlight-middle {
+  background-color: turquoise !important;
+  color: #333 !important;
+  box-shadow: 0 4px 12px rgba(64, 224, 208, 0.3);
+}
+
+.vehicle-item.highlight-high {
+  background-color: white !important;
+  color: #333 !important;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+.vehicle-item.highlight-low h3,
+.vehicle-item.highlight-middle h3,
+.vehicle-item.highlight-high h3,
+.vehicle-item.highlight-low p,
+.vehicle-item.highlight-middle p,
+.vehicle-item.highlight-high p {
+  color: #333 !important;
+}
+/* Add border to price guide section */
+.price-guide {
+  border: 2px solid #a39d94;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 20px 0;
+}
+.price-guide-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-.summary-card p {
-  margin: 5px 0;
-  color: #ffffff;
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 .insufficient-data {
   text-align: center;
@@ -203,73 +403,96 @@ select:focus {
 }
 
 .insufficient-data p {
-  color: #ff851b;
+  color: #a39d94;
   margin: 10px 0;
 }
+
 #selected-models {
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+}
+
+.models-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Add container for right-side buttons */
+.models-header-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.models-count {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.toggle-models-btn {
+  background: none;
+  border: none;
+  color: #a39d94;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.toggle-models-btn:hover {
+  color: #a39d94;
+}
+
+.models-content {
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: 1000px; /* Adjust this value based on your needs */
+}
+
+.models-content.collapsed {
+  max-height: 65px; /* Shows approximately 1 row of chips */
+}
+
+.models-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 20px auto;
-  max-width: 1200px;
-  padding: 0 20px;
-  align-items: center;
-}
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.modal-content {
-  background-color: white;
-  color: black;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  width: 80%;
-  max-width: 400px;
-}
-
-.modal-buttons {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.modal-buttons button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#accept-disclaimer {
-  background-color: green;
-  color: white;
-}
-
-#decline-disclaimer {
-  background-color: red;
-  color: white;
+  padding: 15px;
 }
 
 .model-chip {
   display: inline-flex;
   align-items: center;
-  background-color: #ff851b;
+  background-color: #a39d94;
   color: white;
   padding: 5px 10px;
-  border-radius: 20px;
+  border-radius: 14px;
   font-size: 0.9rem;
   gap: 5px;
+}
+
+/* Update clear all button styling to match header */
+.clear-all-btn {
+  background: none;
+  border: 1px solid #d3ccc3;
+  color: #a39d94;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 5px 15px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  height: fit-content;
+}
+
+.clear-all-btn:hover {
+  background-color: #a39d94;
+  color: white;
 }
 
 .remove-model {
@@ -289,19 +512,67 @@ select:focus {
   opacity: 0.8;
 }
 
-.clear-all-btn {
-  background: none;
-  border: none;
-  color: #ff851b;
+/* Custom dropdown styling */
+.dropdown-container {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+}
+
+.dropdown-container input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.dropdown-options {
+  position: absolute;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: none;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 8px;
   cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show dropdown on input focus */
+.dropdown-container input:focus + .dropdown-options {
+  display: block;
+}
+.dropdown-item.selected {
+  background-color: #a39d94;
+  color: white;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-group label {
+  color: #ffffff;
   font-size: 0.9rem;
-  padding: 5px 10px;
 }
 
-.clear-all-btn:hover {
-  text-decoration: underline;
+.input-group input {
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  width: 150px;
+  background-color: #f9f9f9;
 }
-
 .toggle-input {
   display: none;
 }
@@ -313,47 +584,74 @@ select:focus {
   width: 200px;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 30px;
+  border-radius: 6px;
   cursor: pointer;
   position: relative;
 }
 
+.car, .motorcycle {
+  z-index: 1;
+  padding: 0 15px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* Different widths for the slider */
 .slider {
   position: absolute;
   left: 3px;
-  width: 100px;
   height: 30px;
-  background-color: #ff851b;
-  border-radius: 25px;
-  transition: transform 0.3s ease;
+  background-color: #a39d94;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  z-index: 0;
 }
 
+/* Default width for "Cars" */
+.toggle-input:not(:checked) + .toggle-label .slider {
+  width: 104px;  /* Adjust this value to match "Motorcycles" width */
+  transform: translateX(82px);  /* Adjusted position for the wider state */
+  
+}
+
+/* Wider width for "Motorcycles" */
 .toggle-input:checked + .toggle-label .slider {
-  transform: translateX(94px);
+  width: 65px;  /* Adjust this value to match "Cars" width */
+  transform: translateX(1px);  /* Adjusted position for the wider state */
 }
 
 .toggle-input:checked + .toggle-label .motorcycle {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(136, 134, 134);
+}
+
+.toggle-input:not(:checked) + .toggle-label .motorcycle {
+  color: rgb(255, 255, 255);
+}
+
+.toggle-input:checked + .toggle-label .car {
+  color: rgb(255, 255, 255);
 }
 
 .toggle-input:not(:checked) + .toggle-label .car {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(164, 145, 145);
 }
 
-/* Model selection tree structure */
 .model-tree {
   background-color: #f9f9f9;
-  border-radius: 4px;
-  max-height: 400px;  /* Increase/decrease this value to change dropdown height */
-  max-height: 300px;
+  border-radius: 6px;
+  max-height: 500px;
   overflow-y: auto;
-  width: 350px;
+  width: 353px;
   border: 1px solid #ddd;
+  position: absolute;
+  z-index: 1000;
+  left: 51.5%;           /* Add this */
 }
 .model-group {
-  margin: 5px 0;
-  padding: 5px 0;
+  margin: 0;
+  padding: 0;
   border-bottom: 1px solid #eee;
+  transition: all 0.3s ease;
 }
 
 .main-model {
@@ -366,13 +664,16 @@ select:focus {
   color: #333;
   background-color: #f0f0f0;
   font-size: 14px;
+  padding: 12px 15px;
+  transition: background-color 0.3s ease;
 }
 
 .sub-models {
   margin-left: 20px;
   padding-left: 10px;
   border-left: 2px solid rgba(255, 133, 27, 0.3);
-  
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
 }
 
 .sub-model {
@@ -386,204 +687,230 @@ select:focus {
 
 .main-model:hover,
 .sub-model:hover {
-  background-color: #ff851b;
+  background-color: #a39d94;
   color: white;
 }
 
 .model-selected {
-  background-color: #ff851b;
+  background-color: #a39d94;
+  color: white;
+}
+/* Year and Mileage Filter Styles */
+.year-mileage-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 6px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.year-range,
+.mileage-range {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.range-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.range-inputs input {
+  width: 120px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.range-inputs span {
+  color: #ffffff;
+}
+
+.filter-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+#apply-filters {
+  background-color: #a39d94;
   color: white;
 }
 
-@media (max-width: 768px) {
-  /* Dropdown adjustments */
-  .filters select {
-    width: 40%; /* Reduce dropdown width to fit smaller screens */
-    max-width: 300px; /* Optional: Set a maximum width for compactness */
-    font-size: 0.85rem; /* Smaller font size for dropdowns */
-  }
-
-  .sort-options select,
-  .make-model-options select {
-    width: 90%; /* Full-width dropdowns for easier selection */
-    font-size: 0.85rem; /* Reduce font size for dropdowns */
-  }
-
-  /* Adjust card width to allow 3 per row */
-  .vehicle-item {
-    width: calc(33.333% - 20px); /* Three cards per row with spacing */
-  }
-
-  /* Font size adjustments */
-  body {
-    font-size: 0.9rem; /* Slightly smaller base font size */
-  }
-
-  h1 {
-    font-size: 2rem; /* Reduce header font size */
-  }
-
-  .db-button {
-    font-size: 1rem; /* Adjust button font size */
-  }
-
-  label {
-    font-size: 0.9rem; /* Smaller label font size */
-  }
-
-  .vehicle-item h3 {
-    font-size: 1rem; /* Reduce card title font size */
-  }
-
-  .vehicle-item p {
-    font-size: 0.8rem; /* Reduce paragraph text in cards */
-  }
-
-  .vehicle-item p.price {
-    font-size: 0.9rem; /* Keep price text slightly larger */
-  }
-
-  /* Keep database selection aligned */
-  .database-selection {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Buttons remain responsive */
-  .db-button {
-    width: 100%;
-    max-width: 300px;
-  }
+#apply-filters:hover {
+  background-color: #a39d94;
 }
 
-@media (max-width: 1200px) {
-  /* Dropdown adjustments */
-  .filters select {
-    width: 12%; /* Reduce dropdown width for medium screens */
-    max-width: 300px; /* Optional: Set a maximum width */
-    font-size: 0.9rem; /* Adjust font size for dropdowns */
-  }
-
-  .sort-options select,
-  .make-model-options select {
-    width: 40%; /* Moderate width for medium screens */
-    font-size: 0.9rem; /* Adjust font size */
-  }
-
-  /* Adjust card width to allow 2 per row */
-  .vehicle-item {
-    width: calc(50% - 20px); /* Two cards per row on medium screens */
-  }
-
-  /* Font size adjustments */
-  body {
-    font-size: 1rem; /* Maintain base font size */
-  }
-
-  h1 {
-    font-size: 2.2rem; /* Slightly larger header for medium screens */
-  }
-
-  .db-button {
-    font-size: 1.1rem; /* Maintain readable button font size */
-  }
-
-  label {
-    font-size: 1rem; /* Keep label font size consistent */
-  }
-
-  .vehicle-item h3 {
-    font-size: 1.1rem; /* Slightly larger card title */
-  }
-
-  .vehicle-item p {
-    font-size: 0.9rem; /* Adjust paragraph text */
-  }
-
-  .vehicle-item p.price {
-    font-size: 1rem; /* Emphasize price text */
-  }
-
-  /* Keep database selection aligned */
-  .database-selection {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Buttons remain responsive */
-  .db-button {
-    width: 100%;
-    max-width: 300px;
-  }
+#clear-filters {
+  background-color: transparent;
+  border: 1px solid #a39d94;
+  color: #a39d94;
 }
-@media (max-width: 480px) {
-  /* Specific styles for very small screens, like iPhone 8 */
 
-  /* Dropdown adjustments */
-  .filters select {
-    width: 40%; /* Use most of the container width for better usability */
-    max-width: 100px; /* Limit the width for consistency */
-    height: 28px; /* Reduce height to match compact layout */
-    font-size: 0.65rem; /* Smaller font size */
-    padding: 4px; /* Adjust padding to prevent excessive height */
-  }
+#clear-filters:hover {
+  background-color: rgba(255, 133, 27, 0.1);
+}
+.filter-container {
+  position: relative;
+  margin: 10px 0;
+}
+.controls-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.sort-icon, 
+.filter-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #a39d94;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
 
-  .sort-options select,
-  .make-model-options select {
-    width: 90%; /* Full-width dropdowns for better usability */
-    max-width: 150px; /* Ensure dropdowns are not too wide */
-    font-size: 0.65rem; /* Compact font size */
-    height: 28px; /* Match height with `.filters select` */
-  }
 
-  /* Card adjustments */
-  .vehicle-item {
-    width: calc(50% - 10px); /* Two cards per row with reduced spacing */
-    height: auto; /* Ensure cards adjust height dynamically */
-  }
+.filter-icon:hover {
+  background-color: rgba(255, 133, 27, 0.1);
+}
 
-  /* Font size adjustments */
-  body {
-    font-size: 0.75rem; /* Slightly smaller base font size for readability */
-  }
+.filter-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background-color: #001f3f;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 300px;
+  display: block;
+  transition: opacity 0.3s, transform 0.3s;
+}
 
-  h1 {
-    font-size: 1.2rem; /* Reduce header size further */
-  }
+.filter-panel.hidden {
+  display: none;
+}
 
-  label {
-    font-size: 0.65rem; /* Reduce label size for compactness */
-  }
+.filter-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+/* Add these styles to styles.css */
+.sort-container {
+  position: relative;
+  margin: 10px 0;
+}
 
-  .db-button {
-    font-size: 0.7rem; /* Smaller font size for buttons */
-    padding: 6px 12px; /* Adjust padding for compactness */
-  }
+.sort-icon {
+  background: none;
+  border: none;
+  color: #a39d94;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+.sort-icon span,
+.filter-icon span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.sort-icon:hover,
+.filter-icon:hover {
+  background-color: rgba(255, 133, 27, 0.1);
+}
 
-  .vehicle-item h3 {
-    font-size: 0.75rem; /* Compact card title size */
-  }
+.sort-panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background-color: #001f3f;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 300px;
+  display: block;
+  transition: opacity 0.3s, transform 0.3s;
+}
 
-  .vehicle-item p {
-    font-size: 0.65rem; /* Smaller paragraph text */
-  }
+.sort-panel.hidden {
+  display: none;
+}
 
-  .vehicle-item p.price {
-    font-size: 0.75rem; /* Slightly larger for emphasis */
-    font-weight: bold; /* Emphasize price text */
-  }
+.sort-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-  /* Database selection */
-  .database-selection {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px; /* Add spacing between buttons for better layout */
-  }
+.sort-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
-  /* Buttons */
-  .db-button {
-    width: 30%; /* Narrower buttons for small screens */
-    max-width: 250px; /* Limit button width */
-    padding: 6px 12px; /* Compact padding for better fit */
-  }
+.sort-group select {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.sort-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.sort-button {
+  background-color: transparent;
+  border: 1px solid #a39d94;
+  color: #a39d94;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sort-button:hover {
+  background-color: rgba(255, 133, 27, 0.1);
+}
+
+.manufacturer-logo {
+  width: 80px;
+  max-height: 55px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  margin: 0;
+  display: block;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+/* Add styles for the collapsed state */
+.model-tree.collapsed .model-group:not(:first-child),
+.model-tree.collapsed .sub-models {
+  display: none;
 }
