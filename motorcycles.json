@@ -88,78 +88,6 @@
     "Price": 124900
   },
   {
-    "Year": "2022",
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER ADVENTURE R",
-    "Mileage (km)": "12 951",
-    "Condition": "A",
-    "Price": 229900
-  },
-  {
-    "Year": "2019",
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER ADVENTURE R",
-    "Mileage (km)": "49 316",
-    "Condition": "A",
-    "Price": 164900
-  },
-  {
-    "Year": "2017",
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER ADVENTURE R",
-    "Mileage (km)": "35 771",
-    "Condition": "A",
-    "Price": 129900
-  },
-  {
-    "Year": "2022",
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER ADVENTURE S",
-    "Mileage (km)": "12 938",
-    "Condition": "A",
-    "Price": 181900
-  },
-  {
-    "Year": "2021",
-    "Manufacturer": "KTM",
-    "Model": "1290 SUPER ADVENTURE S",
-    "Mileage (km)": "14 000",
-    "Condition": "A",
-    "Price": 185900
-  },
-  {
-    "Year": "2011",
-    "Manufacturer": "KAWASAKI",
-    "Model": "1400 1400 ABS",
-    "Mileage (km)": "77 000",
-    "Condition": "B",
-    "Price": 82000
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "SUZUKI",
-    "Model": "250 DS 250",
-    "Mileage (km)": "4 009",
-    "Condition": "A",
-    "Price": 54900
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "SUZUKI",
-    "Model": "250 DS 250",
-    "Mileage (km)": "11 237",
-    "Condition": "A",
-    "Price": 50900
-  },
-  {
-    "Year": "2023",
-    "Manufacturer": "SUZUKI",
-    "Model": "250 DS 250",
-    "Mileage (km)": "1 000",
-    "Condition": "A",
-    "Price": 53900
-  },
-  {
     "Year": "2023",
     "Manufacturer": "HONDA",
     "Model": "750 XL 750 TRANSALP",
@@ -294,14 +222,6 @@
     "Mileage (km)": "21 000",
     "Condition": "A",
     "Price": 36900
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "MAHINDRA",
-    "Model": "ALFA 400 PICK UP",
-    "Mileage (km)": "11 882",
-    "Condition": "B",
-    "Price": 28900
   },
   {
     "Year": "2013",
@@ -488,14 +408,6 @@
     "Price": 62000
   },
   {
-    "Year": "2009",
-    "Manufacturer": "GOLF",
-    "Model": "CART 800G WORKHORSE",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 57900
-  },
-  {
     "Year": "2013",
     "Manufacturer": "HONDA",
     "Model": "CBR 1000RR (ABS)",
@@ -518,14 +430,6 @@
     "Mileage (km)": "600",
     "Condition": "A",
     "Price": 19900
-  },
-  {
-    "Year": "2022",
-    "Manufacturer": "IGO",
-    "Model": "COMPANION MOBILITY SCOOTER",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 8900
   },
   {
     "Year": "2016",
@@ -712,14 +616,6 @@
     "Price": 114900
   },
   {
-    "Year": "2006",
-    "Manufacturer": "ARCTIC CAT",
-    "Model": "DVX 400 DVX",
-    "Mileage (km)": "25 000",
-    "Condition": "B",
-    "Price": 27900
-  },
-  {
     "Year": "2015",
     "Manufacturer": "HARLEY DAVIDSON",
     "Model": "DYNA FAT BOB",
@@ -784,30 +680,6 @@
     "Price": 71900
   },
   {
-    "Year": "2021",
-    "Manufacturer": "CUSTOM",
-    "Model": "ELECTRIC WHEELCHAIR",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 7400
-  },
-  {
-    "Year": "2019",
-    "Manufacturer": "CUSTOM",
-    "Model": "ELECTRIC WHEELCHAIR",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 7900
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "CUSTOM",
-    "Model": "ELECTRIC WHEELCHAIR",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 4900
-  },
-  {
     "Year": "2017",
     "Manufacturer": "HONDA",
     "Model": "ELITE 125",
@@ -822,30 +694,6 @@
     "Mileage (km)": "UNVERIFIED",
     "Condition": "B",
     "Price": 7900
-  },
-  {
-    "Year": "2022",
-    "Manufacturer": "GOGO",
-    "Model": "ELITE TRAVELER",
-    "Mileage (km)": "10",
-    "Condition": "A",
-    "Price": 13900
-  },
-  {
-    "Year": "2017",
-    "Manufacturer": "GOGO",
-    "Model": "ELITE TRAVELER",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 8900
-  },
-  {
-    "Year": "2015",
-    "Manufacturer": "GOGO",
-    "Model": "ELITE TRAVELER",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 11900
   },
   {
     "Year": "2015",
@@ -1238,78 +1086,6 @@
     "Mileage (km)": "2 898",
     "Condition": "B",
     "Price": 15400
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "ATUL",
-    "Model": "GEM CARGO",
-    "Mileage (km)": "5 000",
-    "Condition": "B",
-    "Price": 27900
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "HOFFMAN",
-    "Model": "GO KART 200CC",
-    "Mileage (km)": "1 000",
-    "Condition": "A",
-    "Price": 9900
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "HOFFMAN",
-    "Model": "GO KART 200CC",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 9900
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "HOFFMAN",
-    "Model": "GO KART 200CC",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 9900
-  },
-  {
-    "Year": "2010",
-    "Manufacturer": "MARSHELL",
-    "Model": "GOLF CART",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 36900
-  },
-  {
-    "Year": "2015",
-    "Manufacturer": "EZ-GO",
-    "Model": "GOLF CART 2 SEATER",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 90900
-  },
-  {
-    "Year": "2012",
-    "Manufacturer": "CLUBCAR",
-    "Model": "GOLF CART 2 TEMPO PETROL",
-    "Mileage (km)": "10",
-    "Condition": "B",
-    "Price": 68000
-  },
-  {
-    "Year": "2023",
-    "Manufacturer": "CLUBCAR",
-    "Model": "GOLF CART 2+2 TEMPO PETROL",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 165900
-  },
-  {
-    "Year": "2023",
-    "Manufacturer": "CLUB MAN",
-    "Model": "GOLF CART 2+2 TEMPO PETROL",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 135900
   },
   {
     "Year": "2015",
@@ -1758,38 +1534,6 @@
     "Mileage (km)": "25 000",
     "Condition": "A",
     "Price": 46900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "PRIDE",
-    "Model": "MOBILITY ELITE TRAVEL (NON-RUNNER)",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 11900
-  },
-  {
-    "Year": "2010",
-    "Manufacturer": "CUSTOM",
-    "Model": "MOBILITY SCOOTER HS-360",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 12900
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "CUSTOM",
-    "Model": "MOBILITY SCOOTER HS-580",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 17900
-  },
-  {
-    "Year": "2023",
-    "Manufacturer": "CUSTOM",
-    "Model": "MOBILITY SCOOTER X-02",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 15000
   },
   {
     "Year": "2013",
@@ -2416,14 +2160,6 @@
     "Price": 78000
   },
   {
-    "Year": "2017",
-    "Manufacturer": "POLARIS",
-    "Model": "RANGER 570 EFI 4X4",
-    "Mileage (km)": "25 000",
-    "Condition": "B",
-    "Price": 105000
-  },
-  {
     "Year": "2023",
     "Manufacturer": "KTM",
     "Model": "RC 390",
@@ -2638,14 +2374,6 @@
     "Mileage (km)": "14 000",
     "Condition": "B",
     "Price": 6000
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "POLARIS",
-    "Model": "SPORTSMAN 570 EPS 4X4",
-    "Mileage (km)": "1 540",
-    "Condition": "A",
-    "Price": 109900
   },
   {
     "Year": "1995",
@@ -3864,22 +3592,6 @@
     "Price": 49900
   },
   {
-    "Year": "2015",
-    "Manufacturer": "POLARIS",
-    "Model": "RANGER CREW 570 EFI 4X4",
-    "Mileage (km)": "6 015",
-    "Condition": "A",
-    "Price": 129900
-  },
-  {
-    "Year": "2012",
-    "Manufacturer": "POLARIS",
-    "Model": "RANGER 800 XP EFI",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "B",
-    "Price": 104900
-  },
-  {
     "Year": "2010",
     "Manufacturer": "SKYGO",
     "Model": "SG 250 V TWIN",
@@ -3926,14 +3638,6 @@
     "Mileage (km)": "1 000",
     "Condition": "B",
     "Price": 38000
-  },
-  {
-    "Year": "2013",
-    "Manufacturer": "LINHAI",
-    "Model": "RUSTLER 600 4X4",
-    "Mileage (km)": "500",
-    "Condition": "B",
-    "Price": 46900
   },
   {
     "Year": "2006",
@@ -4329,14 +4033,6 @@
   },
   {
     "Year": "2023",
-    "Manufacturer": "CUSTOM",
-    "Model": "ELECTRIC WHEELCHAIR",
-    "Mileage (km)": "UNVERIFIED",
-    "Condition": "A",
-    "Price": 15000
-  },
-  {
-    "Year": "2023",
     "Manufacturer": "BIG BOY",
     "Model": "CGL D-LITE 125",
     "Mileage (km)": "1 064",
@@ -4438,318 +4134,6 @@
     "Mileage (km)": "30 000",
     "Condition": "A",
     "Price": 44900
-  },
-  {
-    "Year": "2009",
-    "Manufacturer": "YAMAHA",
-    "Model": "YZF R1 YZF R1",
-    "Mileage (km)": "30 000",
-    "Condition": "B",
-    "Price": 45900
-  },
-  {
-    "Year": "2023",
-    "Manufacturer": "SUZUKI",
-    "Model": "GSX 250 F",
-    "Mileage (km)": "1 100",
-    "Condition": "A",
-    "Price": 47000
-  },
-  {
-    "Year": "2004",
-    "Manufacturer": "BMW",
-    "Model": "K SERIES K 1200 GT",
-    "Mileage (km)": "35 000",
-    "Condition": "B",
-    "Price": 48900
-  },
-  {
-    "Year": "2020",
-    "Manufacturer": "YAMAHA",
-    "Model": "X-MAX 300 N-MAX 155",
-    "Mileage (km)": "2 750",
-    "Condition": "A",
-    "Price": 49500
-  },
-  {
-    "Year": "2019",
-    "Manufacturer": "KTM",
-    "Model": "EXC-F 250 EXC-F SIX DAYS",
-    "Mileage (km)": "1 000",
-    "Condition": "A",
-    "Price": 50900
-  },
-  {
-    "Year": "2013",
-    "Manufacturer": "TRIUMPH",
-    "Model": "TIGER 800 XC ABS",
-    "Mileage (km)": "90 160",
-    "Condition": "B",
-    "Price": 54900
-  },
-  {
-    "Year": "2011",
-    "Manufacturer": "TRIUMPH",
-    "Model": "TIGER 1050 ABS SE",
-    "Mileage (km)": "58 048",
-    "Condition": "B",
-    "Price": 57000
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "KAWASAKI",
-    "Model": "Z Z300 ABS",
-    "Mileage (km)": "5 400",
-    "Condition": "A",
-    "Price": 58900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "BMW",
-    "Model": "F SERIES F 800 R",
-    "Mileage (km)": "24 431",
-    "Condition": "A",
-    "Price": 65900
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "LINHAI",
-    "Model": "RUSTLER 300",
-    "Mileage (km)": "29",
-    "Condition": "A",
-    "Price": 67000
-  },
-  {
-    "Year": "2021",
-    "Manufacturer": "BMW",
-    "Model": "C G 310 GS",
-    "Mileage (km)": "406",
-    "Condition": "A",
-    "Price": 68900
-  },
-  {
-    "Year": "2022",
-    "Manufacturer": "KAWASAKI",
-    "Model": "KVF 300 BRUTE FORCE",
-    "Mileage (km)": "15 926",
-    "Condition": "A",
-    "Price": 69900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "HONDA",
-    "Model": "NC 750 X",
-    "Mileage (km)": "25 000",
-    "Condition": "A",
-    "Price": 69900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "BMW",
-    "Model": "F SERIES F 800 R",
-    "Mileage (km)": "21 262",
-    "Condition": "A",
-    "Price": 78900
-  },
-  {
-    "Year": "2008",
-    "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "SOFTAIL CUSTOM",
-    "Mileage (km)": "82 000",
-    "Condition": "B",
-    "Price": 78900
-  },
-  {
-    "Year": "2015",
-    "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "SPORTSTER XL883 N IRON",
-    "Mileage (km)": "2 532",
-    "Condition": "A",
-    "Price": 88900
-  },
-  {
-    "Year": "2022",
-    "Manufacturer": "HONDA",
-    "Model": "CB 500 X",
-    "Mileage (km)": "2 700",
-    "Condition": "A",
-    "Price": 89900
-  },
-  {
-    "Year": "2017",
-    "Manufacturer": "TRIUMPH",
-    "Model": "TIGER 800 XCX",
-    "Mileage (km)": "21 639",
-    "Condition": "A",
-    "Price": 119900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "HONDA",
-    "Model": "CRF 1000 G",
-    "Mileage (km)": "41 143",
-    "Condition": "A",
-    "Price": 124900
-  },
-  {
-    "Year": "2012",
-    "Manufacturer": "SUZUKI",
-    "Model": "BOULEVARD VZR 1800 (BOULEVARD/INTRUDER)",
-    "Mileage (km)": "10 000",
-    "Condition": "B",
-    "Price": 129900
-  },
-  {
-    "Year": "2013",
-    "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "TOURING ROAD KING CLASSIC",
-    "Mileage (km)": "25 000",
-    "Condition": "B",
-    "Price": 139900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "BMW",
-    "Model": "R SERIES R 1200 GS ADV (K51 FULL SPEC)",
-    "Mileage (km)": "70 500",
-    "Condition": "A",
-    "Price": 139000
-  },
-  {
-    "Year": "2019",
-    "Manufacturer": "YAMAHA",
-    "Model": "XT XT1200 ZE SUPER TENERE",
-    "Mileage (km)": "32 000",
-    "Condition": "A",
-    "Price": 145900
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "APRILIA",
-    "Model": "TUONO V4R APRC ABS",
-    "Mileage (km)": "5 000",
-    "Condition": "A",
-    "Price": 149900
-  },
-  {
-    "Year": "2009",
-    "Manufacturer": "X-MOTO",
-    "Model": "BABY BOSS 50 BABY BOSS",
-    "Mileage (km)": "1 234",
-    "Condition": "B",
-    "Price": 6000
-  },
-  {
-    "Year": "2008",
-    "Manufacturer": "X-MOTO",
-    "Model": "PITBOSS 125",
-    "Mileage (km)": "2 500",
-    "Condition": "B",
-    "Price": 7000
-  },
-  {
-    "Year": "2024",
-    "Manufacturer": "BIG BOY",
-    "Model": "VELOCITY CARGO 150",
-    "Mileage (km)": "1 880",
-    "Condition": "A",
-    "Price": 16000
-  },
-  {
-    "Year": "2022",
-    "Manufacturer": "BIG BOY",
-    "Model": "TSR 125",
-    "Mileage (km)": "6 171",
-    "Condition": "A",
-    "Price": 16000
-  },
-  {
-    "Year": "2012",
-    "Manufacturer": "SYM",
-    "Model": "GTS 300I",
-    "Mileage (km)": "61 000",
-    "Condition": "B",
-    "Price": 16000
-  },
-  {
-    "Year": "2007",
-    "Manufacturer": "KTM",
-    "Model": "DUKE 640 DUKE II",
-    "Mileage (km)": "16 917",
-    "Condition": "B",
-    "Price": 34000
-  },
-  {
-    "Year": "2023",
-    "Manufacturer": "SUZUKI",
-    "Model": "V-STROM 250 SX",
-    "Mileage (km)": "6 100",
-    "Condition": "A",
-    "Price": 49000
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "BMW",
-    "Model": "C G 310 GS",
-    "Mileage (km)": "4 000",
-    "Condition": "A",
-    "Price": 54000
-  },
-  {
-    "Year": "2018",
-    "Manufacturer": "KAWASAKI",
-    "Model": "KLE 300 VERSYS-X",
-    "Mileage (km)": "19 821",
-    "Condition": "A",
-    "Price": 54000
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "KAWASAKI",
-    "Model": "NINJA 300R ABS",
-    "Mileage (km)": "12 500",
-    "Condition": "A",
-    "Price": 55000
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "YAMAHA",
-    "Model": "YZ 450 FX",
-    "Mileage (km)": "1 000",
-    "Condition": "A",
-    "Price": 59000
-  },
-  {
-    "Year": "2008",
-    "Manufacturer": "HONDA",
-    "Model": "CBR 1000 RR FIREBLADE",
-    "Mileage (km)": "25 000",
-    "Condition": "B",
-    "Price": 88000
-  },
-  {
-    "Year": "2016",
-    "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "SPORTSTER XL 1200V SEVENTY TWO",
-    "Mileage (km)": "5 073",
-    "Condition": "A",
-    "Price": 88000
-  },
-  {
-    "Year": "2013",
-    "Manufacturer": "BMW",
-    "Model": "R SERIES R 1200 GS (HIGH SPEC)",
-    "Mileage (km)": "55 400",
-    "Condition": "B",
-    "Price": 115000
-  },
-  {
-    "Year": "2012",
-    "Manufacturer": "HARLEY DAVIDSON",
-    "Model": "SOFTAIL HERITAGE SOFTAIL CLASSIC",
-    "Mileage (km)": "30 000",
-    "Condition": "B",
-    "Price": 124000
   },
   {
     "Year": 2024,
@@ -5288,6 +4672,310 @@
     "Price": 95999
   },
   {
+    "Year": "2009",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZF R1 YZF R1",
+    "Mileage (km)": "30 000",
+    "Condition": "B",
+    "Price": 45900
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX 250 F",
+    "Mileage (km)": "1 100",
+    "Condition": "A",
+    "Price": 47000
+  },
+  {
+    "Year": "2004",
+    "Manufacturer": "BMW",
+    "Model": "K SERIES K 1200 GT",
+    "Mileage (km)": "35 000",
+    "Condition": "B",
+    "Price": 48900
+  },
+  {
+    "Year": "2020",
+    "Manufacturer": "YAMAHA",
+    "Model": "X-MAX 300 N-MAX 155",
+    "Mileage (km)": "2 750",
+    "Condition": "A",
+    "Price": 49500
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "KTM",
+    "Model": "EXC-F 250 EXC-F SIX DAYS",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 50900
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 800 XC ABS",
+    "Mileage (km)": "90 160",
+    "Condition": "B",
+    "Price": 54900
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 1050 ABS SE",
+    "Mileage (km)": "58 048",
+    "Condition": "B",
+    "Price": 57000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "KAWASAKI",
+    "Model": "Z Z300 ABS",
+    "Mileage (km)": "5 400",
+    "Condition": "A",
+    "Price": 58900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 800 R",
+    "Mileage (km)": "24 431",
+    "Condition": "A",
+    "Price": 65900
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 GS",
+    "Mileage (km)": "406",
+    "Condition": "A",
+    "Price": 68900
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KVF 300 BRUTE FORCE",
+    "Mileage (km)": "15 926",
+    "Condition": "A",
+    "Price": 69900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HONDA",
+    "Model": "NC 750 X",
+    "Mileage (km)": "25 000",
+    "Condition": "A",
+    "Price": 69900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "F SERIES F 800 R",
+    "Mileage (km)": "21 262",
+    "Condition": "A",
+    "Price": 78900
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SOFTAIL CUSTOM",
+    "Mileage (km)": "82 000",
+    "Condition": "B",
+    "Price": 78900
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SPORTSTER XL883 N IRON",
+    "Mileage (km)": "2 532",
+    "Condition": "A",
+    "Price": 88900
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "HONDA",
+    "Model": "CB 500 X",
+    "Mileage (km)": "2 700",
+    "Condition": "A",
+    "Price": 89900
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "TRIUMPH",
+    "Model": "TIGER 800 XCX",
+    "Mileage (km)": "21 639",
+    "Condition": "A",
+    "Price": 119900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HONDA",
+    "Model": "CRF 1000 G",
+    "Mileage (km)": "41 143",
+    "Condition": "A",
+    "Price": 124900
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "SUZUKI",
+    "Model": "BOULEVARD VZR 1800 (BOULEVARD/INTRUDER)",
+    "Mileage (km)": "10 000",
+    "Condition": "B",
+    "Price": 129900
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "TOURING ROAD KING CLASSIC",
+    "Mileage (km)": "25 000",
+    "Condition": "B",
+    "Price": 139900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "R SERIES R 1200 GS ADV (K51 FULL SPEC)",
+    "Mileage (km)": "70 500",
+    "Condition": "A",
+    "Price": 139000
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "YAMAHA",
+    "Model": "XT XT1200 ZE SUPER TENERE",
+    "Mileage (km)": "32 000",
+    "Condition": "A",
+    "Price": 145900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "APRILIA",
+    "Model": "TUONO V4R APRC ABS",
+    "Mileage (km)": "5 000",
+    "Condition": "A",
+    "Price": 149900
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "X-MOTO",
+    "Model": "BABY BOSS 50 BABY BOSS",
+    "Mileage (km)": "1 234",
+    "Condition": "B",
+    "Price": 6000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "X-MOTO",
+    "Model": "PITBOSS 125",
+    "Mileage (km)": "2 500",
+    "Condition": "B",
+    "Price": 7000
+  },
+  {
+    "Year": "2024",
+    "Manufacturer": "BIG BOY",
+    "Model": "VELOCITY CARGO 150",
+    "Mileage (km)": "1 880",
+    "Condition": "A",
+    "Price": 16000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "BIG BOY",
+    "Model": "TSR 125",
+    "Mileage (km)": "6 171",
+    "Condition": "A",
+    "Price": 16000
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "SYM",
+    "Model": "GTS 300I",
+    "Mileage (km)": "61 000",
+    "Condition": "B",
+    "Price": 16000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "KTM",
+    "Model": "DUKE 640 DUKE II",
+    "Mileage (km)": "16 917",
+    "Condition": "B",
+    "Price": 34000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "V-STROM 250 SX",
+    "Mileage (km)": "6 100",
+    "Condition": "A",
+    "Price": 49000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 GS",
+    "Mileage (km)": "4 000",
+    "Condition": "A",
+    "Price": 54000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "KAWASAKI",
+    "Model": "KLE 300 VERSYS-X",
+    "Mileage (km)": "19 821",
+    "Condition": "A",
+    "Price": 54000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "KAWASAKI",
+    "Model": "NINJA 300R ABS",
+    "Mileage (km)": "12 500",
+    "Condition": "A",
+    "Price": 55000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZ 450 FX",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 59000
+  },
+  {
+    "Year": "2008",
+    "Manufacturer": "HONDA",
+    "Model": "CBR 1000 RR FIREBLADE",
+    "Mileage (km)": "25 000",
+    "Condition": "B",
+    "Price": 88000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SPORTSTER XL 1200V SEVENTY TWO",
+    "Mileage (km)": "5 073",
+    "Condition": "A",
+    "Price": 88000
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "BMW",
+    "Model": "R SERIES R 1200 GS (HIGH SPEC)",
+    "Mileage (km)": "55 400",
+    "Condition": "B",
+    "Price": 115000
+  },
+  {
+    "Year": "2012",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SOFTAIL HERITAGE SOFTAIL CLASSIC",
+    "Mileage (km)": "30 000",
+    "Condition": "B",
+    "Price": 124000
+  },
+  {
     "Year": "2006",
     "Manufacturer": "YAMAHA",
     "Model": "YZF R6 YZF R6",
@@ -5670,5 +5358,333 @@
     "Mileage (km)": "36 509",
     "Condition": "A",
     "Price": 119000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "MOTO PRO",
+    "Model": "RR 300 PRO AM",
+    "Mileage (km)": "2500",
+    "Condition": "B",
+    "Price": 39900
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSX 250 F",
+    "Mileage (km)": "1150",
+    "Condition": "A",
+    "Price": 47900
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "TRIUMPH",
+    "Model": "BONNEVILLE SPEED TWIN 1200",
+    "Mileage (km)": "6 400",
+    "Condition": "A",
+    "Price": 104000
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "SYM",
+    "Model": "SYM FIDDLE FIDDLE II 125",
+    "Mileage (km)": "49 145",
+    "Condition": "B",
+    "Price": 7000
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "MULTIPLE MOTORCYCLE MANUFACTURERS",
+    "Model": "KAYO TT125",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 16000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "SYM",
+    "Model": "SYM CITICOM 300I",
+    "Mileage (km)": "76 000",
+    "Condition": "B",
+    "Price": 16000
+  },
+  {
+    "Year": "2007",
+    "Manufacturer": "YAMAHA",
+    "Model": "YZ 250",
+    "Mileage (km)": "1 000",
+    "Condition": "B",
+    "Price": 28000
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "HONDA",
+    "Model": "CRF 250 RA",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 39000
+  },
+  {
+    "Year": "2003",
+    "Manufacturer": "DUCATI",
+    "Model": "ST4 ST4'S",
+    "Mileage (km)": "33 978",
+    "Condition": "B",
+    "Price": 44000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HONDA",
+    "Model": "CTX 200",
+    "Mileage (km)": "1 147",
+    "Condition": "A",
+    "Price": 49000
+  },
+  {
+    "Year": "2000",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "DYNA WIDE GLIDE",
+    "Mileage (km)": "48 000",
+    "Condition": "B",
+    "Price": 57000
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "VESPA",
+    "Model": "GTS VESPA GTS 250IE",
+    "Mileage (km)": "1 318",
+    "Condition": "B",
+    "Price": 58000
+  },
+  {
+    "Year": "2014",
+    "Manufacturer": "KTM",
+    "Model": "1190 ADVENTURE 1190 ADVENTURE",
+    "Mileage (km)": "82 000",
+    "Condition": "A",
+    "Price": 77000
+  },
+  {
+    "Year": "2006",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SOFTAIL HERITAGE SOFTAIL CLASSIC",
+    "Mileage (km)": "56 303",
+    "Condition": "B",
+    "Price": 78000
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "KAWASAKI",
+    "Model": "1400 1400 ABS",
+    "Mileage (km)": "77 000",
+    "Condition": "B",
+    "Price": 82900
+  },
+  {
+    "Year": "2017",
+    "Manufacturer": "DUCATI",
+    "Model": "SCRAMBLER FULL THROTTLE",
+    "Mileage (km)": "6 100",
+    "Condition": "A",
+    "Price": 89000
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "KTM",
+    "Model": "1290 SUPER ADVENTURE R",
+    "Mileage (km)": "49 316",
+    "Condition": "A",
+    "Price": 158900
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "KTM",
+    "Model": "1290 SUPER ADVENTURE S",
+    "Mileage (km)": "14 000",
+    "Condition": "A",
+    "Price": 179900
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "KTM",
+    "Model": "1290 SUPER ADVENTURE R",
+    "Mileage (km)": "12 951",
+    "Condition": "A",
+    "Price": 223900
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "KYMCO",
+    "Model": "AGILITY RS 125",
+    "Mileage (km)": "19 545",
+    "Condition": "A",
+    "Price": 14000
+  },
+  {
+    "Year": "2009",
+    "Manufacturer": "KYMCO",
+    "Model": "XCITING 500 AFI",
+    "Mileage (km)": "35 288",
+    "Condition": "B",
+    "Price": 22000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "HUSQVARNA",
+    "Model": "FX 450",
+    "Mileage (km)": "1 000",
+    "Condition": "A",
+    "Price": 75000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "ZIAN BIKES",
+    "Model": "FT 125-18C",
+    "Mileage (km)": "27 000",
+    "Condition": "A",
+    "Price": 11000
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "SYM",
+    "Model": "CROX NH T125",
+    "Mileage (km)": "25 000",
+    "Condition": "A",
+    "Price": 23900
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "YAMAHA",
+    "Model": "FJR 1300",
+    "Mileage (km)": "67 540",
+    "Condition": "B",
+    "Price": 33900
+  },
+  {
+    "Year": "2011",
+    "Manufacturer": "HONDA",
+    "Model": "XL 1000 VARADERO",
+    "Mileage (km)": "66 000",
+    "Condition": "B",
+    "Price": 40900
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HONDA",
+    "Model": "NC 700 X",
+    "Mileage (km)": "47 532",
+    "Condition": "B",
+    "Price": 47000
+  },
+  {
+    "Year": "2018",
+    "Manufacturer": "BMW",
+    "Model": "C G 310 GS",
+    "Mileage (km)": "9 440",
+    "Condition": "A",
+    "Price": 47900
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "STREET 750 STREET",
+    "Mileage (km)": "12 671",
+    "Condition": "A",
+    "Price": 54900
+  },
+  {
+    "Year": "2010",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "DYNA SUPER GLIDE CUSTOM",
+    "Mileage (km)": "51 000",
+    "Condition": "B",
+    "Price": 89000
+  },
+  {
+    "Year": "2019",
+    "Manufacturer": "TRIUMPH",
+    "Model": "BONEVILLE SPEED TWIN 1200",
+    "Mileage (km)": "6 400",
+    "Condition": "A",
+    "Price": 104900
+  },
+  {
+    "Year": "2021",
+    "Manufacturer": "BIG BOY",
+    "Model": "TSR 250",
+    "Mileage (km)": "4 000",
+    "Condition": "A",
+    "Price": 22000
+  },
+  {
+    "Year": "2023",
+    "Manufacturer": "BIG BOY",
+    "Model": "TSR 250",
+    "Mileage (km)": "400",
+    "Condition": "A",
+    "Price": 26000
+  },
+  {
+    "Year": "2013",
+    "Manufacturer": "HONDA",
+    "Model": "NC 700 X",
+    "Mileage (km)": "64 000",
+    "Condition": "B",
+    "Price": 39000
+  },
+  {
+    "Year": "2015",
+    "Manufacturer": "HONDA",
+    "Model": "NC 750 XD",
+    "Mileage (km)": "43 286",
+    "Condition": "A",
+    "Price": 62000
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HONDA",
+    "Model": "VTX 1800",
+    "Mileage (km)": "46 000",
+    "Condition": "B",
+    "Price": 62000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "SPORTSTER XL1200 CA",
+    "Mileage (km)": "15 000",
+    "Condition": "A",
+    "Price": 72000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "SUZUKI",
+    "Model": "GSR 750",
+    "Mileage (km)": "40 000",
+    "Condition": "A",
+    "Price": 79000
+  },
+  {
+    "Year": "2005",
+    "Manufacturer": "HARLEY DAVIDSON",
+    "Model": "CVO SOFTAIL FAT BOY",
+    "Mileage (km)": "25 000",
+    "Condition": "B",
+    "Price": 88000
+  },
+  {
+    "Year": "2016",
+    "Manufacturer": "BMW",
+    "Model": "R SERIES R 1200 GS (FULL SPEC)",
+    "Mileage (km)": "35 000",
+    "Condition": "B",
+    "Price": 132000
+  },
+  {
+    "Year": "2022",
+    "Manufacturer": "KTM",
+    "Model": "ADVENTURE 890 ADVENTURE",
+    "Mileage (km)": "3 956",
+    "Condition": "A",
+    "Price": 172000
   }
 ]
