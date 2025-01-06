@@ -1,10 +1,12 @@
 import { manufacturerThemes } from './manufacturerThemes.js';
+import { manufacturerCountries } from './manufacturerThemes.js';
 let vehicles = [];
 let currentDatabase = 'bikes';
 let selectedModelDetails = new Map(); // Will store {model: make} pairs
 let selectedModels = new Set(); // To store selected models
 let isModelTreeExpanded = false;
 let firstModel = null;
+let isModelsContentExpanded = false;
 
 // Create a MutationObserver to watch the make dropdown
 const makeDropdownObserver = new MutationObserver((mutations) => {
@@ -287,6 +289,32 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 100);
   }
 });
+
+window.removeModel = function(model) {
+  // Store the current state before updating
+  const modelsContent = document.querySelector('.models-content');
+  isModelsContentExpanded = !modelsContent?.classList.contains('collapsed');
+
+  selectedModelDetails.delete(model);
+  updateSelectedModelsList();
+  
+  // Restore the previous state
+  const updatedModelsContent = document.querySelector('.models-content');
+  const toggleBtn = document.querySelector('.toggle-models-btn');
+  
+  if (isModelsContentExpanded && updatedModelsContent) {
+    updatedModelsContent.classList.remove('collapsed');
+    if (toggleBtn) toggleBtn.textContent = 'See less';
+  }
+  
+  updateModelOptions();
+  filterVehicles();
+  
+  const summaryCards = document.querySelectorAll('.summary-card');
+  summaryCards.forEach(card => card.classList.remove('active'));
+  removeHighlights();
+};
+
 // Update handleModelSelection to handle main models and sub-models
 function handleModelSelection(selectedModel, selectedMake, isMainModel) {
   if (isMainModel) {
@@ -400,7 +428,7 @@ function updateSelectedModelsList() {
   if (!selectedModelsContainer) {
     selectedModelsContainer = document.createElement("div");
     selectedModelsContainer.id = "selected-models";
-    document.querySelector(".filters").after(selectedModelsContainer);
+    document.querySelector(".sidebar").appendChild(selectedModelsContainer);
   }
 
   selectedModelsContainer.innerHTML = `
@@ -442,7 +470,7 @@ function updateSelectedModelsList() {
   selectedModelsContainer.style.display = selectedModelDetails.size > 0 ? 'block' : 'none';
 }
 
-// Update the existing filterVehicles function
+// Update filterVehicles function to use new applyFilters
 function filterVehicles() {
   const priceSortSelect = document.getElementById("price-sort");
   const yearSortSelect = document.getElementById("year-sort");
@@ -460,8 +488,8 @@ function filterVehicles() {
            selectedModelDetails.get(vehicle.Model) === vehicle.Manufacturer;
   });
 
-  // Apply year and mileage filters
-  filteredVehicles = applyYearMileageFilters(filteredVehicles);
+  // Apply all filters
+  filteredVehicles = applyFilters(filteredVehicles);
 
   // Sort by Price
   if (selectedPriceSort === 'low-high') {
@@ -480,20 +508,26 @@ function filterVehicles() {
   displaySummary(filteredVehicles);
   displayVehicles(filteredVehicles);
 }
+
 function parseMileage(mileageStr) {
   if (!mileageStr || mileageStr === "UNVERIFIED") return null;
   return parseInt(mileageStr.toString().replace(/\s+/g, '').replace('km', ''));
 }
 
-function applyYearMileageFilters(vehicles) {
+// Update applyYearMileageFilters function to include price and condition
+function applyFilters(vehicles) {
   const yearMin = document.getElementById('year-min').value;
   const yearMax = document.getElementById('year-max').value;
   const mileageMin = document.getElementById('mileage-min').value;
   const mileageMax = document.getElementById('mileage-max').value;
+  const priceMin = document.getElementById('price-min').value;
+  const priceMax = document.getElementById('price-max').value;
+  const condition = document.getElementById('condition-filter').value;
   
   return vehicles.filter(vehicle => {
     const year = parseInt(vehicle.Year);
     const mileage = parseMileage(vehicle["Mileage (km)"]);
+    const price = vehicle.Price;
     
     // Year filter
     if (yearMin && year < parseInt(yearMin)) return false;
@@ -503,9 +537,17 @@ function applyYearMileageFilters(vehicles) {
     if (mileageMin && (!mileage || mileage < parseInt(mileageMin))) return false;
     if (mileageMax && (!mileage || mileage > parseInt(mileageMax))) return false;
     
+    // Price filter
+    if (priceMin && price < parseInt(priceMin)) return false;
+    if (priceMax && price > parseInt(priceMax)) return false;
+    
+    // Condition filter
+    if (condition && vehicle.Condition !== condition) return false;
+    
     return true;
   });
 }
+
 
 
 function displaySummary(filteredVehicles) {
@@ -640,6 +682,7 @@ function getLogoPath(manufacturer) {
   return `${logoFolder}/${manufacturer}.png`;
 }
 
+// Modify displayVehicles function
 function displayVehicles(vehicles) {
   const vehicleList = document.getElementById("vehicle-list");
   vehicleList.innerHTML = '';
@@ -648,28 +691,34 @@ function displayVehicles(vehicles) {
     const vehicleDiv = document.createElement("div");
     vehicleDiv.classList.add("vehicle-item");
     vehicleDiv.dataset.price = vehicle.Price;
-    vehicleDiv.dataset.manufacturer = vehicle.Manufacturer;
     
-    // Normalize the manufacturer name for theme lookup
     const normalizedManufacturer = normalizeManufacturerName(vehicle.Manufacturer);
-    
-    // Apply manufacturer theme if exists
     const theme = manufacturerThemes[normalizedManufacturer];
+    const country = manufacturerCountries[normalizedManufacturer];
+    
     if (theme) {
       vehicleDiv.style.backgroundColor = theme.background;
       vehicleDiv.style.color = theme.textColor;
       vehicleDiv.dataset.hoverColor = theme.hoverBackground;
     }
     
+    // Add country flag banner if country exists
+    if (country) {
+      const flagBanner = document.createElement('div');
+      flagBanner.className = 'country-flag-banner';
+      const flagImg = document.createElement('img');
+      flagImg.src = `flags/${country}.svg`;
+      flagImg.alt = country;
+      flagBanner.appendChild(flagImg);
+      vehicleDiv.appendChild(flagBanner);
+    }
+    
+    // Rest of the existing vehicle display code...
     const logoPath = getLogoPath(vehicle.Manufacturer);
     const logoImg = document.createElement('img');
     logoImg.className = 'manufacturer-logo';
     logoImg.alt = `${vehicle.Manufacturer} logo`;
     logoImg.src = logoPath;
-    
-    logoImg.onerror = () => {
-      logoImg.style.display = 'none';
-    };
     
     const priceFormatted = vehicle.Price?.toLocaleString() ?? 'N/A';
     const mileageFormatted = vehicle["Mileage (km)"] ? 
@@ -692,25 +741,54 @@ function displayVehicles(vehicles) {
 
 function highlightVehicles(category, shouldAdd) {
   const vehicleItems = document.querySelectorAll('.vehicle-item');
+  const activeCards = document.querySelectorAll('.summary-card.active');
   
+  if (activeCards.length === 0) {
+    // If no cards are active, show all vehicles
+    vehicleItems.forEach(item => {
+      item.style.display = 'block';
+      item.classList.remove('highlight-low', 'highlight-middle', 'highlight-high');
+    });
+    return;
+  }
+
   vehicleItems.forEach(item => {
     const price = parseFloat(item.dataset.price);
     const highlightClass = `highlight-${category}`;
     
     if (category === 'low' && price <= window.priceBoundaries.lowMax) {
       item.classList.toggle(highlightClass, shouldAdd);
-    } else if (category === 'middle' && price > window.priceBoundaries.lowMax && price <= window.priceBoundaries.middleMax) {
+    } else if (category === 'middle' && price > window.priceBoundaries.lowMax && 
+               price <= window.priceBoundaries.middleMax) {
       item.classList.toggle(highlightClass, shouldAdd);
     } else if (category === 'high' && price > window.priceBoundaries.middleMax) {
       item.classList.toggle(highlightClass, shouldAdd);
     }
+
+    // Check if this item should be visible based on any active highlights
+    const hasActiveHighlight = Array.from(activeCards).some(card => {
+      const cardCategory = card.dataset.category;
+      if (cardCategory === 'low') {
+        return price <= window.priceBoundaries.lowMax;
+      } else if (cardCategory === 'middle') {
+        return price > window.priceBoundaries.lowMax && 
+               price <= window.priceBoundaries.middleMax;
+      } else if (cardCategory === 'high') {
+        return price > window.priceBoundaries.middleMax;
+      }
+      return false;
+    });
+
+    item.style.display = hasActiveHighlight ? 'block' : 'none';
   });
 }
+
 
 function removeHighlights() {
   const vehicleItems = document.querySelectorAll('.vehicle-item');
   vehicleItems.forEach(item => {
     item.classList.remove('highlight-low', 'highlight-middle', 'highlight-high');
+    item.style.display = 'block';
   });
 }
 
@@ -728,42 +806,210 @@ function selectOption(containerId, value) {
   input.value = value;
   container.style.display = "none"; // Hide the dropdown
 }
-const sortToggle = document.getElementById('sort-toggle');
-  const sortPanel = document.getElementById('sort-panel');
 
-  sortToggle.addEventListener('click', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    sortPanel.classList.toggle('hidden');
+function initializeSearch() {
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.className = 'search-input';
+  searchInput.placeholder = 'Search makes and models...';
+  
+  const searchResults = document.createElement('div');
+  searchResults.className = 'search-results';
+  
+  const loadingSpinner = document.createElement('div');
+  loadingSpinner.className = 'loading-spinner';
+  loadingSpinner.style.display = 'none';
+  
+  const searchContainer = document.createElement('div');
+  searchContainer.className = 'search-container';
+  searchContainer.appendChild(searchInput);
+  searchContainer.appendChild(loadingSpinner);
+  searchContainer.appendChild(searchResults);
+  
+  document.querySelector('.sidebar').prepend(searchContainer);
+  
+  let searchTimeout;
+  searchInput.addEventListener('input', (e) => {
+    clearTimeout(searchTimeout);
+    loadingSpinner.style.display = 'block';
+    searchTimeout = setTimeout(() => handleSearch(e.target.value), 300);
+  });
+  
+  document.addEventListener('click', (e) => {
+    if (!searchContainer.contains(e.target)) {
+      searchResults.style.display = 'none';
+    }
+  });
+
+  // Clear search when switching databases
+  document.getElementById('database-toggle').addEventListener('change', () => {
+    searchInput.value = '';
+    searchResults.style.display = 'none';
+  });
+}
+
+function handleSearch(query) {
+  const searchResults = document.querySelector('.search-results');
+  const loadingSpinner = document.querySelector('.loading-spinner');
+  query = query.trim();
+  
+  if (!query) {
+    searchResults.style.display = 'none';
+    loadingSpinner.style.display = 'none';
+    return;
+  }
+  
+  const results = [];
+  const seenMakes = new Set();
+  const seenModels = new Set();
+  const words = query.toLowerCase().split(/\s+/);
+  
+  vehicles.forEach(vehicle => {
+    const make = vehicle.Manufacturer;
+    const model = vehicle.Model;
     
-    // Close filter panel if it's open
-    const filterPanel = document.getElementById('filter-panel');
-    if (!filterPanel.classList.contains('hidden')) {
-      filterPanel.classList.add('hidden');
+    // Skip if model is already selected
+    if (selectedModelDetails.has(model)) {
+      return;
+    }
+    
+    // Check if all search words appear in make/model in any order
+    const makeModelString = `${make} ${model}`.toLowerCase();
+    const matchesAllWords = words.every(word => makeModelString.includes(word));
+    
+    if (matchesAllWords) {
+      if (!seenMakes.has(make)) {
+        results.push({
+          type: 'make',
+          value: make,
+          count: vehicles.filter(v => v.Manufacturer === make).length,
+          matchPositions: findMatchPositions(make, words)
+        });
+        seenMakes.add(make);
+      }
+      
+      if (!seenModels.has(model)) {
+        results.push({
+          type: 'model',
+          value: model,
+          make: make,
+          count: vehicles.filter(v => v.Model === model).length,
+          matchPositions: findMatchPositions(model, words)
+        });
+        seenModels.add(model);
+      }
     }
   });
+  
+  displaySearchResults(results);
+  loadingSpinner.style.display = 'none';
+}
 
-  // Close panel when clicking outside
-  document.addEventListener('click', function(e) {
-    if (!sortToggle.contains(e.target) && !sortPanel.contains(e.target)) {
-      sortPanel.classList.add('hidden');
+function findMatchPositions(text, searchWords) {
+  const positions = [];
+  const lowerText = text.toLowerCase();
+  
+  searchWords.forEach(word => {
+    let pos = 0;
+    while ((pos = lowerText.indexOf(word, pos)) !== -1) {
+      positions.push({
+        start: pos,
+        end: pos + word.length
+      });
+      pos += 1;
     }
   });
-
-  // Prevent panel from closing when clicking inside it
-  sortPanel.addEventListener('click', function(e) {
-    e.stopPropagation();
+  
+  return positions.sort((a, b) => a.start - b.start);
+}
+function highlightText(text, positions) {
+  if (!positions.length) return text;
+  
+  let result = '';
+  let lastEnd = 0;
+  
+  positions.forEach(pos => {
+    result += text.substring(lastEnd, pos.start);
+    result += `<mark>${text.substring(pos.start, pos.end)}</mark>`;
+    lastEnd = pos.end;
   });
+  
+  result += text.substring(lastEnd);
+  return result;
+}
+function displaySearchResults(results) {
+  const searchResults = document.querySelector('.search-results');
+  searchResults.innerHTML = '';
+  
+  if (!results.length) {
+    searchResults.innerHTML = '<div class="no-results">No results found</div>';
+    searchResults.style.display = 'block';
+    return;
+  }
+  
+  const makeResults = results.filter(r => r.type === 'make');
+  const modelResults = results.filter(r => r.type === 'model');
+  
+  makeResults.sort((a, b) => b.count - a.count);
+  modelResults.sort((a, b) => b.count - a.count);
+  
+  if (makeResults.length) {
+    const makeSection = document.createElement('div');
+    makeSection.className = 'result-section';
+    makeSection.innerHTML = '<div class="result-header">Makes</div>';
+    
+    makeResults.forEach(result => {
+      const item = createResultItem(result);
+      makeSection.appendChild(item);
+    });
+    searchResults.appendChild(makeSection);
+  }
+  
+  if (modelResults.length) {
+    const modelSection = document.createElement('div');
+    modelSection.className = 'result-section';
+    modelSection.innerHTML = '<div class="result-header">Models</div>';
+    
+    modelResults.forEach(result => {
+      const item = createResultItem(result);
+      modelSection.appendChild(item);
+    });
+    searchResults.appendChild(modelSection);
+  }
+  
+  searchResults.style.display = 'block';
+}
 
-  // Clear sort functionality
-  document.getElementById('clear-sort').addEventListener('click', function() {
-    document.getElementById('price-sort').value = '';
-    document.getElementById('year-sort').value = '';
-    filterVehicles();
-  });
+function createResultItem(result) {
+  const item = document.createElement('div');
+  item.className = 'result-item';
+  
+  if (result.type === 'make') {
+    item.innerHTML = `
+      <span class="result-main">${highlightText(result.value, result.matchPositions)}</span>
+      <span class="result-count">${result.count}</span>
+    `;
+    item.onclick = () => {
+      document.getElementById('make').value = result.value;
+      updateModelOptions();
+    };
+  } else {
+    item.innerHTML = `
+      <span class="result-main">${highlightText(result.value, result.matchPositions)}</span>
+      <span class="result-submake">${result.make}</span>
+      <span class="result-count">${result.count}</span>
+    `;
+    item.onclick = () => {
+      document.getElementById('make').value = result.make;
+      updateModelOptions();
+      handleModelSelection(result.value, result.make, false);
+    };
+  }
+  
+  return item;
+}
 
-  const filterToggle = document.getElementById('filter-toggle');
-const filterPanel = document.getElementById('filter-panel');
+document.addEventListener('DOMContentLoaded', initializeSearch);
 
 loadDatabaseData('bikes');
 
@@ -779,6 +1025,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('year-max').value = '';
     document.getElementById('mileage-min').value = '';
     document.getElementById('mileage-max').value = '';
+    document.getElementById('price-min').value = '';
+    document.getElementById('price-max').value = '';
+    document.getElementById('condition-filter').value = '';
     filterVehicles();
   });
 
@@ -799,28 +1048,4 @@ document.addEventListener('click', (e) => {
       if (value > 2024) this.value = 2024;
     });
   });
-
-  filterToggle.addEventListener('click', function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    filterPanel.classList.toggle('hidden');
-    
-    // Close sort panel if it's open
-    const sortPanel = document.getElementById('sort-panel');
-    if (!sortPanel.classList.contains('hidden')) {
-      sortPanel.classList.add('hidden');
-    }
   });
-
-  // Close panel when clicking outside
-  document.addEventListener('click', function(e) {
-    if (!filterToggle.contains(e.target) && !filterPanel.contains(e.target)) {
-      filterPanel.classList.add('hidden');
-    }
-  });
-
-  // Prevent panel from closing when clicking inside it
-  filterPanel.addEventListener('click', function(e) {
-    e.stopPropagation();
-  });
-});
